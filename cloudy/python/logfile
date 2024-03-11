@@ -1,0 +1,40 @@
+Reading Windfile py87i_p8.00.wind_save created with python version 87i with python version 87i
+Get_atomic_data: Reading from masterfile data/h10_hetop_standard80.dat
+Data of  14 elements, 178 ions,  3292 levels,  5819 lines, and   134 topbase records
+Macro    14 elements,   5 ions,    75 levels,   405 lines, and    63 topbase records
+Simple   14 elements, 173 ions,  3217 levels,  5414 lines, and    71 topbase records
+We have read in   280 photoionization cross sections
+                  134 are topbase 
+                  146 are VFKY 
+We have read in  2274   Chiantic collision strengths
+We have read in   257 Inner shell photoionization cross sections
+                  225 have matching electron yield data
+We have read in     0 Auger ionization records for macro-atoms
+We have read in   149 Dielectronic recombination coefficients
+We have read in   164 Badnell totl Radiative rate coefficients
+We have read in   135 Badnell GS   Radiative rate coefficients over the temp range 6.760000e+03 to 1.000000e+07
+We have read in    41 Scaled electron temperature frequency averaged gaunt factors
+We have read in     0 Charge exchange rates
+The minimum frequency for photoionization is 3.29e+13
+The minimum frequency for inner shell ionization is 8.33e+15
+Error: Ignored    18 simple lines for macro-ion     0  (z     1 ion     1) 
+Error: Ignored     9 simple lines for macro-ion     2  (z     2 ion     1) 
+Error: Ignored    18 simple lines for macro-ion     3  (z     2 ion     2) 
+Error: Ignored 32 inner shell cross sections because no matching yields
+get_atomic_data: Evaluation:  There are     14 elements     while     50 are currently allowed
+get_atomic_data: Evaluation:  There are    178 ions         while    500 are currently allowed
+get_atomic_data: Evaluation:  There are   3292 levels       while  12000 are currently allowed
+get_atomic_data: Evaluation:  There are   5819 lines        while 200000 are currently allowed
+get_atomic_data: Evaluation:  There are     75 macro levels while    300 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bb jumps is 18 while 100 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bf jumps is 18 while 100 are currently allowed
+Allocated        304 bytes for each of     5 elements of             totaling        0.0 Mb
+Allocated      16848 bytes for each of     2 elements of      plasma totaling        0.0 Mb 
+Allocated        112 bytes for each of     2 elements of photonstore totaling        0.0 Mb 
+Allocated        104 bytes for each of     2 elements of matomphotonstore totaling        0.0 Mb 
+Allocated      19936 bytes for each of     2 elements variable length plasma arrays totaling        0.1 Mb 
+Allocated        232 bytes for each of     2 elements of macro totaling        0.0 Mb 
+calloc_estimators: size_Jbar_est 405 size_gamma_est 63 size_alpha_est 63
+Allocated        0.0 Mb for MA estimators 
+Allocated        0.1 Mb for MA matrix 
+Read geometry and wind structures from windsavefile py87i_p8.00.wind_save

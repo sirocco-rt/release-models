@@ -1,0 +1,34 @@
+Table power law [spectral index -0.9 low=0.01, hi=1470 ]
+ionization parameter 7.0
+Constant temperature, t=10000K
+radius 11.0 0.0
+hden 7.0
+abundances he =-1.01 li =-29 be =-29 b =-29 c =-3.44 n =-3.95 o =-3.07 
+continue f  =-29 ne =-3.91 na =-5.69 mg =-4.42 
+continue al =-5.52 si =-4.45 p  =-29 s  =-4.73 cl =-29 ar =-5.44 k  =-29 
+continue ca =-5.66 sc =-29 ti =-29 v  =-29 cr =-29 mn =-29 fe =-4.49 
+continue co =-29 ni =-29 cu =-29 zn =-29
+element lithium off
+element beryllium off 
+element boron off 
+element fluorine  off 
+element phosphorus  off 
+element chlorine off 
+element potassium  off 
+element calcium off 
+element cobalt off 
+element nickel off 
+element copper off 
+element zinc off
+sphere
+stop column density 22
+save heat "heat.dat"
+save cool "cool.dat"
+set WeakHeatCool 0.0001
+save physical conditions "pcon.dat"
+save element iron "iron.dat"
+save element oxygen "oxygen.dat"
+save element carbon "carbon.dat"
+save element nitrogen "nitrogen.dat"
+save element helium "helium.dat"
+save element hydrogen "hydrogen.dat"
