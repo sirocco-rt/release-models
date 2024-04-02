@@ -8,4 +8,4 @@ One should be alboe to run script without anything else, that is
 
 cloudy\_pl\_loop.py
 
-THE VERSION in this directory has the constant temperature option turned on, and set to 10,0000
+THE VERSION in this directory has the constant temperature option turned OFF and set to 10,0000

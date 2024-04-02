@@ -1,4 +1,4 @@
-Reading Windfile py87i_p8.00.wind_save created with python version 87i with python version 87i
+Reading Windfile py88a_p8.00.wind_save created with python version 88a with python version 88a
 Get_atomic_data: Reading from masterfile data/h10_hetop_standard80.dat
 Data of  14 elements, 178 ions,  3292 levels,  5819 lines, and   134 topbase records
 Macro    14 elements,   5 ions,    75 levels,   405 lines, and    63 topbase records
@@ -37,4 +37,4 @@ Allocated        232 bytes for each of     2 elements of macro totaling        0
 calloc_estimators: size_Jbar_est 405 size_gamma_est 63 size_alpha_est 63
 Allocated        0.0 Mb for MA estimators 
 Allocated        0.1 Mb for MA matrix 
-Read geometry and wind structures from windsavefile py87i_p8.00.wind_save
+Read geometry and wind structures from windsavefile py88a_p8.00.wind_save
