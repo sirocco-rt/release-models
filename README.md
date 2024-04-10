@@ -6,6 +6,7 @@ Model outputs, parameter files, and plotting scripts for the release paper. The 
 	* fig1.py
 	* fig2.py
 	* ...
+	* util.py: utility functions and code name definition as util.CODE_NAME 
 	* Figures/ -- folder containing the figures that will go in the actual paper. 
 
 * Data/ -- just the data needed for the figures + parameter files. Could include scripts for running cloudy and so on here if desired. Please add tests and demo models in the format:
