@@ -1,6 +1,29 @@
-Model outputs, parameter files, and plotting scripts for the release paper
+Model outputs, parameter files, and plotting scripts for the release paper. The structure of this repository is 
+
+* Details/ -- folders for each comparisons including being able to run them in detail, more intended for a developer
+* Scripts/ -- scripts for making plots, will eventually contain something like:
+	* MakeAllFigures.py
+	* fig1.py
+	* fig2.py
+	( ...
+* Data/ -- just the data needed for the figures + parameter files. Could include scripts for running cloudy and so on here if desired. Please add tests and demo models in the format:
+	* Benchmark/
+		* Tardis/
+		* Cloudy/
+		* CMFGEN/
+		* etc...
+	* Demo/
+		* TDE/
+		* Quasar/
+		* CV/
+		* XRB/
 
 Instructions:
-* Please create a folder (e.g. xrb, qso, cv) for the model you are working on
-* Add the parameter file, spectrum outputs and any other useful outputs that are not memory intensive (i.e. no .diag files or .wind_save files)
+* Please create a folder within the above framework
+* Add:  the parameter file, spectrum outputs and any other useful outputs that are not memory intensive (i.e. no .diag files or .wind_save files, but .master.txt files are OK)
 * Add any scripts used to make plots, ideally portable to other users
+* If required, create a corresponding folder in Details/ that contains further analysis, scripts for running ionization loops, etc. 
+
+
+
+
