@@ -1,0 +1,50 @@
+
+
+Running mpirun -np 4 py87h  cv_cno.pf >cv_cno.stdout.txt
+
+
+Running mpirun -np 4 py87h  cv_cno.pf >cv_cno.stdout.txt
+No stderrs were reported
+The model ran to completion in 40513.6 s
+No diagnostic errors were reported
+Finished mpirun -np 4 py87h  cv_cno.pf >cv_cno.stdout.txt
+
+
+
+Running mpirun -np 4 py87h  cv_hhe.pf >cv_hhe.stdout.txt
+No stderrs were reported
+The model ran to completion in 97.8 s
+
+The reported errors in all threads was as follows: 
+       164 -- The net flow out of simple ion pool (%8.4e) > than the net flow in (%8.4e) in cell %d
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         4 -- check_grid: optical depth may be high in %i
+        12 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+Finished mpirun -np 4 py87h  cv_hhe.pf >cv_hhe.stdout.txt
+
+
+
+Running mpirun -np 4 py87h  cv_standard.pf >cv_standard.stdout.txt
+No stderrs were reported
+The model ran to completion in 83.7 s
+
+The reported errors in all threads was as follows: 
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         4 -- check_grid: optical depth may be high in %i
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         8 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
+         4 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+Finished mpirun -np 4 py87h  cv_standard.pf >cv_standard.stdout.txt
+

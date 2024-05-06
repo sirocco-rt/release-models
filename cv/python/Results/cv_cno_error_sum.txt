@@ -1,0 +1,27 @@
+ErrorCount ThreadCount                                                                                                     Error
+---------- ----------- ---------------------------------------------------------------------------------------------------------
+      4584           4                          Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+      1372           4                          Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+       920           4                                             get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+       628           4 normalise_macro_estimators: upper_density %g lower_density %g xplasma->levden[config[nlev_upper].nden] %g
+       628           4 normalise_macro_estimators: bb stimulated correction factor is out of bounds, 0 <= stimfac < 1 but got %g
+       239           4                                        Negative probability (matom, 2) for number %d at %e. Setting to 0.
+       136           3    sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
+        96           4                                              Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
+        32           4                                           Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+        28           4                                                 getatomic_data: line input f odd (may be OK if Macro): %s
+        20           4                                                      error_count: This error will no longer be logged: %s
+        14           3                                                                                            macro_pops: %s
+        13           3      Solve_matrix: test solution fails relative error for row %i %e != %e frac_error %3 in plasma cell %d
+         4           4                                          Ignored %d inner shell cross sections because no matching yields
+         4           4                                             get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+         4           4                           wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4           4                                                     get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+         4           4                                            zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4           4                                             roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4           4                                                   check_grid: velocity changes by >1,000 km/s in %i cells
+         4           4                                                               check_grid: optical depth may be high in %i
+         4           4                     check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         1           1                    Solve_matrix: test solution fails absolute error for row %i %e != %e in plasma cell %d
+         1           1                                                            pillbox %d interfaces to pillbox is impossible
+         1           1                                                          sobolev: suppressing population inversion errors

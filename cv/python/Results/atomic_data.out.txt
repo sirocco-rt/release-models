@@ -1,0 +1,1354 @@
+# This file contains data which was read in by get_atomicdata
+# Data of 14 elements, 178 ions, and 164 levels 400 lines
+# Element Data:
+Element  0     H firstion   -1 nions -1
+Element  1    He firstion   -1 nions -1
+Element  2     C firstion   -1 nions -1
+Element  3     N firstion   -1 nions -1
+Element  4     O firstion   -1 nions -1
+Element  5    Ne firstion   -1 nions -1
+Element  6    Na firstion   -1 nions -1
+Element  7    Mg firstion   -1 nions -1
+Element  8    Al firstion   -1 nions -1
+Element  9    Si firstion   -1 nions -1
+Element 10     S firstion   -1 nions -1
+Element 11    Ar firstion   -1 nions -1
+Element 12    Ca firstion   -1 nions -1
+Element 13    Fe firstion   -1 nions -1
+# Ion data:
+Ion   0 z   1 istate   1 firstlevel     0 nlevels  10 potential     13.6  macro_info  1 phot_info   1 ntop 10 
+Ion   1 z   1 istate   2 firstlevel    10 nlevels   1 potential    1e+20  macro_info  1 phot_info  -1 ntop  0 
+Ion   2 z   2 istate   1 firstlevel    11 nlevels  10 potential     24.6  macro_info  1 phot_info   1 ntop 10 
+Ion   3 z   2 istate   2 firstlevel    21 nlevels  10 potential     54.4  macro_info  1 phot_info   1 ntop 10 
+Ion   4 z   2 istate   3 firstlevel    31 nlevels   1 potential    1e+20  macro_info  1 phot_info  -1 ntop  0 
+Ion   5 z   6 istate   1 firstlevel    32 nlevels  10 potential     11.3  macro_info  1 phot_info   1 ntop 10 
+Ion   6 z   6 istate   2 firstlevel    42 nlevels  10 potential     24.4  macro_info  1 phot_info   1 ntop 10 
+Ion   7 z   6 istate   3 firstlevel    52 nlevels  10 potential     47.9  macro_info  1 phot_info   1 ntop 10 
+Ion   8 z   6 istate   4 firstlevel    62 nlevels  10 potential     64.5  macro_info  1 phot_info   1 ntop 10 
+Ion   9 z   6 istate   5 firstlevel    72 nlevels  10 potential      392  macro_info  1 phot_info   1 ntop 10 
+Ion  10 z   6 istate   6 firstlevel    82 nlevels  10 potential      490  macro_info  1 phot_info   1 ntop 10 
+Ion  11 z   6 istate   7 firstlevel    92 nlevels   1 potential    1e+20  macro_info  1 phot_info  -1 ntop  0 
+Ion  12 z   7 istate   1 firstlevel    93 nlevels  10 potential     14.5  macro_info  1 phot_info  -1 ntop  0 
+Ion  13 z   7 istate   2 firstlevel   103 nlevels  10 potential     29.6  macro_info  1 phot_info  -1 ntop  0 
+Ion  14 z   7 istate   3 firstlevel   113 nlevels  10 potential     47.5  macro_info  1 phot_info  -1 ntop  0 
+Ion  15 z   7 istate   4 firstlevel   123 nlevels  10 potential     77.5  macro_info  1 phot_info  -1 ntop  0 
+Ion  16 z   7 istate   5 firstlevel   133 nlevels  10 potential     97.9  macro_info  1 phot_info  -1 ntop  0 
+Ion  17 z   7 istate   6 firstlevel   143 nlevels  10 potential      552  macro_info  1 phot_info  -1 ntop  0 
+Ion  18 z   7 istate   7 firstlevel   153 nlevels  10 potential      667  macro_info  1 phot_info  -1 ntop  0 
+Ion  19 z   7 istate   8 firstlevel   163 nlevels   1 potential    1e+20  macro_info  1 phot_info  -1 ntop  0 
+Ion  20 z   8 istate   1 firstlevel    -1 nlevels  -1 potential     13.6  macro_info  1 phot_info  -1 ntop  0 
+Ion  21 z   8 istate   2 firstlevel    -1 nlevels  -1 potential     35.1  macro_info  1 phot_info  -1 ntop  0 
+Ion  22 z   8 istate   3 firstlevel    -1 nlevels  -1 potential     54.9  macro_info  1 phot_info  -1 ntop  0 
+Ion  23 z   8 istate   4 firstlevel    -1 nlevels  -1 potential     77.4  macro_info  1 phot_info  -1 ntop  0 
+Ion  24 z   8 istate   5 firstlevel    -1 nlevels  -1 potential      114  macro_info  1 phot_info  -1 ntop  0 
+Ion  25 z   8 istate   6 firstlevel    -1 nlevels  -1 potential      138  macro_info  1 phot_info  -1 ntop  0 
+Ion  26 z   8 istate   7 firstlevel    -1 nlevels  -1 potential      739  macro_info  1 phot_info  -1 ntop  0 
+Ion  27 z   8 istate   8 firstlevel    -1 nlevels  -1 potential      871  macro_info  1 phot_info  -1 ntop  0 
+Ion  28 z   8 istate   9 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  1 phot_info  -1 ntop  0 
+Ion  29 z  10 istate   1 firstlevel    -1 nlevels  -1 potential     21.6  macro_info  0 phot_info  -1 ntop  0 
+Ion  30 z  10 istate   2 firstlevel    -1 nlevels  -1 potential       41  macro_info  0 phot_info  -1 ntop  0 
+Ion  31 z  10 istate   3 firstlevel    -1 nlevels  -1 potential     63.5  macro_info  0 phot_info  -1 ntop  0 
+Ion  32 z  10 istate   4 firstlevel    -1 nlevels  -1 potential     97.1  macro_info  0 phot_info  -1 ntop  0 
+Ion  33 z  10 istate   5 firstlevel    -1 nlevels  -1 potential      126  macro_info  0 phot_info  -1 ntop  0 
+Ion  34 z  10 istate   6 firstlevel    -1 nlevels  -1 potential      158  macro_info  0 phot_info  -1 ntop  0 
+Ion  35 z  10 istate   7 firstlevel    -1 nlevels  -1 potential      207  macro_info  0 phot_info  -1 ntop  0 
+Ion  36 z  10 istate   8 firstlevel    -1 nlevels  -1 potential      239  macro_info  0 phot_info  -1 ntop  0 
+Ion  37 z  10 istate   9 firstlevel    -1 nlevels  -1 potential  1.2e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  38 z  10 istate  10 firstlevel    -1 nlevels  -1 potential 1.36e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  39 z  10 istate  11 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion  40 z  11 istate   1 firstlevel    -1 nlevels  -1 potential     5.14  macro_info  0 phot_info  -1 ntop  0 
+Ion  41 z  11 istate   2 firstlevel    -1 nlevels  -1 potential     47.3  macro_info  0 phot_info  -1 ntop  0 
+Ion  42 z  11 istate   3 firstlevel    -1 nlevels  -1 potential     71.6  macro_info  0 phot_info  -1 ntop  0 
+Ion  43 z  11 istate   4 firstlevel    -1 nlevels  -1 potential     98.9  macro_info  0 phot_info  -1 ntop  0 
+Ion  44 z  11 istate   5 firstlevel    -1 nlevels  -1 potential      138  macro_info  0 phot_info  -1 ntop  0 
+Ion  45 z  11 istate   6 firstlevel    -1 nlevels  -1 potential      172  macro_info  0 phot_info  -1 ntop  0 
+Ion  46 z  11 istate   7 firstlevel    -1 nlevels  -1 potential      208  macro_info  0 phot_info  -1 ntop  0 
+Ion  47 z  11 istate   8 firstlevel    -1 nlevels  -1 potential      264  macro_info  0 phot_info  -1 ntop  0 
+Ion  48 z  11 istate   9 firstlevel    -1 nlevels  -1 potential      300  macro_info  0 phot_info  -1 ntop  0 
+Ion  49 z  11 istate  10 firstlevel    -1 nlevels  -1 potential 1.47e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  50 z  11 istate  11 firstlevel    -1 nlevels  -1 potential 1.65e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  51 z  11 istate  12 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion  52 z  12 istate   1 firstlevel    -1 nlevels  -1 potential     7.65  macro_info  0 phot_info  -1 ntop  0 
+Ion  53 z  12 istate   2 firstlevel    -1 nlevels  -1 potential       15  macro_info  0 phot_info  -1 ntop  0 
+Ion  54 z  12 istate   3 firstlevel    -1 nlevels  -1 potential     80.1  macro_info  0 phot_info  -1 ntop  0 
+Ion  55 z  12 istate   4 firstlevel    -1 nlevels  -1 potential      109  macro_info  0 phot_info  -1 ntop  0 
+Ion  56 z  12 istate   5 firstlevel    -1 nlevels  -1 potential      141  macro_info  0 phot_info  -1 ntop  0 
+Ion  57 z  12 istate   6 firstlevel    -1 nlevels  -1 potential      187  macro_info  0 phot_info  -1 ntop  0 
+Ion  58 z  12 istate   7 firstlevel    -1 nlevels  -1 potential      225  macro_info  0 phot_info  -1 ntop  0 
+Ion  59 z  12 istate   8 firstlevel    -1 nlevels  -1 potential      266  macro_info  0 phot_info  -1 ntop  0 
+Ion  60 z  12 istate   9 firstlevel    -1 nlevels  -1 potential      328  macro_info  0 phot_info  -1 ntop  0 
+Ion  61 z  12 istate  10 firstlevel    -1 nlevels  -1 potential      368  macro_info  0 phot_info  -1 ntop  0 
+Ion  62 z  12 istate  11 firstlevel    -1 nlevels  -1 potential 1.76e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  63 z  12 istate  12 firstlevel    -1 nlevels  -1 potential 1.96e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  64 z  12 istate  13 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion  65 z  13 istate   1 firstlevel    -1 nlevels  -1 potential     5.99  macro_info  0 phot_info  -1 ntop  0 
+Ion  66 z  13 istate   2 firstlevel    -1 nlevels  -1 potential     18.8  macro_info  0 phot_info  -1 ntop  0 
+Ion  67 z  13 istate   3 firstlevel    -1 nlevels  -1 potential     28.4  macro_info  0 phot_info  -1 ntop  0 
+Ion  68 z  13 istate   4 firstlevel    -1 nlevels  -1 potential      120  macro_info  0 phot_info  -1 ntop  0 
+Ion  69 z  13 istate   5 firstlevel    -1 nlevels  -1 potential      154  macro_info  0 phot_info  -1 ntop  0 
+Ion  70 z  13 istate   6 firstlevel    -1 nlevels  -1 potential      190  macro_info  0 phot_info  -1 ntop  0 
+Ion  71 z  13 istate   7 firstlevel    -1 nlevels  -1 potential      241  macro_info  0 phot_info  -1 ntop  0 
+Ion  72 z  13 istate   8 firstlevel    -1 nlevels  -1 potential      285  macro_info  0 phot_info  -1 ntop  0 
+Ion  73 z  13 istate   9 firstlevel    -1 nlevels  -1 potential      330  macro_info  0 phot_info  -1 ntop  0 
+Ion  74 z  13 istate  10 firstlevel    -1 nlevels  -1 potential      399  macro_info  0 phot_info  -1 ntop  0 
+Ion  75 z  13 istate  11 firstlevel    -1 nlevels  -1 potential      442  macro_info  0 phot_info  -1 ntop  0 
+Ion  76 z  13 istate  12 firstlevel    -1 nlevels  -1 potential 2.09e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  77 z  13 istate  13 firstlevel    -1 nlevels  -1 potential  2.3e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  78 z  13 istate  14 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion  79 z  14 istate   1 firstlevel    -1 nlevels  -1 potential     8.15  macro_info  0 phot_info  -1 ntop  0 
+Ion  80 z  14 istate   2 firstlevel    -1 nlevels  -1 potential     16.3  macro_info  0 phot_info  -1 ntop  0 
+Ion  81 z  14 istate   3 firstlevel    -1 nlevels  -1 potential     33.5  macro_info  0 phot_info  -1 ntop  0 
+Ion  82 z  14 istate   4 firstlevel    -1 nlevels  -1 potential     45.1  macro_info  0 phot_info  -1 ntop  0 
+Ion  83 z  14 istate   5 firstlevel    -1 nlevels  -1 potential      167  macro_info  0 phot_info  -1 ntop  0 
+Ion  84 z  14 istate   6 firstlevel    -1 nlevels  -1 potential      205  macro_info  0 phot_info  -1 ntop  0 
+Ion  85 z  14 istate   7 firstlevel    -1 nlevels  -1 potential      247  macro_info  0 phot_info  -1 ntop  0 
+Ion  86 z  14 istate   8 firstlevel    -1 nlevels  -1 potential      303  macro_info  0 phot_info  -1 ntop  0 
+Ion  87 z  14 istate   9 firstlevel    -1 nlevels  -1 potential      351  macro_info  0 phot_info  -1 ntop  0 
+Ion  88 z  14 istate  10 firstlevel    -1 nlevels  -1 potential      401  macro_info  0 phot_info  -1 ntop  0 
+Ion  89 z  14 istate  11 firstlevel    -1 nlevels  -1 potential      476  macro_info  0 phot_info  -1 ntop  0 
+Ion  90 z  14 istate  12 firstlevel    -1 nlevels  -1 potential      524  macro_info  0 phot_info  -1 ntop  0 
+Ion  91 z  14 istate  13 firstlevel    -1 nlevels  -1 potential 2.44e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  92 z  14 istate  14 firstlevel    -1 nlevels  -1 potential 2.67e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion  93 z  14 istate  15 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion  94 z  16 istate   1 firstlevel    -1 nlevels  -1 potential     10.4  macro_info  0 phot_info  -1 ntop  0 
+Ion  95 z  16 istate   2 firstlevel    -1 nlevels  -1 potential     23.3  macro_info  0 phot_info  -1 ntop  0 
+Ion  96 z  16 istate   3 firstlevel    -1 nlevels  -1 potential     34.8  macro_info  0 phot_info  -1 ntop  0 
+Ion  97 z  16 istate   4 firstlevel    -1 nlevels  -1 potential     47.3  macro_info  0 phot_info  -1 ntop  0 
+Ion  98 z  16 istate   5 firstlevel    -1 nlevels  -1 potential     72.7  macro_info  0 phot_info  -1 ntop  0 
+Ion  99 z  16 istate   6 firstlevel    -1 nlevels  -1 potential     88.1  macro_info  0 phot_info  -1 ntop  0 
+Ion 100 z  16 istate   7 firstlevel    -1 nlevels  -1 potential      281  macro_info  0 phot_info  -1 ntop  0 
+Ion 101 z  16 istate   8 firstlevel    -1 nlevels  -1 potential      328  macro_info  0 phot_info  -1 ntop  0 
+Ion 102 z  16 istate   9 firstlevel    -1 nlevels  -1 potential      379  macro_info  0 phot_info  -1 ntop  0 
+Ion 103 z  16 istate  10 firstlevel    -1 nlevels  -1 potential      447  macro_info  0 phot_info  -1 ntop  0 
+Ion 104 z  16 istate  11 firstlevel    -1 nlevels  -1 potential      505  macro_info  0 phot_info  -1 ntop  0 
+Ion 105 z  16 istate  12 firstlevel    -1 nlevels  -1 potential      565  macro_info  0 phot_info  -1 ntop  0 
+Ion 106 z  16 istate  13 firstlevel    -1 nlevels  -1 potential      652  macro_info  0 phot_info  -1 ntop  0 
+Ion 107 z  16 istate  14 firstlevel    -1 nlevels  -1 potential      707  macro_info  0 phot_info  -1 ntop  0 
+Ion 108 z  16 istate  15 firstlevel    -1 nlevels  -1 potential 3.22e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 109 z  16 istate  16 firstlevel    -1 nlevels  -1 potential 3.49e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 110 z  16 istate  17 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion 111 z  18 istate   1 firstlevel    -1 nlevels  -1 potential     15.8  macro_info  0 phot_info  -1 ntop  0 
+Ion 112 z  18 istate   2 firstlevel    -1 nlevels  -1 potential     27.6  macro_info  0 phot_info  -1 ntop  0 
+Ion 113 z  18 istate   3 firstlevel    -1 nlevels  -1 potential     40.7  macro_info  0 phot_info  -1 ntop  0 
+Ion 114 z  18 istate   4 firstlevel    -1 nlevels  -1 potential     59.8  macro_info  0 phot_info  -1 ntop  0 
+Ion 115 z  18 istate   5 firstlevel    -1 nlevels  -1 potential       75  macro_info  0 phot_info  -1 ntop  0 
+Ion 116 z  18 istate   6 firstlevel    -1 nlevels  -1 potential       91  macro_info  0 phot_info  -1 ntop  0 
+Ion 117 z  18 istate   7 firstlevel    -1 nlevels  -1 potential      124  macro_info  0 phot_info  -1 ntop  0 
+Ion 118 z  18 istate   8 firstlevel    -1 nlevels  -1 potential      143  macro_info  0 phot_info  -1 ntop  0 
+Ion 119 z  18 istate   9 firstlevel    -1 nlevels  -1 potential      422  macro_info  0 phot_info  -1 ntop  0 
+Ion 120 z  18 istate  10 firstlevel    -1 nlevels  -1 potential      479  macro_info  0 phot_info  -1 ntop  0 
+Ion 121 z  18 istate  11 firstlevel    -1 nlevels  -1 potential      539  macro_info  0 phot_info  -1 ntop  0 
+Ion 122 z  18 istate  12 firstlevel    -1 nlevels  -1 potential      618  macro_info  0 phot_info  -1 ntop  0 
+Ion 123 z  18 istate  13 firstlevel    -1 nlevels  -1 potential      686  macro_info  0 phot_info  -1 ntop  0 
+Ion 124 z  18 istate  14 firstlevel    -1 nlevels  -1 potential      756  macro_info  0 phot_info  -1 ntop  0 
+Ion 125 z  18 istate  15 firstlevel    -1 nlevels  -1 potential      855  macro_info  0 phot_info  -1 ntop  0 
+Ion 126 z  18 istate  16 firstlevel    -1 nlevels  -1 potential      918  macro_info  0 phot_info  -1 ntop  0 
+Ion 127 z  18 istate  17 firstlevel    -1 nlevels  -1 potential 4.12e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 128 z  18 istate  18 firstlevel    -1 nlevels  -1 potential 4.43e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 129 z  18 istate  19 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion 130 z  20 istate   1 firstlevel    -1 nlevels  -1 potential     6.11  macro_info  0 phot_info  -1 ntop  0 
+Ion 131 z  20 istate   2 firstlevel    -1 nlevels  -1 potential     11.9  macro_info  0 phot_info  -1 ntop  0 
+Ion 132 z  20 istate   3 firstlevel    -1 nlevels  -1 potential     50.9  macro_info  0 phot_info  -1 ntop  0 
+Ion 133 z  20 istate   4 firstlevel    -1 nlevels  -1 potential     67.3  macro_info  0 phot_info  -1 ntop  0 
+Ion 134 z  20 istate   5 firstlevel    -1 nlevels  -1 potential     84.5  macro_info  0 phot_info  -1 ntop  0 
+Ion 135 z  20 istate   6 firstlevel    -1 nlevels  -1 potential      109  macro_info  0 phot_info  -1 ntop  0 
+Ion 136 z  20 istate   7 firstlevel    -1 nlevels  -1 potential      127  macro_info  0 phot_info  -1 ntop  0 
+Ion 137 z  20 istate   8 firstlevel    -1 nlevels  -1 potential      147  macro_info  0 phot_info  -1 ntop  0 
+Ion 138 z  20 istate   9 firstlevel    -1 nlevels  -1 potential      188  macro_info  0 phot_info  -1 ntop  0 
+Ion 139 z  20 istate  10 firstlevel    -1 nlevels  -1 potential      211  macro_info  0 phot_info  -1 ntop  0 
+Ion 140 z  20 istate  11 firstlevel    -1 nlevels  -1 potential      592  macro_info  0 phot_info  -1 ntop  0 
+Ion 141 z  20 istate  12 firstlevel    -1 nlevels  -1 potential      657  macro_info  0 phot_info  -1 ntop  0 
+Ion 142 z  20 istate  13 firstlevel    -1 nlevels  -1 potential      727  macro_info  0 phot_info  -1 ntop  0 
+Ion 143 z  20 istate  14 firstlevel    -1 nlevels  -1 potential      818  macro_info  0 phot_info  -1 ntop  0 
+Ion 144 z  20 istate  15 firstlevel    -1 nlevels  -1 potential      894  macro_info  0 phot_info  -1 ntop  0 
+Ion 145 z  20 istate  16 firstlevel    -1 nlevels  -1 potential      974  macro_info  0 phot_info  -1 ntop  0 
+Ion 146 z  20 istate  17 firstlevel    -1 nlevels  -1 potential 1.09e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 147 z  20 istate  18 firstlevel    -1 nlevels  -1 potential 1.16e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 148 z  20 istate  19 firstlevel    -1 nlevels  -1 potential 5.13e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 149 z  20 istate  20 firstlevel    -1 nlevels  -1 potential 5.47e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 150 z  20 istate  21 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+Ion 151 z  26 istate   1 firstlevel    -1 nlevels  -1 potential     7.87  macro_info  0 phot_info  -1 ntop  0 
+Ion 152 z  26 istate   2 firstlevel    -1 nlevels  -1 potential     16.2  macro_info  0 phot_info  -1 ntop  0 
+Ion 153 z  26 istate   3 firstlevel    -1 nlevels  -1 potential     30.7  macro_info  0 phot_info  -1 ntop  0 
+Ion 154 z  26 istate   4 firstlevel    -1 nlevels  -1 potential     54.8  macro_info  0 phot_info  -1 ntop  0 
+Ion 155 z  26 istate   5 firstlevel    -1 nlevels  -1 potential       75  macro_info  0 phot_info  -1 ntop  0 
+Ion 156 z  26 istate   6 firstlevel    -1 nlevels  -1 potential     99.1  macro_info  0 phot_info  -1 ntop  0 
+Ion 157 z  26 istate   7 firstlevel    -1 nlevels  -1 potential      125  macro_info  0 phot_info  -1 ntop  0 
+Ion 158 z  26 istate   8 firstlevel    -1 nlevels  -1 potential      151  macro_info  0 phot_info  -1 ntop  0 
+Ion 159 z  26 istate   9 firstlevel    -1 nlevels  -1 potential      234  macro_info  0 phot_info  -1 ntop  0 
+Ion 160 z  26 istate  10 firstlevel    -1 nlevels  -1 potential      262  macro_info  0 phot_info  -1 ntop  0 
+Ion 161 z  26 istate  11 firstlevel    -1 nlevels  -1 potential      290  macro_info  0 phot_info  -1 ntop  0 
+Ion 162 z  26 istate  12 firstlevel    -1 nlevels  -1 potential      331  macro_info  0 phot_info  -1 ntop  0 
+Ion 163 z  26 istate  13 firstlevel    -1 nlevels  -1 potential      361  macro_info  0 phot_info  -1 ntop  0 
+Ion 164 z  26 istate  14 firstlevel    -1 nlevels  -1 potential      392  macro_info  0 phot_info  -1 ntop  0 
+Ion 165 z  26 istate  15 firstlevel    -1 nlevels  -1 potential      457  macro_info  0 phot_info  -1 ntop  0 
+Ion 166 z  26 istate  16 firstlevel    -1 nlevels  -1 potential      489  macro_info  0 phot_info  -1 ntop  0 
+Ion 167 z  26 istate  17 firstlevel    -1 nlevels  -1 potential 1.26e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 168 z  26 istate  18 firstlevel    -1 nlevels  -1 potential 1.36e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 169 z  26 istate  19 firstlevel    -1 nlevels  -1 potential 1.46e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 170 z  26 istate  20 firstlevel    -1 nlevels  -1 potential 1.58e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 171 z  26 istate  21 firstlevel    -1 nlevels  -1 potential 1.69e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 172 z  26 istate  22 firstlevel    -1 nlevels  -1 potential  1.8e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 173 z  26 istate  23 firstlevel    -1 nlevels  -1 potential 1.95e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 174 z  26 istate  24 firstlevel    -1 nlevels  -1 potential 2.05e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 175 z  26 istate  25 firstlevel    -1 nlevels  -1 potential 8.83e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 176 z  26 istate  26 firstlevel    -1 nlevels  -1 potential 9.28e+03  macro_info  0 phot_info  -1 ntop  0 
+Ion 177 z  26 istate  27 firstlevel    -1 nlevels  -1 potential    1e+20  macro_info  0 phot_info  -1 ntop  0 
+# Excitation levels: There are 164 levels
+Level n     0 z  1 istate  1 q -1.0 g    2 ex        0  bb  6  0 bf  1  0
+Level n     1 z  1 istate  1 q -1.0 g    2 ex 1.63e-11  bb  2  2 bf  1  0
+Level n     2 z  1 istate  1 q -1.0 g    2 ex 1.63e-11  bb  3  1 bf  1  0
+Level n     3 z  1 istate  1 q -1.0 g    4 ex 1.63e-11  bb  4  1 bf  1  0
+Level n     4 z  1 istate  1 q -1.0 g    2 ex 1.94e-11  bb  0  2 bf  1  0
+Level n     5 z  1 istate  1 q -1.0 g    2 ex 1.94e-11  bb  1  2 bf  1  0
+Level n     6 z  1 istate  1 q -1.0 g    4 ex 1.94e-11  bb  1  2 bf  1  0
+Level n     7 z  1 istate  1 q -1.0 g    4 ex 1.94e-11  bb  0  2 bf  1  0
+Level n     8 z  1 istate  1 q -1.0 g    6 ex 1.94e-11  bb  0  1 bf  1  0
+Level n     9 z  1 istate  1 q -1.0 g    2 ex 2.04e-11  bb  0  4 bf  1  0
+Level n    10 z  1 istate  2 q -1.0 g    1 ex 2.18e-11  bb  0  0 bf  0 10
+Level n    11 z  2 istate  1 q -1.0 g    1 ex        0  bb  4  0 bf  1  0
+Level n    12 z  2 istate  1 q -1.0 g    3 ex 3.18e-11  bb  4  1 bf  1  0
+Level n    13 z  2 istate  1 q -1.0 g    1 ex  3.3e-11  bb  1  1 bf  1  0
+Level n    14 z  2 istate  1 q -1.0 g    5 ex 3.36e-11  bb  1  1 bf  1  0
+Level n    15 z  2 istate  1 q -1.0 g    3 ex 3.36e-11  bb  1  2 bf  1  0
+Level n    16 z  2 istate  1 q -1.0 g    1 ex 3.36e-11  bb  1  1 bf  1  0
+Level n    17 z  2 istate  1 q -1.0 g    3 ex  3.4e-11  bb  1  2 bf  1  0
+Level n    18 z  2 istate  1 q -1.0 g    3 ex 3.64e-11  bb  1  3 bf  1  0
+Level n    19 z  2 istate  1 q -1.0 g    1 ex 3.67e-11  bb  0  1 bf  1  0
+Level n    20 z  2 istate  1 q -1.0 g    5 ex 3.69e-11  bb  0  2 bf  1  0
+Level n    21 z  2 istate  2 q -1.0 g    2 ex 3.94e-11  bb  5  0 bf  1 10
+Level n    22 z  2 istate  2 q -1.0 g    2 ex 1.05e-10  bb  2  1 bf  1  0
+Level n    23 z  2 istate  2 q -1.0 g    2 ex 1.05e-10  bb  3  1 bf  1  0
+Level n    24 z  2 istate  2 q -1.0 g    4 ex 1.05e-10  bb  4  1 bf  1  0
+Level n    25 z  2 istate  2 q -1.0 g    2 ex 1.17e-10  bb  0  2 bf  1  0
+Level n    26 z  2 istate  2 q -1.0 g    2 ex 1.17e-10  bb  1  2 bf  1  0
+Level n    27 z  2 istate  2 q -1.0 g    4 ex 1.17e-10  bb  1  2 bf  1  0
+Level n    28 z  2 istate  2 q -1.0 g    4 ex 1.17e-10  bb  0  2 bf  1  0
+Level n    29 z  2 istate  2 q -1.0 g    6 ex 1.17e-10  bb  0  1 bf  1  0
+Level n    30 z  2 istate  2 q -1.0 g    2 ex 1.21e-10  bb  0  4 bf  1  0
+Level n    31 z  2 istate  3 q -1.0 g    1 ex 1.27e-10  bb  0  0 bf  0 10
+Level n    32 z  6 istate  1 q -1.0 g    1 ex        0  bb  4  0 bf  1  0
+Level n    33 z  6 istate  1 q -1.0 g    3 ex 3.26e-15  bb  8  1 bf  1  0
+Level n    34 z  6 istate  1 q -1.0 g    5 ex 8.62e-15  bb  6  1 bf  1  0
+Level n    35 z  6 istate  1 q -1.0 g    5 ex 2.02e-12  bb  3  3 bf  1  0
+Level n    36 z  6 istate  1 q -1.0 g    1 ex  4.3e-12  bb  2  3 bf  1  0
+Level n    37 z  6 istate  1 q -1.0 g    5 ex  6.7e-12  bb  0  2 bf  1  0
+Level n    38 z  6 istate  1 q -1.0 g    1 ex  1.2e-11  bb  0  1 bf  1  0
+Level n    39 z  6 istate  1 q -1.0 g    3 ex  1.2e-11  bb  0  5 bf  1  0
+Level n    40 z  6 istate  1 q -1.0 g    5 ex  1.2e-11  bb  0  2 bf  1  0
+Level n    41 z  6 istate  1 q -1.0 g    3 ex 1.23e-11  bb  0  5 bf  1  0
+Level n    42 z  6 istate  2 q -1.0 g    2 ex  1.8e-11  bb  8  0 bf  1 10
+Level n    43 z  6 istate  2 q -1.0 g    4 ex 1.81e-11  bb  8  1 bf  1  0
+Level n    44 z  6 istate  2 q -1.0 g    2 ex 2.66e-11  bb  0  2 bf  1  0
+Level n    45 z  6 istate  2 q -1.0 g    4 ex 2.66e-11  bb  0  2 bf  1  0
+Level n    46 z  6 istate  2 q -1.0 g    6 ex 2.66e-11  bb  0  2 bf  1  0
+Level n    47 z  6 istate  2 q -1.0 g    4 ex 3.29e-11  bb  0  2 bf  1  0
+Level n    48 z  6 istate  2 q -1.0 g    6 ex 3.29e-11  bb  0  1 bf  1  0
+Level n    49 z  6 istate  2 q -1.0 g    2 ex 3.72e-11  bb  0  2 bf  1  0
+Level n    50 z  6 istate  2 q -1.0 g    2 ex    4e-11  bb  0  2 bf  1  0
+Level n    51 z  6 istate  2 q -1.0 g    4 ex    4e-11  bb  0  2 bf  1  0
+Level n    52 z  6 istate  3 q -1.0 g    1 ex 5.71e-11  bb  8  0 bf  1 10
+Level n    53 z  6 istate  3 q -1.0 g    1 ex 6.75e-11  bb  2  0 bf  1  0
+Level n    54 z  6 istate  3 q -1.0 g    3 ex 6.75e-11  bb 10  2 bf  1  0
+Level n    55 z  6 istate  3 q -1.0 g    5 ex 6.75e-11  bb  6  4 bf  1  0
+Level n    56 z  6 istate  3 q -1.0 g    3 ex 7.74e-11  bb  4  2 bf  1  0
+Level n    57 z  6 istate  3 q -1.0 g    1 ex 8.44e-11  bb  0  2 bf  1  0
+Level n    58 z  6 istate  3 q -1.0 g    3 ex 8.44e-11  bb  0  6 bf  1  0
+Level n    59 z  6 istate  3 q -1.0 g    5 ex 8.44e-11  bb  0  4 bf  1  0
+Level n    60 z  6 istate  3 q -1.0 g    5 ex 8.61e-11  bb  0  8 bf  1  0
+Level n    61 z  6 istate  3 q -1.0 g    1 ex 9.34e-11  bb  0  2 bf  1  0
+Level n    62 z  6 istate  4 q -1.0 g    2 ex 1.34e-10  bb 10  0 bf  1 10
+Level n    63 z  6 istate  4 q -1.0 g    2 ex 1.47e-10  bb  6  2 bf  1  0
+Level n    64 z  6 istate  4 q -1.0 g    4 ex 1.47e-10  bb  8  2 bf  1  0
+Level n    65 z  6 istate  4 q -1.0 g    2 ex 1.94e-10  bb  6  4 bf  1  0
+Level n    66 z  6 istate  4 q -1.0 g    2 ex 1.97e-10  bb  2  4 bf  1  0
+Level n    67 z  6 istate  4 q -1.0 g    4 ex 1.97e-10  bb  2  4 bf  1  0
+Level n    68 z  6 istate  4 q -1.0 g    4 ex 1.98e-10  bb  2  4 bf  1  0
+Level n    69 z  6 istate  4 q -1.0 g    6 ex 1.98e-10  bb  0  2 bf  1  0
+Level n    70 z  6 istate  4 q -1.0 g    2 ex 2.14e-10  bb  2  8 bf  1  0
+Level n    71 z  6 istate  4 q -1.0 g    2 ex 2.15e-10  bb  0  8 bf  1  0
+Level n    72 z  6 istate  5 q -1.0 g    1 ex 2.37e-10  bb  6  0 bf  1 10
+Level n    73 z  6 istate  5 q -1.0 g    3 ex 7.16e-10  bb  5  1 bf  1  0
+Level n    74 z  6 istate  5 q -1.0 g    1 ex 7.25e-10  bb  0  1 bf  1  0
+Level n    75 z  6 istate  5 q -1.0 g    3 ex 7.25e-10  bb  1  2 bf  1  0
+Level n    76 z  6 istate  5 q -1.0 g    1 ex 7.25e-10  bb  1  1 bf  1  0
+Level n    77 z  6 istate  5 q -1.0 g    5 ex 7.25e-10  bb  1  2 bf  1  0
+Level n    78 z  6 istate  5 q -1.0 g    3 ex  7.3e-10  bb  0  1 bf  1  0
+Level n    79 z  6 istate  5 q -1.0 g    3 ex 8.01e-10  bb  2  3 bf  1  0
+Level n    80 z  6 istate  5 q -1.0 g    1 ex 8.04e-10  bb  0  2 bf  1  0
+Level n    81 z  6 istate  5 q -1.0 g    3 ex 8.04e-10  bb  0  3 bf  1  0
+Level n    82 z  6 istate  6 q -1.0 g    2 ex 8.65e-10  bb  8  0 bf  1 10
+Level n    83 z  6 istate  6 q -1.0 g    2 ex 1.45e-09  bb  4  2 bf  1  0
+Level n    84 z  6 istate  6 q -1.0 g    2 ex 1.45e-09  bb  3  1 bf  1  0
+Level n    85 z  6 istate  6 q -1.0 g    4 ex 1.45e-09  bb  4  1 bf  1  0
+Level n    86 z  6 istate  6 q -1.0 g    2 ex 1.56e-09  bb  0  2 bf  1  0
+Level n    87 z  6 istate  6 q -1.0 g    2 ex 1.56e-09  bb  1  2 bf  1  0
+Level n    88 z  6 istate  6 q -1.0 g    4 ex 1.56e-09  bb  1  2 bf  1  0
+Level n    89 z  6 istate  6 q -1.0 g    4 ex 1.56e-09  bb  0  4 bf  1  0
+Level n    90 z  6 istate  6 q -1.0 g    6 ex 1.56e-09  bb  0  3 bf  1  0
+Level n    91 z  6 istate  6 q -1.0 g    2 ex  1.6e-09  bb  0  4 bf  1  0
+Level n    92 z  6 istate  7 q -1.0 g    1 ex 1.65e-09  bb  0  0 bf  0 10
+Level n    93 z  7 istate  1 q -1.0 g    4 ex        0  bb  9  0 bf  0  0
+Level n    94 z  7 istate  1 q -1.0 g    4 ex 3.82e-12  bb  7  2 bf  0  0
+Level n    95 z  7 istate  1 q -1.0 g    6 ex 3.82e-12  bb  6  1 bf  0  0
+Level n    96 z  7 istate  1 q -1.0 g    2 ex 5.73e-12  bb  4  3 bf  0  0
+Level n    97 z  7 istate  1 q -1.0 g    4 ex 5.73e-12  bb  4  3 bf  0  0
+Level n    98 z  7 istate  1 q -1.0 g    2 ex 1.65e-11  bb  0  4 bf  0  0
+Level n    99 z  7 istate  1 q -1.0 g    4 ex 1.66e-11  bb  0  5 bf  0  0
+Level n   100 z  7 istate  1 q -1.0 g    6 ex 1.66e-11  bb  0  3 bf  0  0
+Level n   101 z  7 istate  1 q -1.0 g    2 ex 1.71e-11  bb  0  4 bf  0  0
+Level n   102 z  7 istate  1 q -1.0 g    4 ex 1.71e-11  bb  0  5 bf  0  0
+Level n   103 z  7 istate  2 q -1.0 g    1 ex 2.33e-11  bb  4  0 bf  0  0
+Level n   104 z  7 istate  2 q -1.0 g    3 ex 2.33e-11  bb  7  1 bf  0  0
+Level n   105 z  7 istate  2 q -1.0 g    5 ex 2.33e-11  bb  7  1 bf  0  0
+Level n   106 z  7 istate  2 q -1.0 g    5 ex 2.63e-11  bb  1  3 bf  0  0
+Level n   107 z  7 istate  2 q -1.0 g    1 ex 2.98e-11  bb  0  3 bf  0  0
+Level n   108 z  7 istate  2 q -1.0 g    5 ex 3.26e-11  bb  0  2 bf  0  0
+Level n   109 z  7 istate  2 q -1.0 g    7 ex 4.16e-11  bb  0  1 bf  0  0
+Level n   110 z  7 istate  2 q -1.0 g    5 ex 4.16e-11  bb  0  2 bf  0  0
+Level n   111 z  7 istate  2 q -1.0 g    3 ex 4.16e-11  bb  0  3 bf  0  0
+Level n   112 z  7 istate  2 q -1.0 g    3 ex  4.5e-11  bb  0  3 bf  0  0
+Level n   113 z  7 istate  3 q -1.0 g    2 ex 7.07e-11  bb 14  0 bf  0  0
+Level n   114 z  7 istate  3 q -1.0 g    4 ex 7.07e-11  bb 16  2 bf  0  0
+Level n   115 z  7 istate  3 q -1.0 g    2 ex 8.21e-11  bb  0  4 bf  0  0
+Level n   116 z  7 istate  3 q -1.0 g    4 ex 8.21e-11  bb  0  4 bf  0  0
+Level n   117 z  7 istate  3 q -1.0 g    6 ex 8.21e-11  bb  0  2 bf  0  0
+Level n   118 z  7 istate  3 q -1.0 g    4 ex 9.08e-11  bb  0  4 bf  0  0
+Level n   119 z  7 istate  3 q -1.0 g    6 ex 9.08e-11  bb  0  2 bf  0  0
+Level n   120 z  7 istate  3 q -1.0 g    2 ex 9.67e-11  bb  0  4 bf  0  0
+Level n   121 z  7 istate  3 q -1.0 g    2 ex 9.97e-11  bb  0  4 bf  0  0
+Level n   122 z  7 istate  3 q -1.0 g    4 ex 9.97e-11  bb  0  4 bf  0  0
+Level n   123 z  7 istate  4 q -1.0 g    1 ex 1.47e-10  bb 12  0 bf  0  0
+Level n   124 z  7 istate  4 q -1.0 g    1 ex  1.6e-10  bb 12  0 bf  0  0
+Level n   125 z  7 istate  4 q -1.0 g    3 ex  1.6e-10  bb 14  4 bf  0  0
+Level n   126 z  7 istate  4 q -1.0 g    5 ex  1.6e-10  bb 12  6 bf  0  0
+Level n   127 z  7 istate  4 q -1.0 g    3 ex 1.73e-10  bb 10  8 bf  0  0
+Level n   128 z  7 istate  4 q -1.0 g    1 ex 1.82e-10  bb  6  6 bf  0  0
+Level n   129 z  7 istate  4 q -1.0 g    3 ex 1.82e-10  bb  6 12 bf  0  0
+Level n   130 z  7 istate  4 q -1.0 g    5 ex 1.82e-10  bb  4 14 bf  0  0
+Level n   131 z  7 istate  4 q -1.0 g    5 ex 1.84e-10  bb  2 16 bf  0  0
+Level n   132 z  7 istate  4 q -1.0 g    1 ex 1.93e-10  bb  0 12 bf  0  0
+Level n   133 z  7 istate  5 q -1.0 g    2 ex 2.71e-10  bb  5  0 bf  0  0
+Level n   134 z  7 istate  5 q -1.0 g    2 ex 2.87e-10  bb  3  1 bf  0  0
+Level n   135 z  7 istate  5 q -1.0 g    4 ex 2.87e-10  bb  4  1 bf  0  0
+Level n   136 z  7 istate  5 q -1.0 g    2 ex 3.61e-10  bb  3  2 bf  0  0
+Level n   137 z  7 istate  5 q -1.0 g    2 ex 3.66e-10  bb  1  2 bf  0  0
+Level n   138 z  7 istate  5 q -1.0 g    4 ex 3.66e-10  bb  1  2 bf  0  0
+Level n   139 z  7 istate  5 q -1.0 g    4 ex 3.67e-10  bb  1  2 bf  0  0
+Level n   140 z  7 istate  5 q -1.0 g    6 ex 3.67e-10  bb  0  1 bf  0  0
+Level n   141 z  7 istate  5 q -1.0 g    2 ex 3.91e-10  bb  1  4 bf  0  0
+Level n   142 z  7 istate  5 q -1.0 g    2 ex 3.93e-10  bb  0  4 bf  0  0
+Level n   143 z  7 istate  6 q -1.0 g    1 ex 4.28e-10  bb  6  0 bf  0  0
+Level n   144 z  7 istate  6 q -1.0 g    3 ex  1.1e-09  bb  5  1 bf  0  0
+Level n   145 z  7 istate  6 q -1.0 g    1 ex 1.11e-09  bb  1  1 bf  0  0
+Level n   146 z  7 istate  6 q -1.0 g    3 ex 1.11e-09  bb  2  2 bf  0  0
+Level n   147 z  7 istate  6 q -1.0 g    5 ex 1.11e-09  bb  1  2 bf  0  0
+Level n   148 z  7 istate  6 q -1.0 g    1 ex 1.11e-09  bb  0  2 bf  0  0
+Level n   149 z  7 istate  6 q -1.0 g    3 ex 1.12e-09  bb  0  1 bf  0  0
+Level n   150 z  7 istate  6 q -1.0 g    3 ex 1.22e-09  bb  2  3 bf  0  0
+Level n   151 z  7 istate  6 q -1.0 g    1 ex 1.22e-09  bb  0  2 bf  0  0
+Level n   152 z  7 istate  6 q -1.0 g    3 ex 1.22e-09  bb  0  3 bf  0  0
+Level n   153 z  7 istate  7 q -1.0 g    2 ex 1.31e-09  bb  6  0 bf  0  0
+Level n   154 z  7 istate  7 q -1.0 g    2 ex 2.11e-09  bb  2  2 bf  0  0
+Level n   155 z  7 istate  7 q -1.0 g    2 ex 2.11e-09  bb  3  1 bf  0  0
+Level n   156 z  7 istate  7 q -1.0 g    4 ex 2.11e-09  bb  4  1 bf  0  0
+Level n   157 z  7 istate  7 q -1.0 g    2 ex 2.26e-09  bb  0  2 bf  0  0
+Level n   158 z  7 istate  7 q -1.0 g    2 ex 2.26e-09  bb  1  2 bf  0  0
+Level n   159 z  7 istate  7 q -1.0 g    4 ex 2.26e-09  bb  1  2 bf  0  0
+Level n   160 z  7 istate  7 q -1.0 g    4 ex 2.26e-09  bb  0  2 bf  0  0
+Level n   161 z  7 istate  7 q -1.0 g    6 ex 2.26e-09  bb  0  1 bf  0  0
+Level n   162 z  7 istate  7 q -1.0 g    2 ex 2.31e-09  bb  0  4 bf  0  0
+Level n   163 z  7 istate  8 q -1.0 g    1 ex 2.38e-09  bb  0  0 bf  0  0
+# Line data: There are 400 lines
+Line n     0 ion_no   0 z  1 ion  1 freq  2.5e+15 f  0.000 macro  1 coll    0 up_down  0  0
+Line n     1 ion_no   0 z  1 ion  1 freq  2.5e+15 f  0.000 macro  1 coll    1 up_down  1  1
+Line n     2 ion_no   0 z  1 ion  1 freq  2.5e+15 f  0.139 macro  1 coll    2 up_down  2  0
+Line n     3 ion_no   0 z  1 ion  1 freq  2.5e+15 f  0.278 macro  1 coll    3 up_down  3  0
+Line n     4 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.014 macro  1 coll -999 up_down  0  0
+Line n     5 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.014 macro  1 coll -999 up_down  0  1
+Line n     6 ion_no   0 z  1 ion  1 freq  2.9e+15 f  0.026 macro  1 coll    4 up_down  4  0
+Line n     7 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.145 macro  1 coll    6 up_down  0  1
+Line n     8 ion_no   0 z  1 ion  1 freq  2.9e+15 f  0.052 macro  1 coll    5 up_down  5  0
+Line n     9 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.290 macro  1 coll    7 up_down  1  1
+Line n    10 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.695 macro  1 coll -999 up_down  1  0
+Line n    11 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.070 macro  1 coll -999 up_down  1  1
+Line n    12 ion_no   0 z  1 ion  1 freq  4.6e+14 f  0.627 macro  1 coll -999 up_down  2  0
+Line n    13 ion_no   0 z  1 ion  1 freq  6.2e+14 f  0.003 macro  1 coll -999 up_down  2  0
+Line n    14 ion_no   0 z  1 ion  1 freq  6.2e+14 f  0.003 macro  1 coll -999 up_down  3  1
+Line n    15 ion_no   0 z  1 ion  1 freq  1.6e+14 f  0.032 macro  1 coll -999 up_down  0  2
+Line n    16 ion_no   0 z  1 ion  1 freq  1.6e+14 f  0.032 macro  1 coll -999 up_down  0  3
+Line n    17 ion_no   2 z  2 ion  1 freq  4.8e+15 f  0.000 macro  1 coll    8 up_down  0  0
+Line n    18 ion_no   2 z  2 ion  1 freq  5.0e+15 f  0.000 macro  1 coll    9 up_down  1  0
+Line n    19 ion_no   2 z  2 ion  1 freq  2.8e+14 f  0.609 macro  1 coll   12 up_down  0  0
+Line n    20 ion_no   2 z  2 ion  1 freq  5.1e+15 f  0.000 macro  1 coll   10 up_down  2  0
+Line n    21 ion_no   2 z  2 ion  1 freq  2.8e+14 f  0.608 macro  1 coll   13 up_down  1  1
+Line n    22 ion_no   2 z  2 ion  1 freq  2.8e+14 f  0.609 macro  1 coll   14 up_down  2  0
+Line n    23 ion_no   2 z  2 ion  1 freq  5.1e+15 f  0.276 macro  1 coll   11 up_down  3  0
+Line n    24 ion_no   2 z  2 ion  1 freq  1.5e+14 f  0.377 macro  1 coll   16 up_down  0  1
+Line n    25 ion_no   2 z  2 ion  1 freq  4.2e+14 f  0.069 macro  1 coll   17 up_down  0  0
+Line n    26 ion_no   2 z  2 ion  1 freq  4.2e+14 f  0.069 macro  1 coll   18 up_down  0  1
+Line n    27 ion_no   2 z  2 ion  1 freq  4.2e+14 f  0.069 macro  1 coll   19 up_down  0  2
+Line n    28 ion_no   2 z  2 ion  1 freq  4.1e+14 f  0.048 macro  1 coll -999 up_down  0  0
+Line n    29 ion_no   2 z  2 ion  1 freq  7.7e+14 f  0.036 macro  1 coll   15 up_down  3  0
+Line n    30 ion_no   2 z  2 ion  1 freq  7.0e+13 f  0.497 macro  1 coll -999 up_down  0  1
+Line n    31 ion_no   3 z  2 ion  2 freq  9.9e+15 f  0.000 macro  1 coll   20 up_down  0  0
+Line n    32 ion_no   3 z  2 ion  2 freq  9.9e+15 f  0.139 macro  1 coll   21 up_down  1  0
+Line n    33 ion_no   3 z  2 ion  2 freq  9.9e+15 f  0.278 macro  1 coll   22 up_down  2  0
+Line n    34 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.014 macro  1 coll -999 up_down  0  0
+Line n    35 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.014 macro  1 coll -999 up_down  0  1
+Line n    36 ion_no   3 z  2 ion  2 freq  1.2e+16 f  0.026 macro  1 coll   23 up_down  3  0
+Line n    37 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.145 macro  1 coll   25 up_down  0  1
+Line n    38 ion_no   3 z  2 ion  2 freq  1.2e+16 f  0.053 macro  1 coll   24 up_down  4  0
+Line n    39 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.290 macro  1 coll   26 up_down  1  1
+Line n    40 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.696 macro  1 coll -999 up_down  1  0
+Line n    41 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.070 macro  1 coll -999 up_down  1  1
+Line n    42 ion_no   3 z  2 ion  2 freq  1.8e+15 f  0.626 macro  1 coll -999 up_down  2  0
+Line n    43 ion_no   3 z  2 ion  2 freq  2.5e+15 f  0.003 macro  1 coll -999 up_down  2  0
+Line n    44 ion_no   3 z  2 ion  2 freq  2.5e+15 f  0.003 macro  1 coll -999 up_down  3  1
+Line n    45 ion_no   3 z  2 ion  2 freq  6.4e+14 f  0.032 macro  1 coll -999 up_down  0  2
+Line n    46 ion_no   3 z  2 ion  2 freq  6.4e+14 f  0.032 macro  1 coll -999 up_down  0  3
+Line n    47 ion_no   5 z  6 ion  1 freq  4.9e+11 f  0.000 macro  1 coll   27 up_down  0  0
+Line n    48 ion_no   5 z  6 ion  1 freq  8.1e+11 f  0.000 macro  1 coll   31 up_down  0  0
+Line n    49 ion_no   5 z  6 ion  1 freq  3.1e+14 f  0.000 macro  1 coll   28 up_down  1  0
+Line n    50 ion_no   5 z  6 ion  1 freq  3.1e+14 f  0.000 macro  1 coll   32 up_down  1  1
+Line n    51 ion_no   5 z  6 ion  1 freq  3.0e+14 f  0.000 macro  1 coll   39 up_down  0  2
+Line n    52 ion_no   5 z  6 ion  1 freq  6.5e+14 f  0.000 macro  1 coll   33 up_down  2  0
+Line n    53 ion_no   5 z  6 ion  1 freq  6.5e+14 f  0.000 macro  1 coll   40 up_down  1  1
+Line n    54 ion_no   5 z  6 ion  1 freq  3.4e+14 f  0.000 macro  1 coll   45 up_down  0  2
+Line n    55 ion_no   5 z  6 ion  1 freq  1.0e+15 f  0.000 macro  1 coll   34 up_down  3  0
+Line n    56 ion_no   5 z  6 ion  1 freq  1.0e+15 f  0.000 macro  1 coll   41 up_down  2  1
+Line n    57 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.048 macro  1 coll   35 up_down  4  0
+Line n    58 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.143 macro  1 coll   29 up_down  2  0
+Line n    59 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.036 macro  1 coll   36 up_down  5  1
+Line n    60 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.036 macro  1 coll   42 up_down  3  2
+Line n    61 ion_no   5 z  6 ion  1 freq  1.5e+15 f  0.000 macro  1 coll   46 up_down  1  3
+Line n    62 ion_no   5 z  6 ion  1 freq  1.2e+15 f  0.000 macro  1 coll   48 up_down  0  4
+Line n    63 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.060 macro  1 coll   37 up_down  6  0
+Line n    64 ion_no   5 z  6 ion  1 freq  1.8e+15 f  0.107 macro  1 coll   43 up_down  4  1
+Line n    65 ion_no   5 z  6 ion  1 freq  1.9e+15 f  0.000 macro  1 coll   30 up_down  3  0
+Line n    66 ion_no   5 z  6 ion  1 freq  1.9e+15 f  0.000 macro  1 coll   38 up_down  7  1
+Line n    67 ion_no   5 z  6 ion  1 freq  1.9e+15 f  0.000 macro  1 coll   44 up_down  5  2
+Line n    68 ion_no   5 z  6 ion  1 freq  1.6e+15 f  0.115 macro  1 coll   47 up_down  2  3
+Line n    69 ion_no   5 z  6 ion  1 freq  1.2e+15 f  0.080 macro  1 coll   49 up_down  1  4
+Line n    70 ion_no   6 z  6 ion  2 freq  1.9e+12 f  0.000 macro  1 coll   50 up_down  0  0
+Line n    71 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   51 up_down  1  0
+Line n    72 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   58 up_down  0  1
+Line n    73 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   52 up_down  2  0
+Line n    74 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   59 up_down  1  1
+Line n    75 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   53 up_down  3  0
+Line n    76 ion_no   6 z  6 ion  2 freq  1.3e+15 f  0.000 macro  1 coll   60 up_down  2  1
+Line n    77 ion_no   6 z  6 ion  2 freq  2.2e+15 f  0.155 macro  1 coll   54 up_down  4  0
+Line n    78 ion_no   6 z  6 ion  2 freq  2.2e+15 f  0.015 macro  1 coll   61 up_down  3  1
+Line n    79 ion_no   6 z  6 ion  2 freq  2.2e+15 f  0.139 macro  1 coll   62 up_down  4  0
+Line n    80 ion_no   6 z  6 ion  2 freq  2.9e+15 f  0.154 macro  1 coll   55 up_down  5  0
+Line n    81 ion_no   6 z  6 ion  2 freq  2.9e+15 f  0.153 macro  1 coll   63 up_down  5  1
+Line n    82 ion_no   6 z  6 ion  2 freq  3.3e+15 f  0.328 macro  1 coll   56 up_down  6  0
+Line n    83 ion_no   6 z  6 ion  2 freq  3.3e+15 f  0.083 macro  1 coll   64 up_down  6  1
+Line n    84 ion_no   6 z  6 ion  2 freq  3.3e+15 f  0.165 macro  1 coll   57 up_down  7  0
+Line n    85 ion_no   6 z  6 ion  2 freq  3.3e+15 f  0.412 macro  1 coll   65 up_down  7  1
+Line n    86 ion_no   7 z  6 ion  3 freq  1.6e+15 f  0.000 macro  1 coll   66 up_down  0  0
+Line n    87 ion_no   7 z  6 ion  3 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  1  0
+Line n    88 ion_no   7 z  6 ion  3 freq  1.7e+12 f  0.000 macro  1 coll   72 up_down  0  1
+Line n    89 ion_no   7 z  6 ion  3 freq  3.1e+15 f  0.758 macro  1 coll   68 up_down  2  0
+Line n    90 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.091 macro  1 coll -999 up_down  1  0
+Line n    91 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.068 macro  1 coll   78 up_down  0  0
+Line n    92 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.273 macro  1 coll   70 up_down  0  1
+Line n    93 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.068 macro  1 coll   74 up_down  2  2
+Line n    94 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.204 macro  1 coll -999 up_down  1  0
+Line n    95 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.114 macro  1 coll -999 up_down  3  1
+Line n    96 ion_no   7 z  6 ion  3 freq  2.8e+15 f  0.000 macro  1 coll   80 up_down  2  0
+Line n    97 ion_no   7 z  6 ion  3 freq  1.3e+15 f  0.182 macro  1 coll   82 up_down  0  1
+Line n    98 ion_no   7 z  6 ion  3 freq  4.4e+15 f  0.000 macro  1 coll -999 up_down  3  2
+Line n    99 ion_no   7 z  6 ion  3 freq  2.8e+15 f  0.000 macro  1 coll   76 up_down  4  3
+Line n   100 ion_no   7 z  6 ion  3 freq  2.4e+15 f  0.162 macro  1 coll -999 up_down  1  0
+Line n   101 ion_no   8 z  6 ion  4 freq  1.9e+15 f  0.095 macro  1 coll   84 up_down  0  0
+Line n   102 ion_no   8 z  6 ion  4 freq  1.9e+15 f  0.191 macro  1 coll -999 up_down  1  0
+Line n   103 ion_no   8 z  6 ion  4 freq  7.1e+15 f  0.039 macro  1 coll   90 up_down  0  0
+Line n   104 ion_no   8 z  6 ion  4 freq  7.1e+15 f  0.039 macro  1 coll   94 up_down  0  1
+Line n   105 ion_no   8 z  6 ion  4 freq  9.6e+15 f  0.068 macro  1 coll   86 up_down  2  0
+Line n   106 ion_no   8 z  6 ion  4 freq  5.2e+14 f  0.159 macro  1 coll -999 up_down  0  1
+Line n   107 ion_no   8 z  6 ion  4 freq  9.6e+15 f  0.136 macro  1 coll -999 up_down  3  0
+Line n   108 ion_no   8 z  6 ion  4 freq  5.2e+14 f  0.319 macro  1 coll -999 up_down  1  1
+Line n   109 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.655 macro  1 coll -999 up_down  1  0
+Line n   110 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.065 macro  1 coll -999 up_down  1  1
+Line n   111 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.588 macro  1 coll   96 up_down  2  0
+Line n   112 ion_no   8 z  6 ion  4 freq  1.0e+16 f  0.008 macro  1 coll   92 up_down  2  0
+Line n   113 ion_no   8 z  6 ion  4 freq  1.0e+16 f  0.008 macro  1 coll -999 up_down  3  1
+Line n   114 ion_no   8 z  6 ion  4 freq  2.4e+15 f  0.084 macro  1 coll -999 up_down  0  2
+Line n   115 ion_no   8 z  6 ion  4 freq  2.4e+15 f  0.084 macro  1 coll -999 up_down  0  3
+Line n   116 ion_no   8 z  6 ion  4 freq  1.2e+16 f  0.021 macro  1 coll   88 up_down  4  0
+Line n   117 ion_no   8 z  6 ion  4 freq  3.2e+15 f  0.068 macro  1 coll -999 up_down  2  1
+Line n   118 ion_no   8 z  6 ion  4 freq  2.5e+15 f  0.014 macro  1 coll -999 up_down  0  2
+Line n   119 ion_no   8 z  6 ion  4 freq  2.1e+14 f  0.219 macro  1 coll -999 up_down  0  3
+Line n   120 ion_no   7 z  6 ion  3 freq  1.6e+15 f  0.000 macro  1 coll   67 up_down  4  1
+Line n   121 ion_no   7 z  6 ion  3 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  5  2
+Line n   122 ion_no   7 z  6 ion  3 freq  1.7e+12 f  0.000 macro  1 coll   73 up_down  5  3
+Line n   123 ion_no   7 z  6 ion  3 freq  3.1e+15 f  0.758 macro  1 coll   69 up_down  6  1
+Line n   124 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.091 macro  1 coll -999 up_down  6  1
+Line n   125 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.068 macro  1 coll   79 up_down  3  3
+Line n   126 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.273 macro  1 coll   71 up_down  1  4
+Line n   127 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.068 macro  1 coll   75 up_down  7  5
+Line n   128 ion_no   7 z  6 ion  3 freq  2.5e+15 f  0.204 macro  1 coll -999 up_down  4  2
+Line n   129 ion_no   7 z  6 ion  3 freq  2.6e+15 f  0.114 macro  1 coll -999 up_down  8  3
+Line n   130 ion_no   7 z  6 ion  3 freq  2.8e+15 f  0.000 macro  1 coll   81 up_down  5  4
+Line n   131 ion_no   7 z  6 ion  3 freq  1.3e+15 f  0.182 macro  1 coll   83 up_down  2  5
+Line n   132 ion_no   7 z  6 ion  3 freq  4.4e+15 f  0.000 macro  1 coll -999 up_down  7  6
+Line n   133 ion_no   7 z  6 ion  3 freq  2.8e+15 f  0.000 macro  1 coll   77 up_down  9  7
+Line n   134 ion_no   7 z  6 ion  3 freq  2.4e+15 f  0.162 macro  1 coll -999 up_down  3  1
+Line n   135 ion_no   8 z  6 ion  4 freq  1.9e+15 f  0.095 macro  1 coll   85 up_down  5  1
+Line n   136 ion_no   8 z  6 ion  4 freq  1.9e+15 f  0.191 macro  1 coll -999 up_down  6  1
+Line n   137 ion_no   8 z  6 ion  4 freq  7.1e+15 f  0.039 macro  1 coll   91 up_down  3  2
+Line n   138 ion_no   8 z  6 ion  4 freq  7.1e+15 f  0.039 macro  1 coll   95 up_down  4  3
+Line n   139 ion_no   8 z  6 ion  4 freq  9.6e+15 f  0.068 macro  1 coll   87 up_down  7  2
+Line n   140 ion_no   8 z  6 ion  4 freq  5.2e+14 f  0.159 macro  1 coll -999 up_down  3  3
+Line n   141 ion_no   8 z  6 ion  4 freq  9.6e+15 f  0.136 macro  1 coll -999 up_down  8  2
+Line n   142 ion_no   8 z  6 ion  4 freq  5.2e+14 f  0.319 macro  1 coll -999 up_down  4  3
+Line n   143 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.655 macro  1 coll -999 up_down  4  2
+Line n   144 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.065 macro  1 coll -999 up_down  5  3
+Line n   145 ion_no   8 z  6 ion  4 freq  7.8e+15 f  0.588 macro  1 coll   97 up_down  6  1
+Line n   146 ion_no   8 z  6 ion  4 freq  1.0e+16 f  0.008 macro  1 coll   93 up_down  5  4
+Line n   147 ion_no   8 z  6 ion  4 freq  1.0e+16 f  0.008 macro  1 coll -999 up_down  7  5
+Line n   148 ion_no   8 z  6 ion  4 freq  2.4e+15 f  0.084 macro  1 coll -999 up_down  1  6
+Line n   149 ion_no   8 z  6 ion  4 freq  2.4e+15 f  0.084 macro  1 coll -999 up_down  1  7
+Line n   150 ion_no   8 z  6 ion  4 freq  1.2e+16 f  0.021 macro  1 coll   89 up_down  9  4
+Line n   151 ion_no   8 z  6 ion  4 freq  3.2e+15 f  0.068 macro  1 coll -999 up_down  5  5
+Line n   152 ion_no   8 z  6 ion  4 freq  2.5e+15 f  0.014 macro  1 coll -999 up_down  1  6
+Line n   153 ion_no   8 z  6 ion  4 freq  2.1e+14 f  0.219 macro  1 coll -999 up_down  1  7
+Line n   154 ion_no   9 z  6 ion  5 freq  7.2e+16 f  0.000 macro  1 coll   98 up_down  0  0
+Line n   155 ion_no   9 z  6 ion  5 freq  7.4e+16 f  0.000 macro  1 coll   99 up_down  1  0
+Line n   156 ion_no   9 z  6 ion  5 freq  7.4e+16 f  0.000 macro  1 coll  100 up_down  2  0
+Line n   157 ion_no   9 z  6 ion  5 freq  1.3e+15 f  0.045 macro  1 coll  104 up_down  0  1
+Line n   158 ion_no   9 z  6 ion  5 freq  1.3e+15 f  0.015 macro  1 coll  105 up_down  1  0
+Line n   159 ion_no   9 z  6 ion  5 freq  7.4e+16 f  0.000 macro  1 coll  101 up_down  3  0
+Line n   160 ion_no   9 z  6 ion  5 freq  1.3e+15 f  0.075 macro  1 coll  106 up_down  2  1
+Line n   161 ion_no   9 z  6 ion  5 freq  7.4e+16 f  0.673 macro  1 coll  102 up_down  4  0
+Line n   162 ion_no   9 z  6 ion  5 freq  1.2e+16 f  0.020 macro  1 coll  109 up_down  0  0
+Line n   163 ion_no   9 z  6 ion  5 freq  1.2e+16 f  0.021 macro  1 coll  110 up_down  0  1
+Line n   164 ion_no   9 z  6 ion  5 freq  1.2e+16 f  0.020 macro  1 coll  111 up_down  0  2
+Line n   165 ion_no   9 z  6 ion  5 freq  1.3e+16 f  0.034 macro  1 coll  107 up_down  3  0
+Line n   166 ion_no   9 z  6 ion  5 freq  3.5e+14 f  0.025 macro  1 coll -999 up_down  0  1
+Line n   167 ion_no   9 z  6 ion  5 freq  8.5e+16 f  0.000 macro  1 coll  103 up_down  5  0
+Line n   168 ion_no   9 z  6 ion  5 freq  1.3e+16 f  0.103 macro  1 coll  108 up_down  4  1
+Line n   169 ion_no   9 z  6 ion  5 freq  3.5e+14 f  0.075 macro  1 coll -999 up_down  1  2
+Line n   170 ion_no  10 z  6 ion  6 freq  8.9e+16 f  0.000 macro  1 coll  112 up_down  0  0
+Line n   171 ion_no  10 z  6 ion  6 freq  8.9e+16 f  0.000 macro  1 coll  113 up_down  1  1
+Line n   172 ion_no  10 z  6 ion  6 freq  8.9e+16 f  0.139 macro  1 coll  114 up_down  2  0
+Line n   173 ion_no  10 z  6 ion  6 freq  8.9e+16 f  0.277 macro  1 coll  115 up_down  3  0
+Line n   174 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.014 macro  1 coll -999 up_down  0  0
+Line n   175 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.014 macro  1 coll -999 up_down  0  1
+Line n   176 ion_no  10 z  6 ion  6 freq  1.1e+17 f  0.026 macro  1 coll  116 up_down  4  0
+Line n   177 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.145 macro  1 coll  120 up_down  0  1
+Line n   178 ion_no  10 z  6 ion  6 freq  1.1e+17 f  0.053 macro  1 coll  117 up_down  5  0
+Line n   179 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.289 macro  1 coll  121 up_down  1  1
+Line n   180 ion_no  10 z  6 ion  6 freq  1.1e+17 f  0.000 macro  1 coll  118 up_down  6  0
+Line n   181 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.000 macro  1 coll  122 up_down  2  1
+Line n   182 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.695 macro  1 coll -999 up_down  1  2
+Line n   183 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.070 macro  1 coll -999 up_down  1  3
+Line n   184 ion_no  10 z  6 ion  6 freq  1.1e+17 f  0.000 macro  1 coll  119 up_down  7  0
+Line n   185 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.000 macro  1 coll  123 up_down  3  1
+Line n   186 ion_no  10 z  6 ion  6 freq  1.6e+16 f  0.626 macro  1 coll -999 up_down  2  2
+Line n   187 ion_no  10 z  6 ion  6 freq  2.2e+16 f  0.003 macro  1 coll -999 up_down  2  0
+Line n   188 ion_no  10 z  6 ion  6 freq  2.2e+16 f  0.003 macro  1 coll -999 up_down  3  1
+Line n   189 ion_no  10 z  6 ion  6 freq  5.8e+15 f  0.032 macro  1 coll -999 up_down  0  2
+Line n   190 ion_no  10 z  6 ion  6 freq  5.8e+15 f  0.032 macro  1 coll -999 up_down  0  3
+Line n   191 ion_no  12 z  7 ion  1 freq  5.8e+14 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   192 ion_no  12 z  7 ion  1 freq  2.6e+11 f  0.000 macro  1 coll -999 up_down  0  1
+Line n   193 ion_no  12 z  7 ion  1 freq  5.8e+14 f  0.000 macro  1 coll -999 up_down  1  0
+Line n   194 ion_no  12 z  7 ion  1 freq  8.6e+14 f  0.000 macro  1 coll -999 up_down  2  0
+Line n   195 ion_no  12 z  7 ion  1 freq  2.9e+14 f  0.000 macro  1 coll -999 up_down  0  1
+Line n   196 ion_no  12 z  7 ion  1 freq  2.9e+14 f  0.000 macro  1 coll -999 up_down  1  2
+Line n   197 ion_no  12 z  7 ion  1 freq  8.6e+14 f  0.000 macro  1 coll -999 up_down  3  0
+Line n   198 ion_no  12 z  7 ion  1 freq  2.9e+14 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   199 ion_no  12 z  7 ion  1 freq  2.9e+14 f  0.000 macro  1 coll -999 up_down  2  2
+Line n   200 ion_no  12 z  7 ion  1 freq  2.5e+15 f  0.043 macro  1 coll -999 up_down  4  0
+Line n   201 ion_no  12 z  7 ion  1 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  2  1
+Line n   202 ion_no  12 z  7 ion  1 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  0  2
+Line n   203 ion_no  12 z  7 ion  1 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  0  3
+Line n   204 ion_no  12 z  7 ion  1 freq  2.5e+15 f  0.086 macro  1 coll -999 up_down  5  0
+Line n   205 ion_no  12 z  7 ion  1 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  3  1
+Line n   206 ion_no  12 z  7 ion  1 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  3  2
+Line n   207 ion_no  12 z  7 ion  1 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  1  3
+Line n   208 ion_no  12 z  7 ion  1 freq  1.6e+15 f  0.000 macro  1 coll -999 up_down  1  4
+Line n   209 ion_no  12 z  7 ion  1 freq  2.5e+15 f  0.131 macro  1 coll -999 up_down  6  0
+Line n   210 ion_no  12 z  7 ion  1 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  4  1
+Line n   211 ion_no  12 z  7 ion  1 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  4  2
+Line n   212 ion_no  12 z  7 ion  1 freq  2.6e+15 f  0.000 macro  1 coll -999 up_down  7  0
+Line n   213 ion_no  12 z  7 ion  1 freq  2.0e+15 f  0.057 macro  1 coll -999 up_down  5  1
+Line n   214 ion_no  12 z  7 ion  1 freq  1.7e+15 f  0.038 macro  1 coll -999 up_down  2  2
+Line n   215 ion_no  12 z  7 ion  1 freq  1.7e+15 f  0.009 macro  1 coll -999 up_down  2  3
+Line n   216 ion_no  12 z  7 ion  1 freq  2.6e+15 f  0.000 macro  1 coll -999 up_down  8  0
+Line n   217 ion_no  12 z  7 ion  1 freq  2.0e+15 f  0.011 macro  1 coll -999 up_down  6  1
+Line n   218 ion_no  12 z  7 ion  1 freq  2.0e+15 f  0.069 macro  1 coll -999 up_down  5  2
+Line n   219 ion_no  12 z  7 ion  1 freq  1.7e+15 f  0.019 macro  1 coll -999 up_down  3  3
+Line n   220 ion_no  12 z  7 ion  1 freq  1.7e+15 f  0.048 macro  1 coll -999 up_down  3  4
+Line n   221 ion_no  13 z  7 ion  2 freq  1.5e+12 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   222 ion_no  13 z  7 ion  2 freq  2.5e+12 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   223 ion_no  13 z  7 ion  2 freq  4.6e+14 f  0.000 macro  1 coll -999 up_down  1  0
+Line n   224 ion_no  13 z  7 ion  2 freq  4.6e+14 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   225 ion_no  13 z  7 ion  2 freq  4.6e+14 f  0.000 macro  1 coll -999 up_down  0  2
+Line n   226 ion_no  13 z  7 ion  2 freq  9.8e+14 f  0.000 macro  1 coll -999 up_down  2  0
+Line n   227 ion_no  13 z  7 ion  2 freq  9.8e+14 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   228 ion_no  13 z  7 ion  2 freq  5.2e+14 f  0.000 macro  1 coll -999 up_down  0  2
+Line n   229 ion_no  13 z  7 ion  2 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  3  0
+Line n   230 ion_no  13 z  7 ion  2 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  2  1
+Line n   231 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.093 macro  1 coll -999 up_down  3  0
+Line n   232 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.084 macro  1 coll -999 up_down  4  0
+Line n   233 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.016 macro  1 coll -999 up_down  4  1
+Line n   234 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.112 macro  1 coll -999 up_down  2  0
+Line n   235 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.028 macro  1 coll -999 up_down  5  1
+Line n   236 ion_no  13 z  7 ion  2 freq  2.8e+15 f  0.001 macro  1 coll -999 up_down  5  2
+Line n   237 ion_no  13 z  7 ion  2 freq  3.3e+15 f  0.163 macro  1 coll -999 up_down  3  0
+Line n   238 ion_no  13 z  7 ion  2 freq  3.3e+15 f  0.041 macro  1 coll -999 up_down  6  1
+Line n   239 ion_no  13 z  7 ion  2 freq  3.3e+15 f  0.041 macro  1 coll -999 up_down  6  2
+Line n   240 ion_no  14 z  7 ion  3 freq  5.2e+12 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   241 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  1  0
+Line n   242 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  0  1
+Line n   243 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  2  0
+Line n   244 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   245 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  2  0
+Line n   246 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.122 macro  1 coll -999 up_down  3  0
+Line n   247 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.012 macro  1 coll -999 up_down  3  1
+Line n   248 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.109 macro  1 coll -999 up_down  4  0
+Line n   249 ion_no  14 z  7 ion  3 freq  3.9e+15 f  0.082 macro  1 coll -999 up_down  4  0
+Line n   250 ion_no  14 z  7 ion  3 freq  3.9e+15 f  0.080 macro  1 coll -999 up_down  5  1
+Line n   251 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.262 macro  1 coll -999 up_down  5  0
+Line n   252 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.067 macro  1 coll -999 up_down  6  1
+Line n   253 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.131 macro  1 coll -999 up_down  6  0
+Line n   254 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.330 macro  1 coll -999 up_down  7  1
+Line n   255 ion_no  15 z  7 ion  4 freq  2.0e+15 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   256 ion_no  15 z  7 ion  4 freq  2.0e+15 f  0.000 macro  1 coll -999 up_down  1  0
+Line n   257 ion_no  15 z  7 ion  4 freq  3.9e+15 f  0.627 macro  1 coll -999 up_down  2  0
+Line n   258 ion_no  15 z  7 ion  4 freq  5.3e+15 f  0.000 macro  1 coll -999 up_down  3  0
+Line n   259 ion_no  15 z  7 ion  4 freq  5.3e+15 f  0.000 macro  1 coll -999 up_down  4  0
+Line n   260 ion_no  15 z  7 ion  4 freq  5.7e+15 f  0.000 macro  1 coll -999 up_down  5  0
+Line n   261 ion_no  15 z  7 ion  4 freq  1.9e+12 f  0.000 macro  1 coll -999 up_down  0  1
+Line n   262 ion_no  15 z  7 ion  4 freq  6.2e+12 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   263 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  2  1
+Line n   264 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.232 macro  1 coll -999 up_down  3  1
+Line n   265 ion_no  15 z  7 ion  4 freq  3.3e+15 f  0.000 macro  1 coll -999 up_down  4  1
+Line n   266 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down  5  1
+Line n   267 ion_no  15 z  7 ion  4 freq  4.3e+12 f  0.000 macro  1 coll -999 up_down  0  2
+Line n   268 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  1  2
+Line n   269 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.077 macro  1 coll -999 up_down  2  0
+Line n   270 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.058 macro  1 coll -999 up_down  3  2
+Line n   271 ion_no  15 z  7 ion  4 freq  3.3e+15 f  0.097 macro  1 coll -999 up_down  4  2
+Line n   272 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down  5  2
+Line n   273 ion_no  15 z  7 ion  4 freq  5.0e+15 f  0.000 macro  1 coll -999 up_down  6  0
+Line n   274 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  0  3
+Line n   275 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   276 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.058 macro  1 coll -999 up_down  2  3
+Line n   277 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.174 macro  1 coll -999 up_down  3  3
+Line n   278 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down  4  3
+Line n   279 ion_no  15 z  7 ion  4 freq  5.0e+15 f  0.000 macro  1 coll -999 up_down  5  1
+Line n   280 ion_no  15 z  7 ion  4 freq  1.3e+15 f  0.000 macro  1 coll -999 up_down  0  2
+Line n   281 ion_no  15 z  7 ion  4 freq  1.3e+15 f  0.000 macro  1 coll -999 up_down  1  4
+Line n   282 ion_no  15 z  7 ion  4 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  2  4
+Line n   283 ion_no  15 z  7 ion  4 freq  1.7e+15 f  0.171 macro  1 coll -999 up_down  3  4
+Line n   284 ion_no  15 z  7 ion  4 freq  3.1e+15 f  0.141 macro  1 coll -999 up_down  4  2
+Line n   285 ion_no  15 z  7 ion  4 freq  2.2e+12 f  0.000 macro  1 coll -999 up_down  0  5
+Line n   286 ion_no  15 z  7 ion  4 freq  5.9e+12 f  0.000 macro  1 coll -999 up_down  1  5
+Line n   287 ion_no  15 z  7 ion  4 freq  4.0e+14 f  0.000 macro  1 coll -999 up_down  2  5
+Line n   288 ion_no  15 z  7 ion  4 freq  3.7e+12 f  0.000 macro  1 coll -999 up_down  0  6
+Line n   289 ion_no  15 z  7 ion  4 freq  4.0e+14 f  0.000 macro  1 coll -999 up_down  1  6
+Line n   290 ion_no  15 z  7 ion  4 freq  1.8e+15 f  0.000 macro  1 coll -999 up_down  2  3
+Line n   291 ion_no  15 z  7 ion  4 freq  3.9e+14 f  0.000 macro  1 coll -999 up_down  0  7
+Line n   292 ion_no  15 z  7 ion  4 freq  1.8e+15 f  0.000 macro  1 coll -999 up_down  1  4
+Line n   293 ion_no  15 z  7 ion  4 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  0  5
+Line n   294 ion_no  14 z  7 ion  3 freq  5.2e+12 f  0.000 macro  1 coll -999 up_down  7  1
+Line n   295 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  8  2
+Line n   296 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  8  3
+Line n   297 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  9  2
+Line n   298 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down  9  3
+Line n   299 ion_no  14 z  7 ion  3 freq  1.7e+15 f  0.000 macro  1 coll -999 up_down 10  1
+Line n   300 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.122 macro  1 coll -999 up_down 10  2
+Line n   301 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.012 macro  1 coll -999 up_down 11  3
+Line n   302 ion_no  14 z  7 ion  3 freq  3.0e+15 f  0.109 macro  1 coll -999 up_down 12  1
+Line n   303 ion_no  14 z  7 ion  3 freq  3.9e+15 f  0.082 macro  1 coll -999 up_down 11  2
+Line n   304 ion_no  14 z  7 ion  3 freq  3.9e+15 f  0.080 macro  1 coll -999 up_down 13  3
+Line n   305 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.262 macro  1 coll -999 up_down 12  2
+Line n   306 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.067 macro  1 coll -999 up_down 14  3
+Line n   307 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.131 macro  1 coll -999 up_down 13  2
+Line n   308 ion_no  14 z  7 ion  3 freq  4.4e+15 f  0.330 macro  1 coll -999 up_down 15  3
+Line n   309 ion_no  15 z  7 ion  4 freq  2.0e+15 f  0.000 macro  1 coll -999 up_down  6  2
+Line n   310 ion_no  15 z  7 ion  4 freq  2.0e+15 f  0.000 macro  1 coll -999 up_down  7  3
+Line n   311 ion_no  15 z  7 ion  4 freq  3.9e+15 f  0.627 macro  1 coll -999 up_down  8  4
+Line n   312 ion_no  15 z  7 ion  4 freq  5.3e+15 f  0.000 macro  1 coll -999 up_down  9  6
+Line n   313 ion_no  15 z  7 ion  4 freq  5.3e+15 f  0.000 macro  1 coll -999 up_down 10  7
+Line n   314 ion_no  15 z  7 ion  4 freq  5.7e+15 f  0.000 macro  1 coll -999 up_down 11  8
+Line n   315 ion_no  15 z  7 ion  4 freq  1.9e+12 f  0.000 macro  1 coll -999 up_down  6  3
+Line n   316 ion_no  15 z  7 ion  4 freq  6.2e+12 f  0.000 macro  1 coll -999 up_down  7  4
+Line n   317 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  8  5
+Line n   318 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.232 macro  1 coll -999 up_down  9  7
+Line n   319 ion_no  15 z  7 ion  4 freq  3.3e+15 f  0.000 macro  1 coll -999 up_down 10  8
+Line n   320 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down 11  9
+Line n   321 ion_no  15 z  7 ion  4 freq  4.3e+12 f  0.000 macro  1 coll -999 up_down  7  5
+Line n   322 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  8  6
+Line n   323 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.077 macro  1 coll -999 up_down  9  3
+Line n   324 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.058 macro  1 coll -999 up_down 10  8
+Line n   325 ion_no  15 z  7 ion  4 freq  3.3e+15 f  0.097 macro  1 coll -999 up_down 11  9
+Line n   326 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down 12 10
+Line n   327 ion_no  15 z  7 ion  4 freq  5.0e+15 f  0.000 macro  1 coll -999 up_down 13  6
+Line n   328 ion_no  15 z  7 ion  4 freq  1.9e+15 f  0.000 macro  1 coll -999 up_down  6  7
+Line n   329 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.000 macro  1 coll -999 up_down  7  4
+Line n   330 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.058 macro  1 coll -999 up_down  8  9
+Line n   331 ion_no  15 z  7 ion  4 freq  3.2e+15 f  0.174 macro  1 coll -999 up_down  9 10
+Line n   332 ion_no  15 z  7 ion  4 freq  3.6e+15 f  0.000 macro  1 coll -999 up_down 10 11
+Line n   333 ion_no  15 z  7 ion  4 freq  5.0e+15 f  0.000 macro  1 coll -999 up_down 11  7
+Line n   334 ion_no  15 z  7 ion  4 freq  1.3e+15 f  0.000 macro  1 coll -999 up_down  5  5
+Line n   335 ion_no  15 z  7 ion  4 freq  1.3e+15 f  0.000 macro  1 coll -999 up_down  6 10
+Line n   336 ion_no  15 z  7 ion  4 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  7 11
+Line n   337 ion_no  15 z  7 ion  4 freq  1.7e+15 f  0.171 macro  1 coll -999 up_down  8 12
+Line n   338 ion_no  15 z  7 ion  4 freq  3.1e+15 f  0.141 macro  1 coll -999 up_down  9  8
+Line n   339 ion_no  15 z  7 ion  4 freq  2.2e+12 f  0.000 macro  1 coll -999 up_down  3 11
+Line n   340 ion_no  15 z  7 ion  4 freq  5.9e+12 f  0.000 macro  1 coll -999 up_down  4 12
+Line n   341 ion_no  15 z  7 ion  4 freq  4.0e+14 f  0.000 macro  1 coll -999 up_down  5 13
+Line n   342 ion_no  15 z  7 ion  4 freq  3.7e+12 f  0.000 macro  1 coll -999 up_down  3 13
+Line n   343 ion_no  15 z  7 ion  4 freq  4.0e+14 f  0.000 macro  1 coll -999 up_down  4 14
+Line n   344 ion_no  15 z  7 ion  4 freq  1.8e+15 f  0.000 macro  1 coll -999 up_down  5  9
+Line n   345 ion_no  15 z  7 ion  4 freq  3.9e+14 f  0.000 macro  1 coll -999 up_down  2 15
+Line n   346 ion_no  15 z  7 ion  4 freq  1.8e+15 f  0.000 macro  1 coll -999 up_down  3 10
+Line n   347 ion_no  15 z  7 ion  4 freq  1.4e+15 f  0.000 macro  1 coll -999 up_down  1 11
+Line n   348 ion_no  16 z  7 ion  5 freq  2.4e+15 f  0.078 macro  1 coll -999 up_down  0  0
+Line n   349 ion_no  16 z  7 ion  5 freq  2.4e+15 f  0.157 macro  1 coll -999 up_down  1  0
+Line n   350 ion_no  16 z  7 ion  5 freq  1.1e+16 f  0.033 macro  1 coll -999 up_down  0  0
+Line n   351 ion_no  16 z  7 ion  5 freq  1.1e+16 f  0.033 macro  1 coll -999 up_down  0  1
+Line n   352 ion_no  16 z  7 ion  5 freq  1.4e+16 f  0.080 macro  1 coll -999 up_down  2  0
+Line n   353 ion_no  16 z  7 ion  5 freq  6.5e+14 f  0.131 macro  1 coll -999 up_down  0  1
+Line n   354 ion_no  16 z  7 ion  5 freq  1.4e+16 f  0.159 macro  1 coll -999 up_down  3  0
+Line n   355 ion_no  16 z  7 ion  5 freq  6.5e+14 f  0.263 macro  1 coll -999 up_down  1  1
+Line n   356 ion_no  16 z  7 ion  5 freq  1.2e+16 f  0.655 macro  1 coll -999 up_down  1  0
+Line n   357 ion_no  16 z  7 ion  5 freq  1.2e+16 f  0.066 macro  1 coll -999 up_down  1  1
+Line n   358 ion_no  16 z  7 ion  5 freq  1.2e+16 f  0.590 macro  1 coll -999 up_down  2  0
+Line n   359 ion_no  16 z  7 ion  5 freq  1.6e+16 f  0.007 macro  1 coll -999 up_down  2  0
+Line n   360 ion_no  16 z  7 ion  5 freq  1.6e+16 f  0.007 macro  1 coll -999 up_down  3  1
+Line n   361 ion_no  16 z  7 ion  5 freq  3.9e+15 f  0.072 macro  1 coll -999 up_down  0  2
+Line n   362 ion_no  16 z  7 ion  5 freq  3.9e+15 f  0.072 macro  1 coll -999 up_down  0  3
+Line n   363 ion_no  16 z  7 ion  5 freq  1.8e+16 f  0.023 macro  1 coll -999 up_down  4  0
+Line n   364 ion_no  16 z  7 ion  5 freq  4.8e+15 f  0.082 macro  1 coll -999 up_down  2  1
+Line n   365 ion_no  16 z  7 ion  5 freq  3.9e+15 f  0.013 macro  1 coll -999 up_down  0  2
+Line n   366 ion_no  16 z  7 ion  5 freq  2.6e+14 f  0.180 macro  1 coll -999 up_down  0  3
+Line n   367 ion_no  17 z  7 ion  6 freq  1.0e+17 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   368 ion_no  17 z  7 ion  6 freq  1.6e+15 f  0.013 macro  1 coll -999 up_down  0  0
+Line n   369 ion_no  17 z  7 ion  6 freq  1.0e+17 f  0.000 macro  1 coll -999 up_down  1  0
+Line n   370 ion_no  17 z  7 ion  6 freq  1.6e+15 f  0.038 macro  1 coll -999 up_down  1  1
+Line n   371 ion_no  17 z  7 ion  6 freq  1.0e+17 f  0.000 macro  1 coll -999 up_down  2  0
+Line n   372 ion_no  17 z  7 ion  6 freq  1.6e+15 f  0.063 macro  1 coll -999 up_down  2  1
+Line n   373 ion_no  17 z  7 ion  6 freq  1.0e+17 f  0.000 macro  1 coll -999 up_down  3  0
+Line n   374 ion_no  17 z  7 ion  6 freq  3.0e+13 f  0.000 macro  1 coll -999 up_down  0  1
+Line n   375 ion_no  17 z  7 ion  6 freq  1.0e+17 f  0.696 macro  1 coll -999 up_down  4  0
+Line n   376 ion_no  17 z  7 ion  6 freq  1.7e+16 f  0.019 macro  1 coll -999 up_down  0  0
+Line n   377 ion_no  17 z  7 ion  6 freq  1.7e+16 f  0.019 macro  1 coll -999 up_down  1  1
+Line n   378 ion_no  17 z  7 ion  6 freq  1.7e+16 f  0.019 macro  1 coll -999 up_down  0  2
+Line n   379 ion_no  17 z  7 ion  6 freq  1.9e+16 f  0.036 macro  1 coll -999 up_down  3  0
+Line n   380 ion_no  17 z  7 ion  6 freq  4.3e+14 f  0.021 macro  1 coll -999 up_down  0  1
+Line n   381 ion_no  17 z  7 ion  6 freq  1.2e+17 f  0.000 macro  1 coll -999 up_down  5  0
+Line n   382 ion_no  17 z  7 ion  6 freq  1.9e+16 f  0.109 macro  1 coll -999 up_down  4  1
+Line n   383 ion_no  17 z  7 ion  6 freq  4.3e+14 f  0.063 macro  1 coll -999 up_down  1  2
+Line n   384 ion_no  18 z  7 ion  7 freq  1.2e+17 f  0.000 macro  1 coll -999 up_down  0  0
+Line n   385 ion_no  18 z  7 ion  7 freq  1.2e+17 f  0.000 macro  1 coll -999 up_down  1  1
+Line n   386 ion_no  18 z  7 ion  7 freq  1.2e+17 f  0.139 macro  1 coll -999 up_down  2  0
+Line n   387 ion_no  18 z  7 ion  7 freq  1.2e+17 f  0.278 macro  1 coll -999 up_down  3  0
+Line n   388 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.014 macro  1 coll -999 up_down  0  0
+Line n   389 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.014 macro  1 coll -999 up_down  0  1
+Line n   390 ion_no  18 z  7 ion  7 freq  1.4e+17 f  0.026 macro  1 coll -999 up_down  4  0
+Line n   391 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.145 macro  1 coll -999 up_down  0  1
+Line n   392 ion_no  18 z  7 ion  7 freq  1.4e+17 f  0.053 macro  1 coll -999 up_down  5  0
+Line n   393 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.290 macro  1 coll -999 up_down  1  1
+Line n   394 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.696 macro  1 coll -999 up_down  1  0
+Line n   395 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.070 macro  1 coll -999 up_down  1  1
+Line n   396 ion_no  18 z  7 ion  7 freq  2.2e+16 f  0.626 macro  1 coll -999 up_down  2  0
+Line n   397 ion_no  18 z  7 ion  7 freq  3.0e+16 f  0.003 macro  1 coll -999 up_down  2  0
+Line n   398 ion_no  18 z  7 ion  7 freq  3.0e+16 f  0.003 macro  1 coll -999 up_down  3  1
+Line n   399 ion_no  18 z  7 ion  7 freq  7.8e+15 f  0.032 macro  1 coll -999 up_down  0  2
+# Photoionization data: There are 90 edges
+Phot n     0 z  1 istate   1 sigma 6.30e-18 freq[0] 3.29e+15 nlev     0 uplev 10 macro  1   0  0 use  0
+Phot n     1 z  1 istate   1 sigma 1.48e-17 freq[0] 8.22e+14 nlev     1 uplev 10 macro  1   1  0 use  0
+Phot n     2 z  1 istate   1 sigma 1.35e-17 freq[0] 8.22e+14 nlev     2 uplev 10 macro  1   2  0 use  0
+Phot n     3 z  1 istate   1 sigma 1.35e-17 freq[0] 8.22e+14 nlev     3 uplev 10 macro  1   3  0 use  0
+Phot n     4 z  1 istate   1 sigma 2.52e-17 freq[0] 3.66e+14 nlev     4 uplev 10 macro  1   4  0 use  0
+Phot n     5 z  1 istate   1 sigma 2.60e-17 freq[0] 3.66e+14 nlev     5 uplev 10 macro  1   5  0 use  0
+Phot n     6 z  1 istate   1 sigma 2.60e-17 freq[0] 3.66e+14 nlev     6 uplev 10 macro  1   6  0 use  0
+Phot n     7 z  1 istate   1 sigma 1.81e-17 freq[0] 3.66e+14 nlev     7 uplev 10 macro  1   7  0 use  0
+Phot n     8 z  1 istate   1 sigma 1.81e-17 freq[0] 3.66e+14 nlev     8 uplev 10 macro  1   8  0 use  0
+Phot n     9 z  1 istate   1 sigma 3.73e-17 freq[0] 2.06e+14 nlev     9 uplev 10 macro  1   9  0 use  0
+Phot n    10 z  2 istate   1 sigma 6.52e-18 freq[0] 6.32e+15 nlev    11 uplev 21 macro  1   0  0 use  0
+Phot n    11 z  2 istate   1 sigma 4.13e-18 freq[0] 1.49e+15 nlev    12 uplev 21 macro  1   1  0 use  0
+Phot n    12 z  2 istate   1 sigma 7.35e-18 freq[0] 1.12e+15 nlev    13 uplev 21 macro  1   2  0 use  0
+Phot n    13 z  2 istate   1 sigma 9.66e-18 freq[0] 1.04e+15 nlev    14 uplev 21 macro  1   3  0 use  0
+Phot n    14 z  2 istate   1 sigma 9.66e-18 freq[0] 1.04e+15 nlev    15 uplev 21 macro  1   4  0 use  0
+Phot n    15 z  2 istate   1 sigma 9.66e-18 freq[0] 1.04e+15 nlev    16 uplev 21 macro  1   5  0 use  0
+Phot n    16 z  2 istate   1 sigma 7.37e-18 freq[0] 9.81e+14 nlev    17 uplev 21 macro  1   6  0 use  0
+Phot n    17 z  2 istate   1 sigma 5.33e-18 freq[0] 6.20e+14 nlev    18 uplev 21 macro  1   7  0 use  0
+Phot n    18 z  2 istate   1 sigma 8.36e-18 freq[0] 5.69e+14 nlev    19 uplev 21 macro  1   8  0 use  0
+Phot n    19 z  2 istate   1 sigma 1.21e-17 freq[0] 5.50e+14 nlev    20 uplev 21 macro  1   9  0 use  0
+Phot n    20 z  2 istate   2 sigma 1.58e-18 freq[0] 1.32e+16 nlev    21 uplev 31 macro  1   0  0 use  0
+Phot n    21 z  2 istate   2 sigma 3.69e-18 freq[0] 3.29e+15 nlev    22 uplev 31 macro  1   1  0 use  0
+Phot n    22 z  2 istate   2 sigma 3.39e-18 freq[0] 3.29e+15 nlev    23 uplev 31 macro  1   2  0 use  0
+Phot n    23 z  2 istate   2 sigma 3.39e-18 freq[0] 3.29e+15 nlev    24 uplev 31 macro  1   3  0 use  0
+Phot n    24 z  2 istate   2 sigma 6.30e-18 freq[0] 1.46e+15 nlev    25 uplev 31 macro  1   4  0 use  0
+Phot n    25 z  2 istate   2 sigma 6.51e-18 freq[0] 1.46e+15 nlev    26 uplev 31 macro  1   5  0 use  0
+Phot n    26 z  2 istate   2 sigma 6.51e-18 freq[0] 1.46e+15 nlev    27 uplev 31 macro  1   6  0 use  0
+Phot n    27 z  2 istate   2 sigma 4.52e-18 freq[0] 1.46e+15 nlev    28 uplev 31 macro  1   7  0 use  0
+Phot n    28 z  2 istate   2 sigma 4.52e-18 freq[0] 1.46e+15 nlev    29 uplev 31 macro  1   8  0 use  0
+Phot n    29 z  2 istate   2 sigma 9.32e-18 freq[0] 8.22e+14 nlev    30 uplev 31 macro  1   9  0 use  0
+Phot n    30 z  6 istate   1 sigma 1.78e-17 freq[0] 2.77e+15 nlev    32 uplev 42 macro  1   0  0 use  0
+Phot n    31 z  6 istate   1 sigma 1.78e-17 freq[0] 2.77e+15 nlev    33 uplev 42 macro  1   1  0 use  0
+Phot n    32 z  6 istate   1 sigma 1.78e-17 freq[0] 2.77e+15 nlev    34 uplev 42 macro  1   2  0 use  0
+Phot n    33 z  6 istate   1 sigma 1.24e-17 freq[0] 2.45e+15 nlev    35 uplev 42 macro  1   3  0 use  0
+Phot n    34 z  6 istate   1 sigma 1.44e-17 freq[0] 2.08e+15 nlev    36 uplev 42 macro  1   4  0 use  0
+Phot n    35 z  6 istate   1 sigma 1.95e-17 freq[0] 3.03e+15 nlev    37 uplev 42 macro  1   5  0 use  0
+Phot n    36 z  6 istate   1 sigma 4.85e-19 freq[0] 9.59e+14 nlev    38 uplev 42 macro  1   6  0 use  0
+Phot n    37 z  6 istate   1 sigma 4.85e-19 freq[0] 9.59e+14 nlev    39 uplev 42 macro  1   7  0 use  0
+Phot n    38 z  6 istate   1 sigma 4.85e-19 freq[0] 9.59e+14 nlev    40 uplev 42 macro  1   8  0 use  0
+Phot n    39 z  6 istate   1 sigma 1.81e-18 freq[0] 9.07e+14 nlev    41 uplev 42 macro  1   9  0 use  0
+Phot n    40 z  6 istate   2 sigma 5.18e-18 freq[0] 6.43e+15 nlev    42 uplev 52 macro  1   0  0 use  0
+Phot n    41 z  6 istate   2 sigma 5.18e-18 freq[0] 6.43e+15 nlev    43 uplev 52 macro  1   1  0 use  0
+Phot n    42 z  6 istate   2 sigma 8.54e-18 freq[0] 6.74e+15 nlev    44 uplev 52 macro  1   2  0 use  0
+Phot n    43 z  6 istate   2 sigma 8.54e-18 freq[0] 6.74e+15 nlev    45 uplev 52 macro  1   3  0 use  0
+Phot n    44 z  6 istate   2 sigma 8.54e-18 freq[0] 6.74e+15 nlev    46 uplev 52 macro  1   4  0 use  0
+Phot n    45 z  6 istate   2 sigma 6.20e-19 freq[0] 3.62e+15 nlev    47 uplev 52 macro  1   5  0 use  0
+Phot n    46 z  6 istate   2 sigma 6.20e-19 freq[0] 3.62e+15 nlev    48 uplev 52 macro  1   6  0 use  0
+Phot n    47 z  6 istate   2 sigma 3.00e-20 freq[0] 3.05e+15 nlev    49 uplev 52 macro  1   7  0 use  0
+Phot n    48 z  6 istate   2 sigma 1.01e-20 freq[0] 2.61e+15 nlev    50 uplev 52 macro  1   8  0 use  0
+Phot n    49 z  6 istate   2 sigma 1.01e-20 freq[0] 2.61e+15 nlev    51 uplev 52 macro  1   9  0 use  0
+Phot n    50 z  6 istate   3 sigma 1.86e-18 freq[0] 1.16e+16 nlev    52 uplev 62 macro  1   0  0 use  0
+Phot n    51 z  6 istate   3 sigma 1.98e-18 freq[0] 1.01e+16 nlev    53 uplev 62 macro  1   1  0 use  0
+Phot n    52 z  6 istate   3 sigma 1.98e-18 freq[0] 1.01e+16 nlev    54 uplev 62 macro  1   2  0 use  0
+Phot n    53 z  6 istate   3 sigma 1.98e-18 freq[0] 1.01e+16 nlev    55 uplev 62 macro  1   3  0 use  0
+Phot n    54 z  6 istate   3 sigma 5.76e-17 freq[0] 8.43e+15 nlev    56 uplev 62 macro  1   4  0 use  0
+Phot n    55 z  6 istate   3 sigma 4.05e-19 freq[0] 7.40e+15 nlev    57 uplev 62 macro  1   5  0 use  0
+Phot n    56 z  6 istate   3 sigma 4.05e-19 freq[0] 7.40e+15 nlev    58 uplev 62 macro  1   6  0 use  0
+Phot n    57 z  6 istate   3 sigma 4.05e-19 freq[0] 7.40e+15 nlev    59 uplev 62 macro  1   7  0 use  0
+Phot n    58 z  6 istate   3 sigma 3.70e-18 freq[0] 7.15e+15 nlev    60 uplev 62 macro  1   8  0 use  0
+Phot n    59 z  6 istate   3 sigma 4.42e-20 freq[0] 5.94e+15 nlev    61 uplev 62 macro  1   9  0 use  0
+Phot n    60 z  6 istate   4 sigma 6.60e-19 freq[0] 1.56e+16 nlev    62 uplev 72 macro  1   0  0 use  0
+Phot n    61 z  6 istate   4 sigma 9.34e-19 freq[0] 1.36e+16 nlev    63 uplev 72 macro  1   1  0 use  0
+Phot n    62 z  6 istate   4 sigma 9.34e-19 freq[0] 1.36e+16 nlev    64 uplev 72 macro  1   2  0 use  0
+Phot n    63 z  6 istate   4 sigma 1.07e-18 freq[0] 6.51e+15 nlev    65 uplev 72 macro  1   3  0 use  0
+Phot n    64 z  6 istate   4 sigma 1.59e-18 freq[0] 6.22e+15 nlev    66 uplev 72 macro  1   4  0 use  0
+Phot n    65 z  6 istate   4 sigma 1.59e-18 freq[0] 6.22e+15 nlev    67 uplev 72 macro  1   5  0 use  0
+Phot n    66 z  6 istate   4 sigma 1.14e-18 freq[0] 5.85e+15 nlev    68 uplev 72 macro  1   6  0 use  0
+Phot n    67 z  6 istate   4 sigma 1.14e-18 freq[0] 5.85e+15 nlev    69 uplev 72 macro  1   7  0 use  0
+Phot n    68 z  6 istate   4 sigma 1.53e-18 freq[0] 3.56e+15 nlev    70 uplev 72 macro  1   8  0 use  0
+Phot n    69 z  6 istate   4 sigma 2.58e-18 freq[0] 3.35e+15 nlev    71 uplev 72 macro  1   9  0 use  0
+Phot n    70 z  6 istate   5 sigma 4.32e-19 freq[0] 9.97e+16 nlev    72 uplev 82 macro  1   0  0 use  0
+Phot n    71 z  6 istate   5 sigma 4.63e-19 freq[0] 2.40e+16 nlev    73 uplev 82 macro  1   1  0 use  0
+Phot n    72 z  6 istate   5 sigma 4.95e-19 freq[0] 2.24e+16 nlev    74 uplev 82 macro  1   2  0 use  0
+Phot n    73 z  6 istate   5 sigma 5.19e-19 freq[0] 2.21e+16 nlev    75 uplev 82 macro  1   3  0 use  0
+Phot n    74 z  6 istate   5 sigma 5.19e-19 freq[0] 2.21e+16 nlev    76 uplev 82 macro  1   4  0 use  0
+Phot n    75 z  6 istate   5 sigma 5.19e-19 freq[0] 2.21e+16 nlev    77 uplev 82 macro  1   5  0 use  0
+Phot n    76 z  6 istate   5 sigma 4.62e-19 freq[0] 2.12e+16 nlev    78 uplev 82 macro  1   6  0 use  0
+Phot n    77 z  6 istate   5 sigma 7.77e-19 freq[0] 1.03e+16 nlev    79 uplev 82 macro  1   7  0 use  0
+Phot n    78 z  6 istate   5 sigma 9.63e-19 freq[0] 9.80e+15 nlev    80 uplev 82 macro  1   8  0 use  0
+Phot n    79 z  6 istate   5 sigma 9.63e-19 freq[0] 9.80e+15 nlev    81 uplev 82 macro  1   9  0 use  0
+Phot n    80 z  6 istate   6 sigma 1.75e-19 freq[0] 1.18e+17 nlev    82 uplev 92 macro  1   0  0 use  0
+Phot n    81 z  6 istate   6 sigma 4.11e-19 freq[0] 2.96e+16 nlev    83 uplev 92 macro  1   1  0 use  0
+Phot n    82 z  6 istate   6 sigma 3.76e-19 freq[0] 2.96e+16 nlev    84 uplev 92 macro  1   2  0 use  0
+Phot n    83 z  6 istate   6 sigma 3.76e-19 freq[0] 2.96e+16 nlev    85 uplev 92 macro  1   3  0 use  0
+Phot n    84 z  6 istate   6 sigma 6.99e-19 freq[0] 1.32e+16 nlev    86 uplev 92 macro  1   4  0 use  0
+Phot n    85 z  6 istate   6 sigma 7.23e-19 freq[0] 1.32e+16 nlev    87 uplev 92 macro  1   5  0 use  0
+Phot n    86 z  6 istate   6 sigma 7.23e-19 freq[0] 1.32e+16 nlev    88 uplev 92 macro  1   6  0 use  0
+Phot n    87 z  6 istate   6 sigma 5.03e-19 freq[0] 1.32e+16 nlev    89 uplev 92 macro  1   7  0 use  0
+Phot n    88 z  6 istate   6 sigma 5.03e-19 freq[0] 1.32e+16 nlev    90 uplev 92 macro  1   8  0 use  0
+Phot n    89 z  6 istate   6 sigma 1.04e-18 freq[0] 7.40e+15 nlev    91 uplev 92 macro  1   9  0 use  0
+# Ground frac data (just first and last fracs here as a check):
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
+Ground   0   0  0.000  0.000
