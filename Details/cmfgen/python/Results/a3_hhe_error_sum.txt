@@ -1,0 +1,8 @@
+ErrorCount ThreadCount                                                                                                                                                                                  Error
+---------- ----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        56           8                                                                                                                              getatomic_data: line input f odd (may be OK if Macro): %s
+        28           8 randwind_thermal_trapping: photon %d needed > %5d directions in cell %4d at %9.2e %9.2e %9.2e with p_norm %9.2e zmin %9.2e tau_min %9.2e tau_norm %9.2e dvds_test %9.2e dvds_max %9.2e
+        24           8                                                                                                                           Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
+         8           8                                                                                                     wind2d.c: Not currently able to calculate mdot wind for coord type %d in domain %d
+         8           8                                                                                                                       Ignored %d inner shell cross sections because no matching yields
+         2           2                                                                                                            calculate_ds: Macro atom problem when photon moved into cell with no volume

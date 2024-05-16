@@ -1,0 +1,1 @@
+regression.py -np 8 -pf_dir test_cmfgen $1

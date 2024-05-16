@@ -1,0 +1,76 @@
+#This is the standard set of data files created for python81c - collision stength included
+#
+# This first file sets up the basics - abundances and numbers of levels allowed
+#
+a3_elem_ions.dat     
+# ostar_elem_ions.dat    
+#
+# These are the level files used in standard79 - they tend to have very few levels for each state
+# partiularly for the upper levels - they are used to compute PI and recomb rates
+#
+data/atomic/topbase_levels_h.dat
+data/atomic/topbase_levels_he.dat
+data/atomic/topbase_levels_cno.dat
+data/atomic/topbase_levels_fe.dat
+#
+# This a new level file - all ions have ten levels - the new levels will add to those in the files above
+#
+data/atomic/topbase_all_levels_10_lev.dat
+#
+# The next file is the levels used to compute line emission
+#
+data/atomic/levels_ver_ostar.dat
+#
+# And the next is for the actual lines
+#
+data/atomic/lines_linked_ver_2.dat
+data/atomic/lines_linked_ostar.dat
+#
+# And this next is for the collision strength data
+#
+data/atomic/ver_upsilon_linked.dat
+#
+data/atomic/excited_ostar.dat
+data/atomic/recomb.dat
+#
+# The next set of topbase PI cross sections are those used in atomic79
+#
+data/atomic/topbase_h1_phot_extrap.dat
+data/atomic/topbase_he1_phot_extrap.dat
+data/atomic/topbase_he2_phot_extrap.dat
+data/atomic/topbase_cno_phot_extrap.dat
+data/atomic/topbase_fe_phot_extrap.dat
+#
+#Next is VFKY PI cross sections, supplemented with VY data out to 50kev.
+#
+# data/atomic/vfky_outershell_tab.dat
+# data/atomic/vy_outershell_tab.dat
+#
+#Next is VY inner shell photoionization cross sections
+#
+data/atomic/vy_innershell_tab.dat
+#
+#Now we have electron yield data from Kaastra and Mewe, matching the inner shells
+#
+data/atomic/kaastra_electron_yield.dat
+#
+#Next is dielectronic recombination data from chianti.
+#
+data/atomic/chianti_dr.dat
+#
+#Next is total radiative recombinaion rate from chianti
+#
+data/atomic/chianti_rr.dat
+#
+#Next is badnell style ground state radiative recombinaion rate
+#
+data/atomic/Badnell_GS_RR.dat
+#
+#Next is gaunt factor data from sutherland (1997)
+#
+data/atomic/gffint.dat
+#
+#Next is direct ionization from dere
+#
+data/atomic/di_dere.dat
+#

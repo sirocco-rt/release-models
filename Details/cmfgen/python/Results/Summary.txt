@@ -1,0 +1,53 @@
+
+
+Running mpirun -np 8 py88a  a3.pf >a3.stdout.txt
+No stderrs were reported
+The model ran to completion in 1228.9 s
+
+The reported errors in all threads was as follows: 
+        16 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
+        38 -- randwind_thermal_trapping: photon %d needed > %5d directions in cell %4d at %9.2e %9.2e %9.2e with p_norm %9.2e zmin %9.2e tau_min %9.2e tau_norm %9.2e dvds_test %9.2e dvds_max %9.2e
+         8 -- wind2d.c: Not currently able to calculate mdot wind for coord type %d in domain %d
+        56 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         8 -- Ignored %d inner shell cross sections because no matching yields
+Finished mpirun -np 8 py88a  a3.pf >a3.stdout.txt
+
+
+
+Running mpirun -np 8 py88a  a3_cno.pf >a3_cno.stdout.txt
+No stderrs were reported
+The model ran to completion in 5750.1 s
+
+The reported errors in all threads was as follows: 
+    139616 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+         5 -- normalise_macro_estimators: upper_density %g lower_density %g xplasma->levden[config[nlev_upper].nden] %g
+         8 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+        64 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+         5 -- normalise_macro_estimators: bb stimulated correction factor is out of bounds, 0 <= stimfac < 1 but got %g
+       192 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+         8 -- Ignored %d inner shell cross sections because no matching yields
+        21 -- randwind_thermal_trapping: photon %d needed > %5d directions in cell %4d at %9.2e %9.2e %9.2e with p_norm %9.2e zmin %9.2e tau_min %9.2e tau_norm %9.2e dvds_test %9.2e dvds_max %9.2e
+     47248 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+    898256 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+        13 -- sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
+        56 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         8 -- wind2d.c: Not currently able to calculate mdot wind for coord type %d in domain %d
+        27 -- Negative probability (matom, 2) for number %d at %e. Setting to 0.
+        24 -- error_count: This error will no longer be logged: %s
+Finished mpirun -np 8 py88a  a3_cno.pf >a3_cno.stdout.txt
+
+
+
+Running mpirun -np 8 py88a  a3_hhe.pf >a3_hhe.stdout.txt
+No stderrs were reported
+The model ran to completion in 2291.6 s
+
+The reported errors in all threads was as follows: 
+        24 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+         2 -- calculate_ds: Macro atom problem when photon moved into cell with no volume
+        28 -- randwind_thermal_trapping: photon %d needed > %5d directions in cell %4d at %9.2e %9.2e %9.2e with p_norm %9.2e zmin %9.2e tau_min %9.2e tau_norm %9.2e dvds_test %9.2e dvds_max %9.2e
+         8 -- wind2d.c: Not currently able to calculate mdot wind for coord type %d in domain %d
+        56 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         8 -- Ignored %d inner shell cross sections because no matching yields
+Finished mpirun -np 8 py88a  a3_hhe.pf >a3_hhe.stdout.txt
+

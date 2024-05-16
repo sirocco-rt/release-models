@@ -1,0 +1,2 @@
+cp $1/*.txt Results
+cp $1/*.spec Results
