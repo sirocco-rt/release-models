@@ -10,8 +10,8 @@ from util import get_flux_range, smooth
 PARSEC_TO_CM = 3.086e18
 
 # A10P0.50   A35P0.50   A60P0.50   A75P0.50   A85P0.50
-spectrum_file = ascii.read("../Results/tde_standard.log_spec")
-optical_depth_spectrum = ascii.read("../Results/tde_standard.spec_tau")
+spectrum_file = ascii.read("python/Results/tde_standard.log_spec")
+optical_depth_spectrum = ascii.read("python/Results/tde_standard.spec_tau")
 
 # Convert from flux to luminosity
 for col in ("Created", "Emitted", "A10P0.50", "A60P0.50", "A75P0.50"):

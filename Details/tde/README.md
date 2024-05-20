@@ -12,9 +12,10 @@ correct directory and plot the results using the Python scripts in the `Plots`
 directory.
 
 ```bash
+$ cd python
 $ ./Regress.sh test_tde
 $ ./GetResults.sh tde_tde
-$ cd Plots
+$ cd ../plots
 $ python plot_tde.py
 ```
 

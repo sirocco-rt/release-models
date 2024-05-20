@@ -5,7 +5,7 @@
 '''
                     Space Telescope Science Institute
 
-Synopsis:  
+Synopsis:
 
 Plot routines for making figures associated with CV models
 
@@ -14,14 +14,14 @@ Command line usage (if any):
 
     usage: PlotCV.py filename
 
-Description:  
+Description:
 
 Primary routines:
 
     doit
 
 Notes:
-                                       
+
 History:
 
 240506 ksl Coding begun
@@ -37,7 +37,7 @@ from astropy.io import ascii
 
 
 
-def fig_compare(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir='Results'):
+def fig_compare(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir='python/Results'):
     '''
     Plot the UV and visible spectra of various CV models
     '''
@@ -45,7 +45,7 @@ def fig_compare(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir='Results'
     uv_simple = f'{xdir}/{simple}.spec'
     uv_hhe = f'{xdir}/{hhe}.spec'
     uv_cno = f'{xdir}/{cno}.spec'
-    
+
     xsimple = ascii.read(uv_simple)
     xhhe = ascii.read(uv_hhe)
     xcno = ascii.read(uv_cno)
@@ -59,9 +59,9 @@ def fig_compare(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir='Results'
     vsimple = ascii.read(vis_simple)
     vhhe = ascii.read(vis_hhe)
     vcno = ascii.read(vis_cno)
-    
+
     wmin = 850
-    wmax = 1800    
+    wmax = 1800
     ang = 'A62P0.50'
 
     fig, axs = plt.subplots(3, 2, figsize=(12, 12))  # 3 rows, 2 columns
@@ -115,7 +115,7 @@ def fig_compare(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir='Results'
     plt.savefig('cv_spec.png')
 
 
-def doit(xdir='../Results'):
+def doit(xdir='python/Results'):
     '''
     This is a hardired routine to produce figurets
     for CV models
