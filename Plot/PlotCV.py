@@ -12,15 +12,21 @@ Plot routines for making figures associated with CV models
 
 Command line usage (if any):
 
-    usage: PlotCV.py filename
+    usage: PlotCV.py 
 
 Description:
+
+    A simple command line script to make a figure for the
+    CV spectra
 
 Primary routines:
 
     doit
 
 Notes:
+
+    This version is hardowired to be have the data in the Data
+    folder
 
 History:
 
