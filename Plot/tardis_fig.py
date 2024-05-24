@@ -3,7 +3,7 @@ import numpy as np
 import logging
 import warnings
 from numpy import exp
-from astropy import units
+from astropy import units, constants
 import astropy.io.ascii as io
 import matplotlib.pyplot as plt 
 import util 
@@ -34,6 +34,10 @@ def make_figure(path="../Data/Tests/tardis/"):
     """
 
 	w, f = np.loadtxt("{}/tardis_python_spectrum.dat".format(path), unpack=True)
+	#tardis_data = io.read("{}/tardis_snr.txt".format(path))
+	#w = constants.c.cgs.value / tardis_data["nu"] * 1e8
+	#f = tardis_data["nuLnu"] / w / (4.0 * np.pi * 0.1e6 * 0.1e6 * constants.pc.cgs.value * constants.pc.cgs.value)
+
 
 	# we have to correct fluxes to same distance by r**2 law
 	PY2TAR = (100.0 ** 2) / (0.1e6 **2) 
@@ -41,16 +45,16 @@ def make_figure(path="../Data/Tests/tardis/"):
 
 	s = io.read("{}/1d_sn_87.spec".format(path))
 
-	plt.figure(figsize=(6,4))
+	plt.figure(figsize=util.onespec_size)
 	# make new plot
 	plt.plot(w, f / PY2TAR * norm, label= "Tardis", c="k")
 	plt.plot(s["Lambda"], norm  * s["A45P0.50"], label= "{}".format(util.CODE_NAME), linewidth=2.5, alpha=1)
-	plt.ylabel(r"$F_\lambda$ (Arb.)", fontsize=20)
-	plt.legend(frameon=False, fontsize=20)
+	plt.ylabel(r"$F_\lambda$ (Arb.)", fontsize=util.onepanel_labelsize)
+	plt.legend(frameon=False, fontsize=util.onepanel_labelsize)
 	plt.xlim(1000,11000)
 
 
-	plt.xlabel(r"Wavelength (\AA)", fontsize=20)
+	plt.xlabel(r"Wavelength (\AA)", fontsize=util.onepanel_labelsize)
 	plt.tight_layout(pad=0.1)
 	plt.savefig("Figures/tardis_comparison.pdf")
 

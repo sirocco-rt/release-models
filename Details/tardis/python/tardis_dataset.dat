@@ -1,0 +1,5 @@
+# This is a very minimal file that we believe best replicates the physics that tardis includes
+data/atomic/elem_ions_ver_80_sn.dat
+data/atomic/levels_kur.dat
+lines_linked_kur.dat
+data/atomic/recomb.dat

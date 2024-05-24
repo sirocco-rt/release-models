@@ -162,4 +162,10 @@ cython_debug/
 
 
 logfile 
-.out.pf 
+*.out.pf 
+*.out.pf.old
+*.wind_save
+
+zdata
+xdata
+
