@@ -1,49 +1,54 @@
 from __future__ import annotations
 import matplotlib.pyplot as plt 
+import matplotlib
+import numpy as np 
 #from cycler import cycler
 import numpy
 from typing import Tuple
 from scipy.signal import boxcar, convolve
+from cycler import cycler
 CODE_NAME = "Python"
+onespec_size = (6,4) # size for one panel spectrum figure 
+onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
 
 def set_plot_defaults():
-	## FIGURE
-	plt.rcParams["text.usetex"] = "True"
-	#plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
+    ## FIGURE
+    plt.rcParams["text.usetex"] = "True"
+    #plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
 
-	## FONT
-	plt.rcParams['font.serif']=['cm']
-	plt.rcParams['font.family']='serif'	
+    ## FONT
+    plt.rcParams['font.serif']=['cm']
+    plt.rcParams['font.family']='serif'	
 
-	# plt.rcParams['mathtext.fontset'] = 'cm'
-	# plt.rcParams['mathtext.rm']='serif'
-	plt.rcParams['text.latex.preamble']=r'\usepackage{amsmath}'
+    # plt.rcParams['mathtext.fontset'] = 'cm'
+    # plt.rcParams['mathtext.rm']='serif'
+    plt.rcParams['text.latex.preamble']=r'\usepackage{amsmath}'
 
-	plt.rcParams['font.size']=18
-	plt.rcParams['xtick.labelsize']=15
-	plt.rcParams['ytick.labelsize']=15
-	plt.rcParams['legend.fontsize']=14
-	plt.rcParams['axes.titlesize']=16
-	plt.rcParams['axes.labelsize']=16
-	plt.rcParams['axes.linewidth']=2.5
-	plt.rcParams["lines.linewidth"] = 2.2
-	## TICKS
-	plt.rcParams['xtick.top']='True'
-	plt.rcParams['xtick.bottom']='True'
-	plt.rcParams['xtick.minor.visible']='True'
-	plt.rcParams['xtick.direction']='out'
-	plt.rcParams['ytick.left']='True'
-	plt.rcParams['ytick.right']='True'
-	plt.rcParams['ytick.minor.visible']='True'
-	plt.rcParams['ytick.direction']='out'
-	plt.rcParams['xtick.major.width']=1.5
-	plt.rcParams['xtick.minor.width']=1
-	plt.rcParams['xtick.major.size']=4
-	plt.rcParams['xtick.minor.size']=3
-	plt.rcParams['ytick.major.width']=1.5
-	plt.rcParams['ytick.minor.width']=1
-	plt.rcParams['ytick.major.size']=4
-	plt.rcParams['ytick.minor.size']=3
+    plt.rcParams['font.size']=18
+    plt.rcParams['xtick.labelsize']=15
+    plt.rcParams['ytick.labelsize']=15
+    plt.rcParams['legend.fontsize']=14
+    plt.rcParams['axes.titlesize']=16
+    plt.rcParams['axes.labelsize']=16
+    plt.rcParams['axes.linewidth']=2.5
+    plt.rcParams["lines.linewidth"] = 2.2
+    ## TICKS
+    plt.rcParams['xtick.top']='True'
+    plt.rcParams['xtick.bottom']='True'
+    plt.rcParams['xtick.minor.visible']='True'
+    plt.rcParams['xtick.direction']='out'
+    plt.rcParams['ytick.left']='True'
+    plt.rcParams['ytick.right']='True'
+    plt.rcParams['ytick.minor.visible']='True'
+    plt.rcParams['ytick.direction']='out'
+    plt.rcParams['xtick.major.width']=1.5
+    plt.rcParams['xtick.minor.width']=1
+    plt.rcParams['xtick.major.size']=4
+    plt.rcParams['xtick.minor.size']=3
+    plt.rcParams['ytick.major.width']=1.5
+    plt.rcParams['ytick.minor.width']=1
+    plt.rcParams['ytick.major.size']=4
+    plt.rcParams['ytick.minor.size']=3
 
 
 def check_array_is_ascending(x_in: list | numpy.ndarray) -> bool:
@@ -174,3 +179,76 @@ def smooth(data, width=5):
         return q
     else:
         return data
+    
+def set_cmap_cycler(cmap_name = "viridis", N = None):
+    '''
+    set the cycler to use a colormap
+    '''
+    if cmap_name == "default" or N is None:
+        my_cycler = cycler('color', ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+    else:
+        _, colors = get_mappable(N, cmap_name = cmap_name)
+        #if type(style) == str:
+        my_cycler = (cycler(color=colors)) 
+
+    plt.rc('axes', prop_cycle=my_cycler)
+     
+
+class colour_func:
+    """
+    A class for managing a colormap and its normalization based on given minimum and maximum values.
+
+    Attributes:
+    ----------
+    vmin : float
+        The minimum value for normalization.
+    vmax : float
+        The maximum value for normalization.
+    cmap_name : str
+        The name of the colormap to be used.
+    my_cmap : Colormap
+        The colormap instance from matplotlib.
+    
+    Methods:
+    -------
+    __init__(self, vmin, vmax, cmap_name):
+        Initializes the colour_func with normalization and colormap.
+    """
+    def __init__(self, vmin, vmax, cmap_name):
+        my_cmap = matplotlib.cm.get_cmap(cmap_name)
+          
+def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False):
+    """
+    Generates a ScalarMappable object and an array of colors based on the given colormap.
+
+    Parameters:
+    ----------
+    N : int
+        The number of colors to generate.
+    vmin : float, optional
+        The minimum value for normalization. Default is 0.
+    vmax : float, optional
+        The maximum value for normalization. Default is 1.
+    cmap_name : str, optional
+        The name of the colormap to be used. Default is "Spectral".
+    return_func : bool, optional
+        Whether to return a colour_func instance for color mapping. Default is False.
+
+    Returns:
+    -------
+    tuple
+        A tuple containing:
+            - mappable (ScalarMappable): The ScalarMappable object for the colormap.
+            - colors (ndarray): An array of RGBA colors.
+            - to_rgba (function), optional: A function for mapping values to RGBA colors (only if return_func is True).
+    """
+    my_cmap = matplotlib.cm.get_cmap(cmap_name)
+    colors = my_cmap(np.linspace(0,1,num=N))
+
+    norm = matplotlib.colors.Normalize(vmin=vmin, vmax=vmax)
+    mappable = matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap_name)
+    if return_func:
+        fcol = colour_func(norm, cmap_name)
+        return (mappable, colors, mappable.to_rgba)
+    else:
+        return (mappable, colors)
