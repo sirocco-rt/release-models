@@ -10,6 +10,8 @@ from cycler import cycler
 CODE_NAME = "Python"
 onespec_size = (6,4) # size for one panel spectrum figure 
 onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
+wavelength_label = r"$\lambda$ (\AA)"
+nu_label = r"$\nu (Hz)$"
 
 def set_plot_defaults():
     ## FIGURE

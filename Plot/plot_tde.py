@@ -5,11 +5,11 @@ import math
 from astropy.io import ascii
 from matplotlib import gridspec
 from matplotlib import pyplot as plt
-from util import get_flux_range, smooth, set_plot_defaults
+import util 
 
 def make_figure(tde_path = "../Data/Demos/tde"):
     
-    set_plot_defaults()
+    util.set_plot_defaults()
 
     PARSEC_TO_CM = 3.086e18
 
@@ -28,10 +28,10 @@ def make_figure(tde_path = "../Data/Demos/tde"):
 
     # UV spectra
     ax1 = plt.subplot(gs[0, 0])
-    ax1.set_xlim(900, 3100)
+    ax1.set_xlim(1000, 2999)
     for i in (10, 60, 75):
-        x, y = get_flux_range(
-            spectrum_file["Lambda"], smooth(spectrum_file[f"A{i}P0.50"]), 1000, 3000
+        x, y = util.get_flux_range(
+            spectrum_file["Lambda"], util.smooth(spectrum_file[f"A{i}P0.50"]), 1000, 3000
         )
         ax1.plot(
             x,
@@ -40,29 +40,29 @@ def make_figure(tde_path = "../Data/Demos/tde"):
         )
     ax1.set_yscale("log")
     ax1.legend(loc="upper right")
-    ax1.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]")
+    ax1.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
 
     # Optical spectra
     ax2 = plt.subplot(gs[1, 0])
-    ax2.set_xlim(3900, 8100)
+    ax2.set_xlim(4000, 7999)
     for i in (10, 60, 75):
-        x, y = get_flux_range(
-            spectrum_file["Lambda"], smooth(spectrum_file[f"A{i}P0.50"]), 4000, 8000
+        x, y = util.get_flux_range(
+            spectrum_file["Lambda"], util.smooth(spectrum_file[f"A{i}P0.50"]), 4000, 8000
         )
         ax2.plot(
             x,
             y,
         )
     ax2.set_yscale("log")
-    ax2.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]")
-    ax2.set_xlabel("Restframe Wavelength [$\AA$]")
+    ax2.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
+    ax2.set_xlabel(util.wavelength_label, fontsize=util.onepanel_labelsize)
 
     # Reprocessing
     ax3 = plt.subplot(gs[:, 1])
     ax3_twin = ax3.twinx()
     # emitted vs. created
-    ax3.plot(spectrum_file["Freq."], smooth(spectrum_file["Emitted"]), label="Emergent")
-    ax3.plot(spectrum_file["Freq."], smooth(spectrum_file["Created"]), label="Disk")
+    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Emitted"]), label="Emergent")
+    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Created"]), label="Disk")
     # optical depth
     for col, i in enumerate((35, 60, 75, 85)):
         ax3_twin.plot(
@@ -71,16 +71,17 @@ def make_figure(tde_path = "../Data/Demos/tde"):
             label=f"$i = {i}^\circ$",
             color=f"C{col + 2}",
         )
-    ax3.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]")
-    ax3.set_xlabel("Restframe Frequency [Hz]")
+    ax3.set_ylabel(r"$\nu L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
+    ax3.set_xlabel(util.nu_label, fontsize=util.onepanel_labelsize)
     ax3.set_xscale("log")
     ax3.set_yscale("log")
+    ax3.set_xlim(3e14,3e16)
     ax3_twin.set_yscale("log")
     ax3_twin.legend(loc="upper left")
-    ax3_twin.set_ylabel("Continuum optical depth $\tau$")
+    ax3_twin.set_ylabel(r"Continuum optical depth $\tau$", fontsize=util.onepanel_labelsize)
 
     # Clean up the figure
-    fig.tight_layout()
+    fig.tight_layout(pad=0.05)
     fig.savefig("Figures/tde_demo_model.pdf", dpi=300)
     #plt.show()
 
