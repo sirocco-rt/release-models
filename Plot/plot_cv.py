@@ -42,7 +42,6 @@ def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="{}/Demos
     '''
     Plot the UV and visible spectra of various CV models
     '''
-    util.set_plot_defaults()
     util.set_cmap_cycler("viridis", N=4)
     plt.rcParams["lines.linewidth"] = 1.5
     uv_simple = f'{xdir}/{simple}.spec'
@@ -129,6 +128,7 @@ def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="{}/Demos
 
 # Next lines permit one to run the routine from the command line
 if __name__ == "__main__":
+    util.set_plot_defaults()
     make_figure(xdir="{}/Demos/cv/".format(util.g_DataDir))
 
 
