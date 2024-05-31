@@ -224,7 +224,7 @@ class colour_func:
         Initializes the colour_func with normalization and colormap.
     """
     def __init__(self, vmin, vmax, cmap_name):
-        my_cmap = matplotlib.cm.get_cmap(cmap_name)
+        my_cmap = matplotlib.colormaps.get_cmap(cmap_name)
           
 def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False):
     """
@@ -251,7 +251,7 @@ def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False)
             - colors (ndarray): An array of RGBA colors.
             - to_rgba (function), optional: A function for mapping values to RGBA colors (only if return_func is True).
     """
-    my_cmap = matplotlib.cm.get_cmap(cmap_name)
+    my_cmap = matplotlib.colormaps.get_cmap(cmap_name)
     colors = my_cmap(np.linspace(0,1,num=N))
 
     norm = matplotlib.colors.Normalize(vmin=vmin, vmax=vmax)
