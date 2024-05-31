@@ -34,14 +34,8 @@ History:
 
 '''
 # # Figure to compare various CV models
-
-import os
-import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import ascii
-
-from scipy.signal import boxcar
-from scipy.signal import convolve
 import util 
 
 def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="{}/Demos/cv/".format(util.g_DataDir)):
