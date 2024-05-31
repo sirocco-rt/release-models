@@ -1,6 +1,7 @@
 from __future__ import annotations
 import matplotlib.pyplot as plt 
 import matplotlib
+import matplotlib.cm
 import numpy as np 
 #from cycler import cycler
 import numpy
