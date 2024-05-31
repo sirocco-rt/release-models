@@ -1,6 +1,6 @@
 import plot_tde, tardis_fig, plot_parallel_scaling
 import plot_cv, plot_quasar
-import sys 
+import sys, util 
 
 tex = "True"
 if len(sys.argv) > 1:
@@ -8,8 +8,14 @@ if len(sys.argv) > 1:
         tex = "False"
 
 util.set_plot_defaults(tex=tex)
+
+# Tests 
 tardis_fig.make_figure()
+
+# Logistics 
 plot_parallel_scaling.make_figure()
+
+# Illustrative Models 
 plot_cv.make_figure()
 plot_quasar.make_figure()
 plot_tde.make_figure()
