@@ -8,8 +8,6 @@ import astropy.io.ascii as io
 import matplotlib.pyplot as plt 
 import util 
 
-util.set_plot_defaults()
-
 
 def make_figure(path="{}/Tests/tardis/".format(util.g_DataDir)):
 	"""
@@ -60,4 +58,5 @@ def make_figure(path="{}/Tests/tardis/".format(util.g_DataDir)):
 
 
 if __name__ == "__main__":
+	util.set_plot_defaults()
 	make_figure()

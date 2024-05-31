@@ -9,7 +9,6 @@ import util
 
 def make_figure(quasar_path = "{}/Demos/quasar/".format(util.g_DataDir)):
     
-    util.set_plot_defaults()
     util.set_cmap_cycler(cmap_name="RdYlBu_r", N=6)
 
     PARSEC_TO_CM = 3.086e18
@@ -65,4 +64,5 @@ def make_figure(quasar_path = "{}/Demos/quasar/".format(util.g_DataDir)):
     #plt.show()
 
 if __name__ == "__main__":
+    util.set_plot_defaults()
     make_figure()

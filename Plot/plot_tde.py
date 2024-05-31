@@ -9,7 +9,6 @@ import util
 
 def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     
-    util.set_plot_defaults()
 
     PARSEC_TO_CM = 3.086e18
 
@@ -86,4 +85,5 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     #plt.show()
 
 if __name__ == "__main__":
+    util.set_plot_defaults()
     make_figure()

@@ -19,14 +19,14 @@ g_DataDir = os.path.abspath(os.path.join(
 g_FigureDir = os.path.abspath(os.path.join(
     os.path.dirname(__file__), 'Figures'))
 
-def set_plot_defaults():
-    ## FIGURE
-    plt.rcParams["text.usetex"] = "True"
-    #plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
+def set_plot_defaults(tex = "True"):
 
-    ## FONT
-    plt.rcParams['font.serif']=['cm']
     plt.rcParams['font.family']='serif'	
+    plt.rcParams["text.usetex"] = tex
+    #plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
+    if tex == "True":
+        plt.rcParams['font.serif'] = ['Times']
+        plt.rcParams['text.latex.preamble'] = r'\usepackage{amsmath}'
 
     # plt.rcParams['mathtext.fontset'] = 'cm'
     # plt.rcParams['mathtext.rm']='serif'

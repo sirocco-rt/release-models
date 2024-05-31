@@ -39,7 +39,6 @@ def make_figure():
     labels:
         A list containing the names of each model list.
     """
-    util.set_plot_defaults()
     fig, ax = plt.subplots(figsize=(5, 4))
 
     ntasks = numpy.array([int(k) for k in agn_ntask_sec.keys()])
@@ -56,4 +55,5 @@ def make_figure():
 
 
 if __name__ == "__main__":
+    util.set_plot_defaults()
     make_figure()
