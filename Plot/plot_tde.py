@@ -7,7 +7,7 @@ from matplotlib import gridspec
 from matplotlib import pyplot as plt
 import util 
 
-def make_figure(tde_path = "../Data/Demos/tde"):
+def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     
     util.set_plot_defaults()
 
@@ -82,7 +82,7 @@ def make_figure(tde_path = "../Data/Demos/tde"):
 
     # Clean up the figure
     fig.tight_layout(pad=0.05)
-    fig.savefig("Figures/tde_demo_model.pdf", dpi=300)
+    util.save_paper_figure("tde_demo_model.pdf", fig=fig, dpi=300)
     #plt.show()
 
 if __name__ == "__main__":

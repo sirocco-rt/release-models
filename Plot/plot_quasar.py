@@ -7,7 +7,7 @@ from matplotlib import gridspec
 from matplotlib import pyplot as plt
 import util
 
-def make_figure(quasar_path = "../Data/Demos/quasar"):
+def make_figure(quasar_path = "{}/Demos/quasar/".format(util.g_DataDir)):
     
     util.set_plot_defaults()
     util.set_cmap_cycler(cmap_name="RdYlBu_r", N=6)
@@ -61,7 +61,7 @@ def make_figure(quasar_path = "../Data/Demos/quasar"):
 
     # Clean up the figure
     fig.tight_layout(pad=0.05)
-    fig.savefig("Figures/quasar_demo_model.pdf", dpi=300)
+    util.save_paper_figure("quasar_demo_model.pdf", fig=fig, dpi=300)
     #plt.show()
 
 if __name__ == "__main__":

@@ -5,13 +5,19 @@ import numpy as np
 #from cycler import cycler
 import numpy
 from typing import Tuple
-from scipy.signal import boxcar, convolve
+from scipy.signal import convolve
+from scipy.signal.windows import boxcar
 from cycler import cycler
+import os 
 CODE_NAME = "Python"
 onespec_size = (6,4) # size for one panel spectrum figure 
 onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
 wavelength_label = r"$\lambda$ (\AA)"
 nu_label = r"$\nu (Hz)$"
+g_DataDir = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), '..', 'Data'))
+g_FigureDir = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), 'Figures'))
 
 def set_plot_defaults():
     ## FIGURE
@@ -254,3 +260,11 @@ def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False)
         return (mappable, colors, mappable.to_rgba)
     else:
         return (mappable, colors)
+    
+def save_paper_figure(savename, fig=None, figure_dir=g_FigureDir, **savefig_kwargs):
+    """wrapper to save a paper figure in the main figures directory"""
+    if fig == None:
+        fig = plt.gcf()
+
+    full_savename = "{}/{}".format(figure_dir, savename)
+    fig.savefig(full_savename, **savefig_kwargs)

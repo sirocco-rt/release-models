@@ -6,7 +6,7 @@ macro atoms.
 
 import matplotlib.pyplot as plt
 import numpy
-from util import set_plot_defaults
+import util 
 
 # This is a dictionary containing the run time for the (same) ionisation cycle
 # for a given number of MPI tasks. The keys of the dictionary are the number of
@@ -39,7 +39,7 @@ def make_figure():
     labels:
         A list containing the names of each model list.
     """
-    set_plot_defaults()
+    util.set_plot_defaults()
     fig, ax = plt.subplots(figsize=(5, 4))
 
     ntasks = numpy.array([int(k) for k in agn_ntask_sec.keys()])
@@ -52,8 +52,7 @@ def make_figure():
     ax.set_ylabel(r"$T_{1}~/~T_{N_{p}}$")
     ax.legend()
     fig.tight_layout()
-    plt.savefig("m16_agn_scaling.pdf", dpi=300)
-    plt.show()
+    util.save_paper_figure("m16_agn_scaling.pdf", fig=fig, dpi=300)
 
 
 if __name__ == "__main__":

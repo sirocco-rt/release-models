@@ -44,7 +44,7 @@ from scipy.signal import boxcar
 from scipy.signal import convolve
 import util 
 
-def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="../Data/Demos/cv/"):
+def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="{}/Demos/cv/".format(util.g_DataDir)):
     '''
     Plot the UV and visible spectra of various CV models
     '''
@@ -129,12 +129,12 @@ def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="../Data/
 
     plt.tight_layout(pad=0.05)
 
-    plt.savefig('figures/cv_spec.pdf')
+    util.save_paper_figure('cv_spec.pdf')
 
 
 
 # Next lines permit one to run the routine from the command line
 if __name__ == "__main__":
-    make_figure(xdir="../Data/Demos/cv/")
+    make_figure(xdir="{}/Demos/cv/".format(util.g_DataDir))
 
 

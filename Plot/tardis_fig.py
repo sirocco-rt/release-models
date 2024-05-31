@@ -11,7 +11,7 @@ import util
 util.set_plot_defaults()
 
 
-def make_figure(path="../Data/Tests/tardis/"):
+def make_figure(path="{}/Tests/tardis/".format(util.g_DataDir)):
 	"""
     Generate a comparison figure between Tardis and Python spectra.
 
@@ -56,7 +56,7 @@ def make_figure(path="../Data/Tests/tardis/"):
 
 	plt.xlabel(r"Wavelength (\AA)", fontsize=util.onepanel_labelsize)
 	plt.tight_layout(pad=0.1)
-	plt.savefig("Figures/tardis_comparison.pdf")
+	util.save_paper_figure("tardis_comparison.pdf")
 
 
 if __name__ == "__main__":
