@@ -26,12 +26,12 @@ def set_plot_defaults(tex = "True"):
     plt.rcParams["text.usetex"] = tex
     #plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
     if tex == "True":
-        plt.rcParams['font.serif'] = ['Times']
+        #plt.rcParams['font.serif'] = ['Times']
+        plt.rcParams['mathtext.fontset'] = 'cm'
         plt.rcParams['text.latex.preamble'] = r'\usepackage{amsmath}'
 
     # plt.rcParams['mathtext.fontset'] = 'cm'
     # plt.rcParams['mathtext.rm']='serif'
-    plt.rcParams['text.latex.preamble']=r'\usepackage{amsmath}'
 
     plt.rcParams['font.size']=18
     plt.rcParams['xtick.labelsize']=15

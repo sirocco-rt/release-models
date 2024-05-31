@@ -7,6 +7,7 @@ if len(sys.argv) > 1:
     if sys.argv[1] == "--notex":
         tex = "False"
 
+print (tex)
 util.set_plot_defaults(tex=tex)
 
 # Tests 
