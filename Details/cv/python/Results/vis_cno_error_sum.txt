@@ -1,18 +1,19 @@
-ErrorCount ThreadCount                                                                                 Error
----------- ----------- -------------------------------------------------------------------------------------
-    884152           8      Get_atomic_data: LinMacro No configuration found to match lower level of line %d
-    154984           8      Get_atomic_data: LinMacro No configuration found to match upper level of line %d
-     47256           8                         get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
-       239           8                    Negative probability (matom, 2) for number %d at %e. Setting to 0.
-       192           8                          Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
-        64           8                       Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
-        56           8                             getatomic_data: line input f odd (may be OK if Macro): %s
-        24           8                                  error_count: This error will no longer be logged: %s
-         8           8 check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-         8           8                                           check_grid: optical depth may be high in %i
-         8           8                               check_grid: velocity changes by >1,000 km/s in %i cells
-         8           8                         roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-         8           8                        zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-         8           8                      Ignored %d inner shell cross sections because no matching yields
-         8           8                         get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
-         2           2                                        pillbox %d interfaces to pillbox is impossible
+ErrorCount ThreadCount                                                                                                  Error
+---------- ----------- ------------------------------------------------------------------------------------------------------
+   2652456          24                       Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+    464952          24                       Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+    141768          24                                          get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+       576          24                                           Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
+       239          24                                     Negative probability (matom, 2) for number %d at %e. Setting to 0.
+       192          24                                        Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+       168          24                                              getatomic_data: line input f odd (may be OK if Macro): %s
+        72          24                                                   error_count: This error will no longer be logged: %s
+        24          24                                          get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+        24          24                                       Ignored %d inner shell cross sections because no matching yields
+        24          24                                         zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+        24          24                                          roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+        24          24                                                check_grid: velocity changes by >1,000 km/s in %i cells
+        24          24                                                            check_grid: optical depth may be high in %i
+        24          24                  check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         4           4                                                         pillbox %d interfaces to pillbox is impossible
+         2           1 sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g

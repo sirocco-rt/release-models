@@ -1,0 +1,11 @@
+ErrorCount ThreadCount                                                                                 Error
+---------- ----------- -------------------------------------------------------------------------------------
+        56           8                             getatomic_data: line input f odd (may be OK if Macro): %s
+        24           8                          Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
+         8           8 check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         8           8                                           check_grid: optical depth may be high in %i
+         8           8                               check_grid: velocity changes by >1,000 km/s in %i cells
+         8           8                         roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         8           8                        zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         8           8                      Ignored %d inner shell cross sections because no matching yields
+         2           2                                        pillbox %d interfaces to pillbox is impossible

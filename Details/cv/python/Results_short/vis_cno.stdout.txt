@@ -1,0 +1,1200 @@
+xxx Fri May 24 18:42:39 2024      0.0 MAXTIME set to 4e+17 s
+xxx Fri May 24 18:42:39 2024      0.0 START                vis_cno 
+Thread 0 starting.
+!!Python Version 88b 
+!!Git commit hash 73745256d978a4fb38c65ee576b5cd3e3ed587e3
+!!Git: This version was compiled with 16 files with uncommitted changes.
+!!Python is running with 8 processors
+This is MPI task number 0 (a total of 8 tasks are running).
+xxx Fri May 24 18:42:39 2024      0.0 NOK                  Initializing variables for vis_cno
+Reading data from file vis_cno.pf
+System_type(star,cv,bh,agn,previous)   previous
+Wind.old_windfile(root_only)   cv_cno
+Starting a new run from scratch starting using a previous windfile
+Reading Windfile cv_cno.wind_save created with python version 88b with python version 88b
+Get_atomic_data: Reading from masterfile data/master_cno.dat
+get_atomic_data: macro level  18 ge  17 for z   2  istate   1
+get_atomic_data: macro level  19 ge  17 for z   2  istate   1
+get_atomic_data: macro level  20 ge  17 for z   2  istate   1
+get_atomic_data: macro level  21 ge  17 for z   2  istate   1
+get_atomic_data: macro level  22 ge  17 for z   2  istate   1
+get_atomic_data: macro level  23 ge  17 for z   2  istate   1
+get_atomic_data: macro level  24 ge  17 for z   2  istate   1
+get_atomic_data: macro level  25 ge  17 for z   2  istate   1
+get_atomic_data: macro level  26 ge  17 for z   2  istate   1
+get_atomic_data: macro level  27 ge  17 for z   2  istate   1
+get_atomic_data: macro level  28 ge  17 for z   2  istate   1
+get_atomic_data: macro level  29 ge  17 for z   2  istate   1
+get_atomic_data: macro level  30 ge  17 for z   2  istate   1
+get_atomic_data: macro level  31 ge  17 for z   2  istate   1
+get_atomic_data: macro level  32 ge  17 for z   2  istate   1
+get_atomic_data: macro level  33 ge  17 for z   2  istate   1
+get_atomic_data: macro level  34 ge  17 for z   2  istate   1
+get_atomic_data: macro level  35 ge  17 for z   2  istate   1
+get_atomic_data: macro level  36 ge  17 for z   2  istate   1
+get_atomic_data: macro level  37 ge  17 for z   2  istate   1
+get_atomic_data: macro level  38 ge  17 for z   2  istate   1
+get_atomic_data: macro level  39 ge  17 for z   2  istate   1
+get_atomic_data: macro level  40 ge  17 for z   2  istate   1
+get_atomic_data: macro level  41 ge  17 for z   2  istate   1
+get_atomic_data: macro level  42 ge  17 for z   2  istate   1
+get_atomic_data: macro level  43 ge  17 for z   2  istate   1
+get_atomic_data: macro level  44 ge  17 for z   2  istate   1
+get_atomic_data: macro level  45 ge  17 for z   2  istate   1
+get_atomic_data: macro level  46 ge  17 for z   2  istate   1
+get_atomic_data: macro level  47 ge  17 for z   2  istate   1
+get_atomic_data: macro level  48 ge  17 for z   2  istate   1
+get_atomic_data: macro level  49 ge  17 for z   2  istate   1
+get_atomic_data: macro level  50 ge  17 for z   2  istate   1
+get_atomic_data: macro level  51 ge  17 for z   2  istate   1
+get_atomic_data: macro level  52 ge  17 for z   2  istate   1
+get_atomic_data: macro level  53 ge  17 for z   2  istate   1
+error_count: This error will no longer be logged: Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+
+error_count: This error will no longer be logged: Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+
+get_atomic_data: macro level  14 ge  13 for z   6  istate   1
+get_atomic_data: macro level  15 ge  13 for z   6  istate   1
+get_atomic_data: macro level  16 ge  13 for z   6  istate   1
+get_atomic_data: macro level  17 ge  13 for z   6  istate   1
+get_atomic_data: macro level  18 ge  13 for z   6  istate   1
+get_atomic_data: macro level  19 ge  13 for z   6  istate   1
+get_atomic_data: macro level  20 ge  13 for z   6  istate   1
+get_atomic_data: macro level  21 ge  13 for z   6  istate   1
+get_atomic_data: macro level  22 ge  13 for z   6  istate   1
+get_atomic_data: macro level  23 ge  13 for z   6  istate   1
+get_atomic_data: macro level  24 ge  13 for z   6  istate   1
+get_atomic_data: macro level  25 ge  13 for z   6  istate   1
+get_atomic_data: macro level  26 ge  13 for z   6  istate   1
+get_atomic_data: macro level  27 ge  13 for z   6  istate   1
+get_atomic_data: macro level  28 ge  13 for z   6  istate   1
+get_atomic_data: macro level  29 ge  13 for z   6  istate   1
+get_atomic_data: macro level  30 ge  13 for z   6  istate   1
+get_atomic_data: macro level  31 ge  13 for z   6  istate   1
+get_atomic_data: macro level  32 ge  13 for z   6  istate   1
+get_atomic_data: macro level  33 ge  13 for z   6  istate   1
+get_atomic_data: macro level  34 ge  13 for z   6  istate   1
+get_atomic_data: macro level  35 ge  13 for z   6  istate   1
+get_atomic_data: macro level  36 ge  13 for z   6  istate   1
+get_atomic_data: macro level  37 ge  13 for z   6  istate   1
+get_atomic_data: macro level  38 ge  13 for z   6  istate   1
+get_atomic_data: macro level  39 ge  13 for z   6  istate   1
+get_atomic_data: macro level  40 ge  13 for z   6  istate   1
+get_atomic_data: macro level  41 ge  13 for z   6  istate   1
+get_atomic_data: macro level  42 ge  13 for z   6  istate   1
+get_atomic_data: macro level  12 ge  11 for z   6  istate   2
+get_atomic_data: macro level  13 ge  11 for z   6  istate   2
+get_atomic_data: macro level  14 ge  11 for z   6  istate   2
+get_atomic_data: macro level  15 ge  11 for z   6  istate   2
+get_atomic_data: macro level  16 ge  11 for z   6  istate   2
+get_atomic_data: macro level  17 ge  11 for z   6  istate   2
+get_atomic_data: macro level  18 ge  11 for z   6  istate   2
+get_atomic_data: macro level  19 ge  11 for z   6  istate   2
+get_atomic_data: macro level  20 ge  11 for z   6  istate   2
+get_atomic_data: macro level  21 ge  11 for z   6  istate   2
+get_atomic_data: macro level  22 ge  11 for z   6  istate   2
+get_atomic_data: macro level  23 ge  11 for z   6  istate   2
+get_atomic_data: macro level  24 ge  11 for z   6  istate   2
+get_atomic_data: macro level  25 ge  11 for z   6  istate   2
+get_atomic_data: macro level  26 ge  11 for z   6  istate   2
+get_atomic_data: macro level  27 ge  11 for z   6  istate   2
+get_atomic_data: macro level  28 ge  11 for z   6  istate   2
+get_atomic_data: macro level  29 ge  11 for z   6  istate   2
+get_atomic_data: macro level  30 ge  11 for z   6  istate   2
+get_atomic_data: macro level  31 ge  11 for z   6  istate   2
+get_atomic_data: macro level  32 ge  11 for z   6  istate   2
+get_atomic_data: macro level  33 ge  11 for z   6  istate   2
+get_atomic_data: macro level  34 ge  11 for z   6  istate   2
+get_atomic_data: macro level  35 ge  11 for z   6  istate   2
+get_atomic_data: macro level  36 ge  11 for z   6  istate   2
+get_atomic_data: macro level  37 ge  11 for z   6  istate   2
+get_atomic_data: macro level  38 ge  11 for z   6  istate   2
+get_atomic_data: macro level  39 ge  11 for z   6  istate   2
+get_atomic_data: macro level  40 ge  11 for z   6  istate   2
+get_atomic_data: macro level  41 ge  11 for z   6  istate   2
+get_atomic_data: macro level  42 ge  11 for z   6  istate   2
+get_atomic_data: macro level  43 ge  11 for z   6  istate   2
+get_atomic_data: macro level  44 ge  11 for z   6  istate   2
+get_atomic_data: macro level  45 ge  11 for z   6  istate   2
+get_atomic_data: macro level  46 ge  11 for z   6  istate   2
+error_count: This error will no longer be logged: get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+
+get_atomic_data: file data/atomic_macro2/o_2_lines.dat line 6 : line has el (0.000000) > eu (0.000000)
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 4
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 7
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 118
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 121
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 124
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 388
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 391
+Get_atomic_data: np 36 > 20 N_COLL_STREN_PTS in file data/atomic_macro2/o_3__upsilon.dat line 694
+Data of  14 elements, 178 ions,  3027 levels,  5660 lines, and   353 topbase records
+Macro    14 elements,  29 ions,   377 levels,  1223 lines, and   353 topbase records
+Simple   14 elements, 149 ions,  2650 levels,  4437 lines, and     0 topbase records
+We have read in   493 photoionization cross sections
+                  353 are topbase 
+                  140 are VFKY 
+We have read in  2573   Chiantic collision strengths
+We have read in   242 Inner shell photoionization cross sections
+                  213 have matching electron yield data
+We have read in     0 Auger ionization records for macro-atoms
+We have read in   149 Dielectronic recombination coefficients
+We have read in   164 Badnell totl Radiative rate coefficients
+We have read in   135 Badnell GS   Radiative rate coefficients over the temp range 6.760000e+03 to 1.000000e+07
+We have read in    41 Scaled electron temperature frequency averaged gaunt factors
+We have read in     0 Charge exchange rates
+The minimum frequency for photoionization is 8.22e+12
+The minimum frequency for inner shell ionization is 8.33e+15
+Ignored    18 simple lines for macro-ion     0  (z     1 ion     1) 
+Ignored     9 simple lines for macro-ion     2  (z     2 ion     1) 
+Ignored    18 simple lines for macro-ion     3  (z     2 ion     2) 
+Ignored   144 simple lines for macro-ion     5  (z     6 ion     1) 
+Ignored    46 simple lines for macro-ion     6  (z     6 ion     2) 
+Ignored    16 simple lines for macro-ion     7  (z     6 ion     3) 
+Ignored    18 simple lines for macro-ion     8  (z     6 ion     4) 
+Ignored     7 simple lines for macro-ion     9  (z     6 ion     5) 
+Ignored    18 simple lines for macro-ion    10  (z     6 ion     6) 
+Ignored    41 simple lines for macro-ion    12  (z     7 ion     1) 
+Ignored   168 simple lines for macro-ion    13  (z     7 ion     2) 
+Ignored    82 simple lines for macro-ion    14  (z     7 ion     3) 
+Ignored    19 simple lines for macro-ion    15  (z     7 ion     4) 
+Ignored    18 simple lines for macro-ion    16  (z     7 ion     5) 
+Ignored     3 simple lines for macro-ion    17  (z     7 ion     6) 
+Ignored    18 simple lines for macro-ion    18  (z     7 ion     7) 
+Ignored   135 simple lines for macro-ion    20  (z     8 ion     1) 
+Ignored    23 simple lines for macro-ion    21  (z     8 ion     2) 
+Ignored    94 simple lines for macro-ion    22  (z     8 ion     3) 
+Ignored    70 simple lines for macro-ion    23  (z     8 ion     4) 
+Ignored    12 simple lines for macro-ion    24  (z     8 ion     5) 
+Ignored    18 simple lines for macro-ion    25  (z     8 ion     6) 
+Ignored     9 simple lines for macro-ion    26  (z     8 ion     7) 
+Ignored    18 simple lines for macro-ion    27  (z     8 ion     8) 
+Ignored 29 inner shell cross sections because no matching yields
+get_atomic_data: Evaluation:  There are     14 elements     while     50 are currently allowed
+get_atomic_data: Evaluation:  There are    178 ions         while    500 are currently allowed
+get_atomic_data: Evaluation:  There are   3027 levels       while  12000 are currently allowed
+get_atomic_data: Evaluation:  There are   5660 lines        while 200000 are currently allowed
+get_atomic_data: Evaluation:  There are    377 macro levels while    600 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bb jumps is 19 while 100 are currently allowed
+get_atomic_data: Evaluation:  The maximum value bf jumps is 19 while 100 are currently allowed
+Allocated        304 bytes for each of   901 elements of             totaling        0.3 Mb
+Allocated      16848 bytes for each of   240 elements of      plasma totaling        4.0 Mb 
+Allocated        112 bytes for each of   240 elements of photonstore totaling        0.0 Mb 
+Allocated        104 bytes for each of   240 elements of matomphotonstore totaling        0.0 Mb 
+Allocated      19936 bytes for each of   240 elements variable length plasma arrays totaling        7.4 Mb 
+Allocated        232 bytes for each of   240 elements of macro totaling        0.1 Mb 
+calloc_estimators: size_Jbar_est 1223 size_gamma_est 353 size_alpha_est 353
+Allocated       12.9 Mb for MA estimators 
+Allocated      274.3 Mb for MA matrix 
+Read geometry and wind structures from windsavefile cv_cno.wind_save
+Central_object.mass(msol)	  8.000000e-01
+Central_object.radius(cm)	  7.000000e+08
+Central_object.radiation(yes,no)   yes
+Central_object.rad_type_to_make_wind(bb,models)   bb
+Central_object.temp	  4.000000e+04
+Binary.mass_sec(msol)	  6.000000e-01
+Binary.period(hr)	  5.570000e+00
+Disk.type(none,flat,vertically.extended,rmin>central.obj.rad)   flat
+Disk.radiation(yes,no)   yes
+Disk.rad_type_to_make_wind(bb,models,mod_bb)   bb
+Disk.temperature.profile(standard,readin)   standard
+Disk.mdot(msol/yr)	  1.000000e-08
+Disk.radmax(cm)	  2.400000e+10
+geo.disk_rad_max  2.400000e+10
+Boundary_layer.radiation(yes,no)   no
+Not trying to make a star with a power law boundary layer -1
+Photons_per_cycle	  1.000000e+06
+Photons per cycle per MPI task will be 125000
+Ionization_cycles	  0
+Spectrum_cycles	  10
+Allocated        152 bytes for each of 125000 elements of photon structure totaling       19.0 Mb 
+Wind.ionization(on.the.spot,ML93,LTE_tr,LTE_te,fixed,matrix_bb,matrix_pow,matrix_est)   matrix_bb
+Line_transfer(pure_abs,pure_scat,sing_scat,escape_prob,thermal_trapping,macro_atoms_escape_prob,macro_atoms_thermal_trapping)   macro_atoms_thermal_trapping
+Line_transfer mode:  macro atoms, anisotropic  scattering  
+Matom_transition_mode(mc_jumps,matrix)   mc_jumps
+Surface.reflection.or.absorption(reflect,absorb,thermalized.rerad)   absorb
+Wind_heating.extra_processes(none,adiabatic,nonthermal,both)   adiabatic
+binary_basics: a=7.79e+10 l1=4.12e+10 l2=1.29e+11 l1_from_m2=3.67e+10 r2_far 2.96e+10
+binary_basics: m2_near=4.12e+10 m2_far=1.07e+11 
+zero_find: function not bracketed x_lo 1.000000e+03 -> 2.538626e+07, x_hi 3.668989e+10 -> 1.022609e+15
+roche_width : zero_find failure x=4.12e+10 rho 3.58e+07 phi(l2) -2.57e+05
+binary_basics: r2_width=2.71e+10
+There is a star which radiates
+There is a disk which radiates and absorbs
+There is no boundary layer
+There is no BH 
+This is a macro-atom calculation
+Central_object.rad_type_in_final_spectrum(bb,models,uniform,mono)   bb
+Disk.rad_type_in_final_spectrum(bb,models,uniform,mono,mod_bb)   bb
+Spectrum.nwave	  10000
+Spectrum.wavemin(Angstroms)	  3.400000e+03
+Spectrum.wavemax(Angstroms)	  7.000000e+03
+Spectrum.no_observers	  5
+Spectrum.angle(0=pole)	  1.000000e+01
+Spectrum.angle(0=pole)	  2.750000e+01
+Spectrum.angle(0=pole)	  4.500000e+01
+Spectrum.angle(0=pole)	  6.250000e+01
+Spectrum.angle(0=pole)	  8.000000e+01
+Spectrum.orbit_phase(0=inferior_conjunction)	  5.000000e-01
+Spectrum.orbit_phase(0=inferior_conjunction)	  5.000000e-01
+Spectrum.orbit_phase(0=inferior_conjunction)	  5.000000e-01
+Spectrum.orbit_phase(0=inferior_conjunction)	  5.000000e-01
+Spectrum.orbit_phase(0=inferior_conjunction)	  5.000000e-01
+Spectrum.live_or_die(live.or.die,extract)   extract
+OK, detailed spectra will be created using the extract option
+Spectrum.type(flambda,fnu,basic)   flambda
+OK, generating flambda at 100pc
+Reverb.type(none,photon,wind,matom)   none
+Increasing maximum frequency to twice the Helium edge
+Photon_sampling.approach(T_star,cv,yso,AGN,tde_bb,min_max_freq,user_bands,cloudy_test,wide,logarithmic)   cv
+bands_init: There are 4 bands
+bands_init: band 0,  f1= 2.498e+14,  f2= 3.288e+15, frac=0.00
+bands_init: band 0, eV1= 1.033e+00, eV2= 1.360e+01, frac=0.00
+bands_init: band 0, alpha1=0.299757, alpha2=3.944898, frac=0.00
+bands_init: band 1,  f1= 3.288e+15,  f2= 5.945e+15, frac=0.10
+bands_init: band 1, eV1= 1.360e+01, eV2= 2.459e+01, frac=0.10
+bands_init: band 1, alpha1=3.944898, alpha2=7.132669, frac=0.10
+bands_init: band 2,  f1= 5.945e+15,  f2= 1.316e+16, frac=0.10
+bands_init: band 2, eV1= 2.459e+01, eV2= 5.442e+01, frac=0.10
+bands_init: band 2, alpha1=7.132669, alpha2=15.785976, frac=0.10
+bands_init: band 3,  f1= 1.316e+16,  f2= 2.631e+16, frac=0.10
+bands_init: band 3, eV1= 5.442e+01, eV2= 1.088e+02, frac=0.10
+bands_init: band 3, alpha1=15.785976, alpha2=31.571952, frac=0.10
+Old file vis_cno.out.pf.old did not exist
+Could not rename vis_cno.out.pf to vis_cno.out.pf.old
+There are 1 domains
+                Wind type:   0  ndim:  30 mdim:  30 ndim2:  900
+DFUDGE set to 1.000000e+05 based on geo.rmax
+check_grid: velocity changes by >1,000 km/s in 17 cells
+check_grid: optical depth may be high in 102
+check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+xxx Fri May 24 18:42:40 2024      1.1 NOK                  Finished initialization for vis_cno
+xxx Fri May 24 18:42:40 2024      1.2 COMMENT              No ionization needed: wcycles(0)==wcyeles(0)
+ Completed wind creation.  The elapsed TIME was 1.150936
+ Completed wind creation.  The elapsed TIME was 1.150939
+xxx Fri May 24 18:42:40 2024      1.2 NOK                  Starting   1 of  10 spectrum cycles 
+!!Cycle 1 of 10 to calculate a detailed spectrum
+Using accelerated calculation of emissivities
+Calculating macro-atom and k-packet emissivities- this might take a while...
+Number of cells for rank: 30
+Number of macro-atom levels: 377
+Rank 0 is calculating macro atom emissivity for macro atom       0 of      30 or  0.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom       3 of      30 or 10.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750889e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom       6 of      30 or 20.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom       9 of      30 or 30.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      12 of      30 or 40.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750419e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750889e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      15 of      30 or 50.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750908e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      18 of      30 or 60.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      21 of      30 or 70.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.744123e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      24 of      30 or 80.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750680e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750867e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750904e-17. Setting to 0.
+Rank 0 is calculating macro atom emissivity for macro atom      27 of      30 or 90.000 per cent
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Negative probability (matom, 2) for number 1 at -1.750911e-17. Setting to 0.
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  0 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  1 matom_abs 4.1319e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  2 matom_abs 2.4641e+31 matom_emiss 3.1987e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  3 matom_abs 1.9617e+31 matom_emiss 3.4418e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  4 matom_abs 1.6487e+31 matom_emiss 3.1315e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  5 matom_abs 1.3972e+31 matom_emiss 2.7792e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  6 matom_abs 1.1935e+31 matom_emiss 2.4598e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  7 matom_abs 1.1935e+31 matom_emiss 2.1754e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  8 matom_abs 1.4332e+31 matom_emiss 1.9147e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n  9 matom_abs 8.7450e+30 matom_emiss 1.6727e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 10 matom_abs 6.5315e+30 matom_emiss 1.4524e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 11 matom_abs 5.4712e+30 matom_emiss 1.2517e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 12 matom_abs 4.9856e+30 matom_emiss 1.0760e+30
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 13 matom_abs 4.2671e+30 matom_emiss 9.2712e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 14 matom_abs 3.6861e+30 matom_emiss 7.9544e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 15 matom_abs 3.4046e+30 matom_emiss 6.8761e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 16 matom_abs 2.6880e+30 matom_emiss 5.9427e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 17 matom_abs 2.5471e+30 matom_emiss 5.1372e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 18 matom_abs 2.4154e+30 matom_emiss 4.4961e+29
+Macro Atom level emissivities (summed): z  1 i  1 macro  1 n 19 matom_abs 2.1276e+30 matom_emiss 3.8959e+29
+Macro Atom level emissivities (summed): z  1 i  2 macro  1 n 20 matom_abs 4.3821e+33 matom_emiss 7.1571e+31
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 21 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 22 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 23 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 24 matom_abs 1.2382e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 25 matom_abs 4.2412e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 26 matom_abs 2.6979e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 27 matom_abs 6.2641e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 28 matom_abs 8.1028e+29 matom_emiss 1.4699e+30
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 29 matom_abs 7.5515e+29 matom_emiss 1.3659e+30
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 30 matom_abs 3.2811e+29 matom_emiss 7.1653e+29
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 31 matom_abs 3.2751e+30 matom_emiss 5.3874e+29
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 32 matom_abs 2.2019e+29 matom_emiss 4.0730e+29
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 33 matom_abs 3.6748e+28 matom_emiss 9.3331e+28
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 34 matom_abs 4.9197e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 35 matom_abs 7.9885e+29 matom_emiss 1.6150e+30
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 36 matom_abs 3.0443e+29 matom_emiss 7.6246e+29
+Macro Atom level emissivities (summed): z  2 i  1 macro  1 n 37 matom_abs 2.7154e+30 matom_emiss 3.4731e+29
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 38 matom_abs 6.7869e+32 matom_emiss 5.2948e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 39 matom_abs 3.8626e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 40 matom_abs 3.1150e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 41 matom_abs 3.1049e+31 matom_emiss 6.4038e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 42 matom_abs 2.0422e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 43 matom_abs 1.8043e+31 matom_emiss 1.4204e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 44 matom_abs 1.9191e+31 matom_emiss 1.5074e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 45 matom_abs 1.1054e+31 matom_emiss 1.3460e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 46 matom_abs 8.4717e+30 matom_emiss 1.1051e+30
+Macro Atom level emissivities (summed): z  2 i  2 macro  1 n 47 matom_abs 6.8979e+30 matom_emiss 8.7046e+29
+Macro Atom level emissivities (summed): z  2 i  3 macro  1 n 48 matom_abs 1.6819e+33 matom_emiss 9.6029e+30
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 49 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 50 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 51 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 52 matom_abs 1.2364e+22 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 53 matom_abs 3.0944e+22 matom_emiss 4.9394e+22
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 54 matom_abs 7.3170e+16 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 55 matom_abs 9.0262e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 56 matom_abs 2.6076e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 57 matom_abs 4.0148e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 58 matom_abs 4.6156e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 59 matom_abs 8.4061e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 60 matom_abs 2.0263e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  1 macro  1 n 61 matom_abs 1.7043e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 62 matom_abs 3.4836e+28 matom_emiss 7.0320e+23
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 63 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 64 matom_abs 1.6453e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 65 matom_abs 6.5646e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 66 matom_abs 6.7585e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 67 matom_abs 5.2000e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 68 matom_abs 4.4096e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 69 matom_abs 5.0855e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 70 matom_abs 1.8086e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 71 matom_abs 2.2090e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  2 macro  1 n 72 matom_abs 6.8350e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 73 matom_abs 2.3412e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 74 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 75 matom_abs 3.2760e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 76 matom_abs 3.3875e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 77 matom_abs 2.6373e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 78 matom_abs 2.6715e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 79 matom_abs 7.3820e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 80 matom_abs 5.0112e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 81 matom_abs 6.3118e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 82 matom_abs 8.3895e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 83 matom_abs 1.1701e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 84 matom_abs 1.9864e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 85 matom_abs 7.9671e+30 matom_emiss 7.6986e+26
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 86 matom_abs 3.7560e+29 matom_emiss 6.1620e+29
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 87 matom_abs 5.2428e+29 matom_emiss 9.1537e+29
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 88 matom_abs 6.9495e+29 matom_emiss 1.1599e+30
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 89 matom_abs 1.0329e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 90 matom_abs 8.8317e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 91 matom_abs 5.4721e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  3 macro  1 n 92 matom_abs 3.4762e+30 matom_emiss 4.4977e+29
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 93 matom_abs 6.1681e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 94 matom_abs 8.6383e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 95 matom_abs 1.0107e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 96 matom_abs 1.1897e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 97 matom_abs 8.1122e+30 matom_emiss 2.6841e+29
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 98 matom_abs 1.1645e+31 matom_emiss 4.4892e+29
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 99 matom_abs 1.2073e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 100 matom_abs 6.7049e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 101 matom_abs 2.1776e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 102 matom_abs 1.2426e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 103 matom_abs 2.7044e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 104 matom_abs 3.0479e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 105 matom_abs 2.3488e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 106 matom_abs 2.3732e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 107 matom_abs 3.1185e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 108 matom_abs 8.0744e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 109 matom_abs 2.2606e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 110 matom_abs 3.8391e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 111 matom_abs 9.3754e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 112 matom_abs 6.5274e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 113 matom_abs 3.4119e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 114 matom_abs 4.2795e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 115 matom_abs 3.4262e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  4 macro  1 n 116 matom_abs 5.2822e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 117 matom_abs 2.4976e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 118 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 119 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 120 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 121 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 122 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 123 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 124 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 125 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 126 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 127 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 128 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 129 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 130 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 131 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 132 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  5 macro  1 n 133 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 134 matom_abs 1.2528e+14 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 135 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 136 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 137 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 138 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 139 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 140 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 141 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 142 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 143 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 144 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 145 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 146 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 147 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 148 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  6 macro  1 n 149 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  6 i  7 macro  1 n 150 matom_abs 6.2599e-13 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  1 macro  1 n 151 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  1 macro  1 n 152 matom_abs 8.9002e+22 matom_emiss 8.4405e+22
+Macro Atom level emissivities (summed): z  7 i  1 macro  1 n 153 matom_abs 2.4967e+22 matom_emiss 8.4293e+22
+Macro Atom level emissivities (summed): z  7 i  1 macro  1 n 154 matom_abs 1.7034e+23 matom_emiss 1.5178e+23
+Macro Atom level emissivities (summed): z  7 i  1 macro  1 n 155 matom_abs 1.1295e+23 matom_emiss 1.5174e+23
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 156 matom_abs 2.3003e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 157 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 158 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 159 matom_abs 1.2455e+27 matom_emiss 4.4263e+27
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 160 matom_abs 4.7925e+27 matom_emiss 1.7535e+27
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 161 matom_abs 6.5570e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 162 matom_abs 2.6633e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 163 matom_abs 4.3619e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 164 matom_abs 3.9204e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 165 matom_abs 3.8967e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 166 matom_abs 3.0474e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 167 matom_abs 1.1660e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 168 matom_abs 8.9398e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 169 matom_abs 1.7793e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  2 macro  1 n 170 matom_abs 7.3997e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 171 matom_abs 9.7804e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 172 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 173 matom_abs 4.9552e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 174 matom_abs 4.6305e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 175 matom_abs 3.4453e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 176 matom_abs 4.8276e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 177 matom_abs 3.0582e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 178 matom_abs 2.5120e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 179 matom_abs 2.5828e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 180 matom_abs 2.6022e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  3 macro  1 n 181 matom_abs 2.2770e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 182 matom_abs 4.0852e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 183 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 184 matom_abs 6.2156e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 185 matom_abs 5.9624e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 186 matom_abs 8.8295e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 187 matom_abs 3.4403e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 188 matom_abs 9.1270e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 189 matom_abs 6.8454e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 190 matom_abs 1.5332e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 191 matom_abs 1.4717e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 192 matom_abs 7.9948e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 193 matom_abs 2.3301e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 194 matom_abs 5.4571e+30 matom_emiss 1.7469e+27
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 195 matom_abs 3.1190e+28 matom_emiss 1.4394e+28
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 196 matom_abs 1.8985e+29 matom_emiss 3.8845e+28
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 197 matom_abs 1.1089e+29 matom_emiss 5.7353e+28
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 198 matom_abs 5.5682e+30 matom_emiss 2.9906e+23
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 199 matom_abs 4.7236e+30 matom_emiss 1.0376e+24
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 200 matom_abs 3.0682e+30 matom_emiss 2.9459e+22
+Macro Atom level emissivities (summed): z  7 i  4 macro  1 n 201 matom_abs 2.1746e+30 matom_emiss 9.8801e+27
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 202 matom_abs 4.9160e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 203 matom_abs 1.4009e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 204 matom_abs 2.1135e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 205 matom_abs 9.0956e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 206 matom_abs 1.0206e+30 matom_emiss 1.6154e+27
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 207 matom_abs 1.4947e+30 matom_emiss 3.2017e+27
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 208 matom_abs 1.2476e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 209 matom_abs 9.9009e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 210 matom_abs 9.9305e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 211 matom_abs 4.7627e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 212 matom_abs 8.8758e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 213 matom_abs 2.4450e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 214 matom_abs 2.8469e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 215 matom_abs 1.2013e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 216 matom_abs 1.7616e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 217 matom_abs 9.6530e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 218 matom_abs 1.3611e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 219 matom_abs 1.9199e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 220 matom_abs 4.9339e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 221 matom_abs 4.8041e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 222 matom_abs 6.1629e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 223 matom_abs 9.4473e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 224 matom_abs 7.5533e+24 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 225 matom_abs 7.9710e+24 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  5 macro  1 n 226 matom_abs 2.5731e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 227 matom_abs 9.0397e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 228 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 229 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 230 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 231 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 232 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 233 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 234 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 235 matom_abs 0.0000e+00 matom_emiss -7.1442e+08
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 236 matom_abs 0.0000e+00 matom_emiss -1.8942e+09
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 237 matom_abs 0.0000e+00 matom_emiss -3.3833e+09
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 238 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 239 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 240 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 241 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 242 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  6 macro  1 n 243 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 244 matom_abs 8.0066e+10 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 245 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 246 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 247 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 248 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 249 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 250 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 251 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 252 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 253 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 254 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 255 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 256 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 257 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 258 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  7 macro  1 n 259 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  7 i  8 macro  1 n 260 matom_abs 1.2689e-13 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 261 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 262 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 263 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 264 matom_abs 3.6533e+24 matom_emiss 2.0668e+25
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 265 matom_abs 2.0276e+25 matom_emiss 5.3652e+24
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 266 matom_abs 3.0603e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  1 macro  1 n 267 matom_abs 5.0808e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  2 macro  1 n 268 matom_abs 6.8063e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  2 macro  1 n 269 matom_abs 3.5867e+28 matom_emiss 2.0408e+29
+Macro Atom level emissivities (summed): z  8 i  2 macro  1 n 270 matom_abs 4.2946e+28 matom_emiss 2.0300e+29
+Macro Atom level emissivities (summed): z  8 i  2 macro  1 n 271 matom_abs 7.0665e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  2 macro  1 n 272 matom_abs 7.2321e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 273 matom_abs 5.9775e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 274 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 275 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 276 matom_abs 8.8056e+29 matom_emiss 2.8638e+30
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 277 matom_abs 2.4494e+30 matom_emiss 9.7926e+29
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 278 matom_abs 2.6889e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 279 matom_abs 5.5745e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 280 matom_abs 5.3352e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 281 matom_abs 2.7557e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 282 matom_abs 2.5106e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 283 matom_abs 6.5824e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 284 matom_abs 5.1462e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 285 matom_abs 1.6656e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 286 matom_abs 3.6675e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  3 macro  1 n 287 matom_abs 2.3873e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 288 matom_abs 1.3394e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 289 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 290 matom_abs 5.3114e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 291 matom_abs 5.7184e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 292 matom_abs 3.6695e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 293 matom_abs 1.8833e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 294 matom_abs 1.2124e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 295 matom_abs 1.8269e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 296 matom_abs 1.5331e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 297 matom_abs 1.7947e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  4 macro  1 n 298 matom_abs 6.2361e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 299 matom_abs 5.8223e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 300 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 301 matom_abs 8.9863e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 302 matom_abs 4.7936e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 303 matom_abs 2.0015e+32 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 304 matom_abs 1.9478e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 305 matom_abs 5.8374e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 306 matom_abs 4.8019e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 307 matom_abs 1.0145e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 308 matom_abs 6.8602e+30 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 309 matom_abs 6.7112e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 310 matom_abs 6.6955e+28 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 311 matom_abs 7.5475e+29 matom_emiss 8.1315e+25
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 312 matom_abs 8.7886e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 313 matom_abs 3.8543e+28 matom_emiss 1.1920e+23
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 314 matom_abs 3.2599e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 315 matom_abs 3.7290e+29 matom_emiss 1.6611e+25
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 316 matom_abs 3.2819e+29 matom_emiss 3.2329e+25
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 317 matom_abs 2.3010e+29 matom_emiss 4.2253e+25
+Macro Atom level emissivities (summed): z  8 i  5 macro  1 n 318 matom_abs 2.0783e+29 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 319 matom_abs 3.4367e+27 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 320 matom_abs 1.0189e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 321 matom_abs 1.3000e+31 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 322 matom_abs 1.1626e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 323 matom_abs 3.6582e+27 matom_emiss 4.0712e+23
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 324 matom_abs 9.0936e+27 matom_emiss 1.5815e+24
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 325 matom_abs 5.6133e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 326 matom_abs 8.2100e+26 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 327 matom_abs 4.3580e+23 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 328 matom_abs 1.9103e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 329 matom_abs 4.0903e+25 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 330 matom_abs 4.1951e+24 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 331 matom_abs 2.2104e+24 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 332 matom_abs 1.1642e+22 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 333 matom_abs 1.4979e+22 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 334 matom_abs 2.9002e+21 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 335 matom_abs 8.1915e+19 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 336 matom_abs 1.5842e+20 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 337 matom_abs 5.1950e+20 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 338 matom_abs 8.7803e+20 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 339 matom_abs 5.0112e+20 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 340 matom_abs 7.5593e+20 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 341 matom_abs 2.5691e+19 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  6 macro  1 n 342 matom_abs 1.2169e+19 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 343 matom_abs 4.7351e+19 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 344 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 345 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 346 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 347 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 348 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 349 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 350 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 351 matom_abs 0.0000e+00 matom_emiss -1.2268e+07
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 352 matom_abs 0.0000e+00 matom_emiss -1.0347e+08
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 353 matom_abs 0.0000e+00 matom_emiss 1.0042e+08
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 354 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 355 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 356 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 357 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 358 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  7 macro  1 n 359 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 360 matom_abs 5.2923e+02 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 361 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 362 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 363 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 364 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 365 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 366 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 367 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 368 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 369 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 370 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 371 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 372 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 373 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 374 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  8 macro  1 n 375 matom_abs 0.0000e+00 matom_emiss 0.0000e+00
+Macro Atom level emissivities (summed): z  8 i  9 macro  1 n 376 matom_abs 1.3992e-14 matom_emiss 0.0000e+00
+Kpkt emissivities (summed over cells): kpkt_abs 2.0320e+33 kpkt_emiss 2.4131e+32
+Totals: f_matom 1.435922e+32 f_kpkt 2.413123e+32
+!! xdefine_phot: lum_tot 4.50e+34 lum_star 8.94e+32 lum_bl 0.00e+00 lum_bh 0.00e+00 lum_disk 4.41e+34 lum_wind 0.00e+00
+!! xdefine_phot:   f_tot 3.49e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 0.00e+00   f_matom 1.44e+32   f_kpkt 2.41e+32 
+!! xdefine_phot: wind ff 7.94e+32       fb 2.20e+35   lines  6.00e+35  for freq 4.28e+14 8.82e+14
+!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.10e+33 
+!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  5.45e+30 
+!! xdefine_phot: heating & cooling  due to adiabatic processes:         0.00e+00 1.68e+30 
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:42:49 2024      9.9 NOK                  Photon transport started
+
+Spec. Cycle 1/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 1/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 1/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.058514 seconds
+xxx Fri May 24 18:43:08 2024     28.9 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 4
+1.11e+05 1.35e+04 903      56       2        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 1
+1.25e+05 21       
+No of photons and their fates
+!!PhotFate: 0        0        1.07e+05 337      0        0        1.02e+04 7.44e+03 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         1.01e+05  317       0         0         7.67e+03  1.82e+03  0         0        
+            WCreated  0         0         5.65e+03  20        0         0         2.52e+03  5.61e+03  0         0        
+             Emitted  0         0         1.07e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         789       0         0         0         0         0         0         0        
+                Disk  0         0         1.01e+05  0         0         0         0         0         0         0        
+                Wind  0         0         5.66e+03  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         337       0         0         0         7.44e+03  0         0        
+           Scattered  0         0         2.29e+03  0         0         0         0         0         0         0        
+            A10P0.50  0         53        6.49e+04  557       0         0         0         6.48e+04  0         0        
+            A28P0.50  0         43        6.48e+04  567       0         0         0         6.49e+04  0         0        
+            A45P0.50  0         68        6.47e+04  633       0         0         0         6.49e+04  0         0        
+            A62P0.50  0         131       6.44e+04  842       0         0         0         6.49e+04  0         0        
+            A80P0.50  0         522       6.36e+04  1.57e+03  0         0         0         6.46e+04  0         0        
+Completed spectrum cycle   1 :  The elapsed TIME was 29.352450
+xxx Fri May 24 18:43:08 2024     29.4 OK                   Finished   1 of  10 spectrum cycles 
+xxx Fri May 24 18:43:08 2024     29.4 NOK                  Starting   2 of  10 spectrum cycles 
+!!Cycle 2 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:43:09 2024     30.1 NOK                  Photon transport started
+
+Spec. Cycle 2/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 2/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.061969 seconds
+xxx Fri May 24 18:43:28 2024     49.2 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 4
+2.21e+05 2.68e+04 1.8e+03  125      5        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 1
+2.5e+05  49       
+No of photons and their fates
+!!PhotFate: 0        0        2.14e+05 700      0        0        2.02e+04 1.49e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         2.03e+05  653       0         0         1.52e+04  3.74e+03  0         0        
+            WCreated  0         0         1.14e+04  47        0         0         4.98e+03  1.12e+04  0         0        
+             Emitted  0         0         2.14e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.57e+03  0         0         0         0         0         0         0        
+                Disk  0         0         2.01e+05  0         0         0         0         0         0         0        
+                Wind  0         0         1.14e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         700       0         0         0         1.49e+04  0         0        
+           Scattered  0         0         4.52e+03  0         0         0         0         0         0         0        
+            A10P0.50  0         105       1.3e+05   1.14e+03  0         0         0         1.29e+05  0         0        
+            A28P0.50  0         95        1.3e+05   1.2e+03   0         0         0         1.29e+05  0         0        
+            A45P0.50  0         142       1.3e+05   1.32e+03  0         0         0         1.29e+05  0         0        
+            A62P0.50  0         260       1.29e+05  1.77e+03  0         0         0         1.29e+05  0         0        
+            A80P0.50  0         1.01e+03  1.28e+05  3.15e+03  0         0         0         1.29e+05  0         0        
+Completed spectrum cycle   2 :  The elapsed TIME was 49.555556
+xxx Fri May 24 18:43:28 2024     49.6 OK                   Finished   2 of  10 spectrum cycles 
+xxx Fri May 24 18:43:28 2024     49.6 NOK                  Starting   3 of  10 spectrum cycles 
+!!Cycle 3 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:43:29 2024     50.3 NOK                  Photon transport started
+
+Spec. Cycle 3/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 3/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.667601 seconds
+xxx Fri May 24 18:43:49 2024     70.0 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 5
+3.32e+05 4.03e+04 2.69e+03 193      10       2        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 1
+3.75e+05 75       
+No of photons and their fates
+!!PhotFate: 0        0        3.21e+05 1.05e+03 0        0        3.04e+04 2.24e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         3.04e+05  964       0         0         2.28e+04  5.59e+03  0         0        
+            WCreated  0         0         1.7e+04   82        0         0         7.59e+03  1.68e+04  0         0        
+             Emitted  0         0         3.21e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         2.35e+03  0         0         0         0         0         0         0        
+                Disk  0         0         3.02e+05  0         0         0         0         0         0         0        
+                Wind  0         0         1.7e+04   0         0         0         0         0         0         0        
+             HitSurf  0         0         0         1.05e+03  0         0         0         2.24e+04  0         0        
+           Scattered  0         0         6.8e+03   0         0         0         0         0         0         0        
+            A10P0.50  0         171       1.95e+05  1.66e+03  0         0         0         1.94e+05  0         0        
+            A28P0.50  0         158       1.95e+05  1.75e+03  0         0         0         1.94e+05  0         0        
+            A45P0.50  0         211       1.95e+05  1.93e+03  0         0         0         1.94e+05  0         0        
+            A62P0.50  0         397       1.94e+05  2.63e+03  0         0         0         1.94e+05  0         0        
+            A80P0.50  0         1.55e+03  1.92e+05  4.78e+03  0         0         0         1.93e+05  0         0        
+Completed spectrum cycle   3 :  The elapsed TIME was 70.394713
+xxx Fri May 24 18:43:49 2024     70.4 OK                   Finished   3 of  10 spectrum cycles 
+xxx Fri May 24 18:43:49 2024     70.4 NOK                  Starting   4 of  10 spectrum cycles 
+!!Cycle 4 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:43:50 2024     71.2 NOK                  Photon transport started
+
+Spec. Cycle 4/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 4/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.926360 seconds
+xxx Fri May 24 18:44:10 2024     91.1 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 5
+4.43e+05 5.34e+04 3.58e+03 248      14       2        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 1
+5e+05    105      
+No of photons and their fates
+!!PhotFate: 0        0        4.29e+05 1.39e+03 0        0        4.01e+04 2.97e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         4.06e+05  1.29e+03  0         0         3.01e+04  7.42e+03  0         0        
+            WCreated  0         0         2.27e+04  101       0         0         1e+04     2.23e+04  0         0        
+             Emitted  0         0         4.29e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         3.15e+03  0         0         0         0         0         0         0        
+                Disk  0         0         4.03e+05  0         0         0         0         0         0         0        
+                Wind  0         0         2.28e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         1.39e+03  0         0         0         2.97e+04  0         0        
+           Scattered  0         0         9.07e+03  0         0         0         0         0         0         0        
+            A10P0.50  0         234       2.61e+05  2.19e+03  0         0         0         2.58e+05  0         0        
+            A28P0.50  0         213       2.6e+05   2.29e+03  0         0         0         2.58e+05  0         0        
+            A45P0.50  0         288       2.6e+05   2.54e+03  0         0         0         2.59e+05  0         0        
+            A62P0.50  0         550       2.59e+05  3.47e+03  0         0         0         2.59e+05  0         0        
+            A80P0.50  0         2.07e+03  2.56e+05  6.32e+03  0         0         0         2.57e+05  0         0        
+Completed spectrum cycle   4 :  The elapsed TIME was 91.404442
+xxx Fri May 24 18:44:10 2024     91.4 OK                   Finished   4 of  10 spectrum cycles 
+xxx Fri May 24 18:44:10 2024     91.4 NOK                  Starting   5 of  10 spectrum cycles 
+!!Cycle 5 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:44:11 2024     92.1 NOK                  Photon transport started
+
+Spec. Cycle 5/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 5/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.518481 seconds
+xxx Fri May 24 18:44:31 2024    111.7 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+5.54e+05 6.66e+04 4.48e+03 309      20       2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 1
+6.25e+05 135      
+No of photons and their fates
+!!PhotFate: 0        0        5.36e+05 1.73e+03 0        0        5.01e+04 3.73e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         5.08e+05  1.61e+03  0         0         3.76e+04  9.3e+03   0         0        
+            WCreated  0         0         2.84e+04  122       0         0         1.25e+04  2.8e+04   0         0        
+             Emitted  0         0         5.36e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         3.96e+03  0         0         0         0         0         0         0        
+                Disk  0         0         5.04e+05  0         0         0         0         0         0         0        
+                Wind  0         0         2.84e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         1.73e+03  0         0         0         3.73e+04  0         0        
+           Scattered  0         0         1.13e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         295       3.26e+05  2.74e+03  0         0         0         3.23e+05  0         0        
+            A28P0.50  0         290       3.25e+05  2.86e+03  0         0         0         3.23e+05  0         0        
+            A45P0.50  0         366       3.25e+05  3.2e+03   0         0         0         3.23e+05  0         0        
+            A62P0.50  0         708       3.23e+05  4.36e+03  0         0         0         3.23e+05  0         0        
+            A80P0.50  0         2.61e+03  3.2e+05   7.93e+03  0         0         0         3.21e+05  0         0        
+Completed spectrum cycle   5 :  The elapsed TIME was 112.218076
+xxx Fri May 24 18:44:31 2024    112.2 OK                   Finished   5 of  10 spectrum cycles 
+xxx Fri May 24 18:44:31 2024    112.2 NOK                  Starting   6 of  10 spectrum cycles 
+!!Cycle 6 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:44:32 2024    113.0 NOK                  Photon transport started
+
+Spec. Cycle 6/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 6/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.471073 seconds
+xxx Fri May 24 18:44:51 2024    132.5 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+6.64e+05 8.01e+04 5.38e+03 357      29       2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 2
+7.5e+05  147      3        
+No of photons and their fates
+!!PhotFate: 0        0        6.43e+05 2.1e+03  0        0        6.01e+04 4.47e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         6.09e+05  1.95e+03  0         0         4.51e+04  1.12e+04  0         0        
+            WCreated  0         0         3.42e+04  148       0         0         1.5e+04   3.35e+04  0         0        
+             Emitted  0         0         6.43e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         4.75e+03  0         0         0         0         0         0         0        
+                Disk  0         0         6.04e+05  0         0         0         0         0         0         0        
+                Wind  0         0         3.42e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         2.1e+03   0         0         0         4.47e+04  0         0        
+           Scattered  0         0         1.36e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         356       3.91e+05  3.29e+03  0         0         0         3.87e+05  0         0        
+            A28P0.50  0         352       3.9e+05   3.42e+03  0         0         0         3.88e+05  0         0        
+            A45P0.50  0         456       3.9e+05   3.82e+03  0         0         0         3.88e+05  0         0        
+            A62P0.50  0         880       3.88e+05  5.2e+03   0         0         0         3.88e+05  0         0        
+            A80P0.50  0         3.22e+03  3.84e+05  9.45e+03  0         0         0         3.86e+05  0         0        
+Completed spectrum cycle   6 :  The elapsed TIME was 132.783487
+xxx Fri May 24 18:44:52 2024    132.8 OK                   Finished   6 of  10 spectrum cycles 
+xxx Fri May 24 18:44:52 2024    132.8 NOK                  Starting   7 of  10 spectrum cycles 
+!!Cycle 7 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:44:52 2024    133.5 NOK                  Photon transport started
+
+Spec. Cycle 7/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 7/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.657036 seconds
+xxx Fri May 24 18:45:12 2024    153.2 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+7.75e+05 9.34e+04 6.29e+03 431      32       2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 2
+8.75e+05 178      4        
+No of photons and their fates
+!!PhotFate: 0        0        7.5e+05  2.44e+03 0        0        7.02e+04 5.2e+04  0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         7.11e+05  2.27e+03  0         0         5.25e+04  1.31e+04  0         0        
+            WCreated  0         0         3.98e+04  173       0         0         1.77e+04  3.9e+04   0         0        
+             Emitted  0         0         7.5e+05   0         0         0         0         0         0         0        
+              CenSrc  0         0         5.53e+03  0         0         0         0         0         0         0        
+                Disk  0         0         7.05e+05  0         0         0         0         0         0         0        
+                Wind  0         0         3.99e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         2.44e+03  0         0         0         5.2e+04   0         0        
+           Scattered  0         0         1.58e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         410       4.56e+05  3.85e+03  0         0         0         4.52e+05  0         0        
+            A28P0.50  0         421       4.55e+05  4e+03     0         0         0         4.52e+05  0         0        
+            A45P0.50  0         544       4.55e+05  4.49e+03  0         0         0         4.53e+05  0         0        
+            A62P0.50  0         1.06e+03  4.53e+05  6.04e+03  0         0         0         4.53e+05  0         0        
+            A80P0.50  0         3.79e+03  4.47e+05  1.1e+04   0         0         0         4.5e+05   0         0        
+Completed spectrum cycle   7 :  The elapsed TIME was 153.342729
+xxx Fri May 24 18:45:12 2024    153.3 OK                   Finished   7 of  10 spectrum cycles 
+xxx Fri May 24 18:45:12 2024    153.4 NOK                  Starting   8 of  10 spectrum cycles 
+!!Cycle 8 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:45:13 2024    154.1 NOK                  Photon transport started
+
+Spec. Cycle 8/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 8/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.863311 seconds
+xxx Fri May 24 18:45:33 2024    174.0 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+8.86e+05 1.07e+05 7.2e+03  499      43       2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 2
+1e+06    195      4        
+No of photons and their fates
+!!PhotFate: 0        0        8.58e+05 2.77e+03 0        0        8.02e+04 5.94e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         8.12e+05  2.57e+03  0         0         6.01e+04  1.48e+04  0         0        
+            WCreated  0         0         4.55e+04  202       0         0         2.02e+04  4.45e+04  0         0        
+             Emitted  0         0         8.58e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         6.35e+03  0         0         0         0         0         0         0        
+                Disk  0         0         8.06e+05  0         0         0         0         0         0         0        
+                Wind  0         0         4.55e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         2.77e+03  0         0         0         5.94e+04  0         0        
+           Scattered  0         0         1.81e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         469       5.21e+05  4.39e+03  0         0         0         5.16e+05  0         0        
+            A28P0.50  0         484       5.21e+05  4.56e+03  0         0         0         5.17e+05  0         0        
+            A45P0.50  0         617       5.2e+05   5.11e+03  0         0         0         5.17e+05  0         0        
+            A62P0.50  0         1.22e+03  5.17e+05  6.86e+03  0         0         0         5.17e+05  0         0        
+            A80P0.50  0         4.37e+03  5.12e+05  1.25e+04  0         0         0         5.14e+05  0         0        
+Completed spectrum cycle   8 :  The elapsed TIME was 174.470230
+xxx Fri May 24 18:45:33 2024    174.5 OK                   Finished   8 of  10 spectrum cycles 
+xxx Fri May 24 18:45:33 2024    174.5 NOK                  Starting   9 of  10 spectrum cycles 
+!!Cycle 9 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:45:34 2024    175.2 NOK                  Photon transport started
+
+Spec. Cycle 9/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 9/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.640957 seconds
+xxx Fri May 24 18:45:54 2024    194.9 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+9.96e+05 1.2e+05  8.12e+03 562      43       2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 2
+1.12e+06 229      5        
+No of photons and their fates
+!!PhotFate: 0        0        9.65e+05 3.12e+03 0        0        9.03e+04 6.69e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         9.14e+05  2.9e+03   0         0         6.76e+04  1.67e+04  0         0        
+            WCreated  0         0         5.11e+04  223       0         0         2.27e+04  5.02e+04  0         0        
+             Emitted  0         0         9.65e+05  0         0         0         0         0         0         0        
+              CenSrc  0         0         7.12e+03  0         0         0         0         0         0         0        
+                Disk  0         0         9.06e+05  0         0         0         0         0         0         0        
+                Wind  0         0         5.12e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         3.12e+03  0         0         0         6.69e+04  0         0        
+           Scattered  0         0         2.04e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         519       5.87e+05  4.93e+03  0         0         0         5.81e+05  0         0        
+            A28P0.50  0         549       5.86e+05  5.12e+03  0         0         0         5.81e+05  0         0        
+            A45P0.50  0         698       5.85e+05  5.74e+03  0         0         0         5.82e+05  0         0        
+            A62P0.50  0         1.36e+03  5.82e+05  7.72e+03  0         0         0         5.81e+05  0         0        
+            A80P0.50  0         4.88e+03  5.76e+05  1.41e+04  0         0         0         5.78e+05  0         0        
+Completed spectrum cycle   9 :  The elapsed TIME was 195.426605
+xxx Fri May 24 18:45:54 2024    195.4 OK                   Finished   9 of  10 spectrum cycles 
+xxx Fri May 24 18:45:54 2024    195.4 NOK                  Starting  10 of  10 spectrum cycles 
+!!Cycle 10 of 10 to calculate a detailed spectrum
+photon_gen: band 4.28e+14 to 8.82e+14 weight 2.79e+27 nphotons   125000 ndisk  110101 nwind       0 nstar    1099 npow 0 
+photo_gen_kpkt  creates nphot  8652 photons from 111200 to 119852, weight 2.7890e+27 
+photo_gen_matom creates nphot  5148 photons from 119852 to 125000 
+xxx Fri May 24 18:45:55 2024    196.2 NOK                  Photon transport started
+
+Spec. Cycle 10/10 of vis_cno : Photon          0 of     125000 or    0.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      12500 of     125000 or   10.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      25000 of     125000 or   20.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      37500 of     125000 or   30.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      50000 of     125000 or   40.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      62500 of     125000 or   50.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      75000 of     125000 or   60.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon      87500 of     125000 or   70.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon     100000 of     125000 or   80.0 per cent 
+Spec. Cycle 10/10 of vis_cno : Photon     112500 of     125000 or   90.0 per cent 
+
+!!python: photon transport completed in: 19.358775 seconds
+xxx Fri May 24 18:46:14 2024    215.6 NOK                  Photon transport completed
+spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.00 w/freq hi
+
+No. of photons which have scattered n times.     The max number of scatters seen was 6
+1.11e+06 1.33e+05 9e+03    622      47       3        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 2
+1.25e+06 265      6        
+No of photons and their fates
+!!PhotFate: 0        0        1.07e+06 3.48e+03 0        0        1e+05    7.44e+04 0        0        
+
+Photons contributing to the various spectra
+                      Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
+             Created  0         0         1.02e+06  3.22e+03  0         0         7.5e+04   1.86e+04  0         0        
+            WCreated  0         0         5.68e+04  262       0         0         2.52e+04  5.58e+04  0         0        
+             Emitted  0         0         1.07e+06  0         0         0         0         0         0         0        
+              CenSrc  0         0         7.92e+03  0         0         0         0         0         0         0        
+                Disk  0         0         1.01e+06  0         0         0         0         0         0         0        
+                Wind  0         0         5.69e+04  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         3.48e+03  0         0         0         7.44e+04  0         0        
+           Scattered  0         0         2.27e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         573       6.52e+05  5.47e+03  0         0         0         6.45e+05  0         0        
+            A28P0.50  0         616       6.51e+05  5.68e+03  0         0         0         6.46e+05  0         0        
+            A45P0.50  0         768       6.5e+05   6.38e+03  0         0         0         6.46e+05  0         0        
+            A62P0.50  0         1.52e+03  6.47e+05  8.57e+03  0         0         0         6.46e+05  0         0        
+            A80P0.50  0         5.43e+03  6.4e+05   1.56e+04  0         0         0         6.43e+05  0         0        
+Completed spectrum cycle  10 :  The elapsed TIME was 215.990168
+xxx Fri May 24 18:46:15 2024    216.0 OK                   Finished  10 of  10 spectrum cycles 
+
+Error summary: End of program, Thread 0 only
+Recurrences --  Description
+     5907 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+    19373 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+   110519 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+        3 -- error_count: This error will no longer be logged: %s
+        1 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+        8 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+        7 -- getatomic_data: line input f odd (may be OK if Macro): %s
+       24 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d) 
+        1 -- Ignored %d inner shell cross sections because no matching yields
+        1 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+        1 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+        1 -- check_grid: velocity changes by >1,000 km/s in %i cells
+        1 -- check_grid: optical depth may be high in %i
+        1 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+       30 -- Negative probability (matom, 2) for number %d at %e. Setting to 0.
+        1 -- pillbox %d interfaces to pillbox is impossible
+Run py_error.py for full error report.
+xxx Fri May 24 18:46:15 2024    216.0 COMPLETE             vis_cno
+
+Brief Run Summary
+At program completion, the elapsed TIME was 216.013054
+There were 0 of 0 ionization cycles and 10 of 10 spectral cycles run
+This was a macro-atom calculation
+Convergence statistics for the wind after the ionization calculation:
+!!Check_convergence:  103 (0.752) converged and   27 (0.197) converging of 137 cells actually in the wind
+!!Check_convergence: t_r  137 t_e(real)  103 t_e(maxed)    0 hc(real)  107
+Information about luminosities and apparent fluxes due to various portions of the system:
+!! xdefine_phot: lum_tot 4.50e+34 lum_star 8.94e+32 lum_bl 0.00e+00 lum_bh 0.00e+00 lum_disk 4.41e+34 lum_wind 0.00e+00
+!! xdefine_phot:   f_tot 3.49e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 0.00e+00   f_matom 1.44e+32   f_kpkt 2.41e+32 
+!! xdefine_phot: wind ff 7.94e+32       fb 2.20e+35   lines  6.00e+35  for freq 4.28e+14 8.82e+14
+!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.11e+33 
+!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  1.11e+28 
+!! xdefine_phot: heating & cooling  due to adiabatic processes:         0.00e+00 1.68e+30 
