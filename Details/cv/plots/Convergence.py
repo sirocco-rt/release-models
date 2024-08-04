@@ -74,7 +74,7 @@ def doit(standard='cv_standard',hhe='cv_hhe',cno='cv_cno',xdir='../python//Resul
     plt.plot(s['Ncycle'],s['Converged'],'o-',label='Standard')
     plt.plot(h['Ncycle'],h['Converged'],'o-',label='Macro(H,He)')
     plt.plot(c['Ncycle'],c['Converged'],'o-',label='Macro(H,He.C.N,O)')
-    plt.xlim(0.1,10)
+    plt.xlim(0.1,15)
     plt.ylim(0,1.1)
     plt.legend()
     plt.xlabel('Cycle',size=16)
