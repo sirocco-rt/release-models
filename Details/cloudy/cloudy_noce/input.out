@@ -1,7 +1,7 @@
                                                           Cloudy 23.01
                                                          www.nublado.org
 
-                                                  PRNG seed: 0xbdcf5b3e5a722813
+                                                  PRNG seed: 0xac7968c4ee5ae999
 
                        **************************************23Jul25**************************************
                        *                                                                                 *
@@ -1208,5 +1208,5 @@ He 2                1640.41A   -9.549   10.9039      O  8                409.884
          1 mean step length searches/chemistry step
 ----------------------------------------------------
 
- Cloudy ends: 32 zones, 1 iteration, 2 cautions. (single thread) ExecTime(s) 7.80
+ Cloudy ends: 32 zones, 1 iteration, 2 cautions. (single thread) ExecTime(s) 7.82
  [Stop in cdMain at maincl.cpp:593, Cloudy exited OK]

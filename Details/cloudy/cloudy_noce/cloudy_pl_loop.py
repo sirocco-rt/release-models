@@ -87,21 +87,21 @@ if __name__ == "__main__":        # allows one to run from command line without 
         inp.write('Table power law [spectral index '+str(alpha_agn)+' low=0.01, hi=1470 ]\n')
         inp.write('ionization parameter '+str((IP[i]))+'\n')
         inp.write('Constant temperature, t=10000K'+'\n')
-    #    inp.write('no auger\n')
-    #    inp.write('no UTA ionization\n')
-    #    inp.write('no three body recombination\n')
+        #    inp.write('no auger\n')
+        #    inp.write('no UTA ionization\n')
+        #    inp.write('no three body recombination\n')
         inp.write('no charge exchange\n')
-    #    inp.write('no secondary ionizations\n')
-    #    inp.write('no induced processes\n')
+        #    inp.write('no secondary ionizations\n')
+        #    inp.write('no induced processes\n')
         inp.write('radius '+str(log_inner)+' '+str(log_thickness)+'\n')
         inp.write('hden '+str(log_hden)+'\n')
-    #Set the abundances to the same as those used in python
+        #Set the abundances to the same as those used in python
         inp.write('abundances he =-1.01 li =-29 be =-29 b =-29 c =-3.44 n =-3.95 o =-3.07 \n')
         inp.write('continue f  =-29 ne =-3.91 na =-5.69 mg =-4.42 \n')
         inp.write('continue al =-5.52 si =-4.45 p  =-29 s  =-4.73 cl =-29 ar =-5.44 k  =-29 \n')
         inp.write('continue ca =-5.66 sc =-29 ti =-29 v  =-29 cr =-29 mn =-29 fe =-4.49 \n')
         inp.write('continue co =-29 ni =-29 cu =-29 zn =-29\n')
-    #Just have the elements we use in python
+        #Just have the elements we use in python
         inp.write('element lithium off\n')
         inp.write('element beryllium off \n')
         inp.write('element boron off \n')

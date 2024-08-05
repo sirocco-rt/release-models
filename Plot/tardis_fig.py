@@ -52,7 +52,7 @@ def make_figure(path="{}/Tests/tardis/".format(util.g_DataDir)):
 	plt.xlim(1000,11000)
 
 
-	plt.xlabel(r"Wavelength (\AA)", fontsize=util.onepanel_labelsize)
+	plt.xlabel(util.wavelength_label, fontsize=util.onepanel_labelsize)
 	plt.tight_layout(pad=0.1)
 	util.save_paper_figure("tardis_comparison.pdf")
 

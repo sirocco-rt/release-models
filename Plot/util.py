@@ -10,7 +10,7 @@ from scipy.signal import convolve
 from scipy.signal.windows import boxcar
 from cycler import cycler
 import os 
-CODE_NAME = "Python"
+CODE_NAME = "Sirocco"
 onespec_size = (6,4) # size for one panel spectrum figure 
 onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
 wavelength_label = r"$\lambda$ (\AA)"
