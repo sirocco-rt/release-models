@@ -1,4 +1,22 @@
-Model outputs, parameter files, and plotting scripts for the release paper. The structure of this repository is 
+Model outputs, parameter files, and plotting scripts for the Sirocco release paper. 
+
+[![release_plots](https://github.com/agnwinds/release-models/actions/workflows/test_figures.yml/badge.svg)](https://github.com/agnwinds/release-models/actions/workflows/test_figures.yml)
+
+### TO make figures
+
+```
+cd Plot
+python MakeAllFigures.py 
+```
+
+You may need to run this first: 
+```
+pip -r requirements.txt
+```
+
+### Directory Structure 
+
+The structure of this repository is 
 
 * Details/ -- folders for each comparisons including being able to run them in detail, more intended for a developer
 * Plot/ -- scripts for making plots, will eventually contain something like:
@@ -21,7 +39,8 @@ Model outputs, parameter files, and plotting scripts for the release paper. The 
 		* CV/
 		* XRB/
 
-Instructions:
+### Instructions
+
 * Please create a folder within the above framework
 * Add:  the parameter file, spectrum outputs and any other useful outputs that are not memory intensive (i.e. no .diag files or .wind_save files, but .master.txt files are OK)
 * Add any scripts used to make plots, ideally portable to other users
