@@ -72,7 +72,7 @@ def make_figure(simple='cv_standard', hhe='cv_hhe', cno='cv_cno', xdir="{}/Demos
 
     # Plot for the first row
     offset = 1e-11
-    ax_to_use[0].plot(xsimple['Lambda'], (2*offset)+util.smooth(xsimple[ang]), label='Simple')
+    ax_to_use[0].plot(xsimple['Lambda'], (2*offset)+util.smooth(xsimple[ang]), label=util.BASIC_MODE)
     ax_to_use[0].text(0.3, 0.85, r'i=62 deg', fontsize=12, ha='center', va='center', transform=ax_to_use[0].transAxes)
     ax_to_use[0].set_xlim(wmin, wmax)
     ax_to_use[0].legend()

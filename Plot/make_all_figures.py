@@ -1,5 +1,5 @@
 import plot_tde, tardis_fig, plot_parallel_scaling
-import plot_cv, plot_quasar
+import plot_cv, plot_quasar, plot_converge
 import sys, util 
 
 tex = "True"
@@ -20,3 +20,4 @@ plot_parallel_scaling.make_figure()
 plot_cv.make_figure()
 plot_quasar.make_figure()
 plot_tde.make_figure()
+plot_converge.make_figure()

@@ -9,7 +9,7 @@ import util
 
 def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     
-
+    util.set_ui_cycler("colorblind")
     PARSEC_TO_CM = 3.086e18
 
     # A10P0.50   A35P0.50   A60P0.50   A75P0.50   A85P0.50
@@ -36,6 +36,7 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
             x,
             y,
             label=f"$i = {i}^\circ$",
+            lw=2.5,
         )
     ax1.set_yscale("log")
     ax1.legend(loc="upper right")
@@ -51,6 +52,7 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
         ax2.plot(
             x,
             y,
+            lw=2.5
         )
     ax2.set_yscale("log")
     ax2.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
@@ -60,8 +62,8 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     ax3 = plt.subplot(gs[:, 1])
     ax3_twin = ax3.twinx()
     # emitted vs. created
-    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Emitted"]), label="Emergent")
-    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Created"]), label="Disk")
+    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Emitted"]), label="Emergent", lw=2.5)
+    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Created"]), label="Disc", lw=2.5)
     # optical depth
     for col, i in enumerate((35, 60, 75, 85)):
         ax3_twin.plot(
@@ -69,6 +71,7 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
             optical_depth_spectrum[f"A{i}P0.50"],
             label=f"$i = {i}^\circ$",
             color=f"C{col + 2}",
+            lw=2.5
         )
     ax3.set_ylabel(r"$\nu L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
     ax3.set_xlabel(util.nu_label, fontsize=util.onepanel_labelsize)

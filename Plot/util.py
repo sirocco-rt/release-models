@@ -10,6 +10,7 @@ from scipy.signal import convolve
 from scipy.signal.windows import boxcar
 from cycler import cycler
 import os 
+BASIC_MODE = "Basic"
 CODE_NAME = "Sirocco"
 onespec_size = (6,4) # size for one panel spectrum figure 
 onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
@@ -19,6 +20,44 @@ g_DataDir = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '..', 'Data'))
 g_FigureDir = os.path.abspath(os.path.join(
     os.path.dirname(__file__), 'Figures'))
+
+SEABORN = dict(
+    deep=["#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B3",
+          "#937860", "#DA8BC3", "#8C8C8C", "#CCB974", "#64B5CD"],
+    deep6=["#4C72B0", "#55A868", "#C44E52",
+           "#8172B3", "#CCB974", "#64B5CD"],
+    muted=["#4878D0", "#EE854A", "#6ACC64", "#D65F5F", "#956CB4",
+           "#8C613C", "#DC7EC0", "#797979", "#D5BB67", "#82C6E2"],
+    muted6=["#4878D0", "#6ACC64", "#D65F5F",
+            "#956CB4", "#D5BB67", "#82C6E2"],
+    pastel=["#A1C9F4", "#FFB482", "#8DE5A1", "#FF9F9B", "#D0BBFF",
+            "#DEBB9B", "#FAB0E4", "#CFCFCF", "#FFFEA3", "#B9F2F0"],
+    pastel6=["#A1C9F4", "#8DE5A1", "#FF9F9B",
+             "#D0BBFF", "#FFFEA3", "#B9F2F0"],
+    bright=["#023EFF", "#FF7C00", "#1AC938", "#E8000B", "#8B2BE2",
+            "#9F4800", "#F14CC1", "#A3A3A3", "#FFC400", "#00D7FF"],
+    bright6=["#023EFF", "#1AC938", "#E8000B",
+             "#8B2BE2", "#FFC400", "#00D7FF"],
+    dark=["#001C7F", "#B1400D", "#12711C", "#8C0800", "#591E71",
+          "#592F0D", "#A23582", "#3C3C3C", "#B8850A", "#006374"],
+    dark6=["#001C7F", "#12711C", "#8C0800",
+           "#591E71", "#B8850A", "#006374"],
+    colorblind=["#0173B2", "#DE8F05", "#029E73", "#D55E00", "#CC78BC",
+                "#CA9161", "#FBAFE4", "#949494", "#ECE133", "#56B4E9"],
+    colorblind6=["#0173B2", "#029E73", "#D55E00",
+                 "#CC78BC", "#ECE133", "#56B4E9"]
+)
+
+
+def set_ui_cycler(name = "canada"):
+    if name == "canada" or name == None:
+        colors = ["#2e86de", "#ff9f43", "#10ac84", "#ee5253", "#341f97", "#feca57", "#ff9ff3"]
+    elif name == "british":
+        colors = ["#0097e6", "#e1b12c", "#8c7ae6", "#c23616", "#273c75", "#353b48", "#44bd32", "#fbc531"]
+    elif name in SEABORN.keys():
+        colors = SEABORN[name]
+    my_cycler = cycler('color', colors)
+    plt.rc('axes', prop_cycle=my_cycler)
 
 def set_plot_defaults(tex = "True"):
 
