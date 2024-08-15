@@ -1,6 +1,6 @@
-import plot_tde, tardis_fig, plot_parallel_scaling
-import plot_cv, plot_quasar, plot_converge, plot_xrb, plot_radhydro2
-import sys, util 
+import util, sys 
+import importlib 
+sys = importlib.import_module("sys")
 
 tex = "True"
 if len(sys.argv) > 1:
@@ -10,16 +10,10 @@ if len(sys.argv) > 1:
 print (tex)
 util.set_plot_defaults(tex=tex)
 
-# Tests 
-tardis_fig.make_figure()
 
-# Logistics 
-plot_parallel_scaling.make_figure()
+list_of_modules = ["plot_tde", "tardis_fig", "plot_parallel_scaling", "plot_cv", 
+                   "plot_quasar", "plot_converge", "plot_xrb", "plot_radhydro2"]
 
-# Illustrative Models 
-plot_cv.make_figure()
-plot_quasar.make_figure()
-plot_tde.make_figure()
-plot_converge.make_figure()
-plot_xrb.make_figure()
-plot_radhydro2.make_figure()
+for mod_name in list_of_modules:
+    module = importlib.import_module(mod_name)
+    module.make_figure()
