@@ -10,6 +10,7 @@ from scipy.signal import convolve
 from scipy.signal.windows import boxcar
 from cycler import cycler
 import os 
+import astropy.constants as const
 BASIC_MODE = "Basic"
 CODE_NAME = "Sirocco"
 onespec_size = (6,4) # size for one panel spectrum figure 
@@ -98,6 +99,22 @@ def set_plot_defaults(tex = "True"):
     plt.rcParams['ytick.major.size']=4
     plt.rcParams['ytick.minor.size']=3
 
+
+def get_aspect(ax):
+    from operator import sub
+    # Total figure size
+    figW, figH = ax.get_figure().get_size_inches()
+    # Axis size on figure
+    _, _, w, h = ax.get_position().bounds
+    # Ratio of display units
+    disp_ratio = (figH * h) / (figW * w)
+
+    data_ratio = sub(*ax.get_ylim()) / sub(*ax.get_xlim())
+    return (disp_ratio, data_ratio)
+
+def grav_radius(mass):
+    rg = const.GM_sun.cgs.value * mass / const.c.cgs.value / const.c.cgs.value
+    return rg
 
 def check_array_is_ascending(x_in: list | numpy.ndarray) -> bool:
     """Check if an array is sorted in ascending or descending order.
@@ -308,3 +325,80 @@ def save_paper_figure(savename, fig=None, figure_dir=g_FigureDir, **savefig_kwar
 
     full_savename = "{}/{}".format(figure_dir, savename)
     fig.savefig(full_savename, **savefig_kwargs)
+
+def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_partial = True):
+
+    '''
+    turn a table, one of whose colnames is value_string,
+    into a masked array based on values of inwind 
+
+    Parameters:
+        d: astropy.table.table.Table object 
+            data, probably read from .complete wind data 
+
+        value_string: str 
+            the variable you want in the array, e.g. "ne"
+
+        return_inwind: Bool
+            return the array which tells you whether you
+            are partly, fully or not inwind.
+    Returns:
+        x, z, value: Floats 
+            value is the quantity you are concerned with, e.g. ne
+    '''
+    # this tuple helpd us decide whether partial cells are in or out of the wind
+    if ignore_partial:
+        inwind_crit = (0,1)
+    else:
+        inwind_crit = (0,2)
+
+    if mode == "1d":
+        inwind = d["inwind"]
+        x = d["r"]
+        values = d[value_string]
+
+        # create an inwind boolean to use to create mask
+        inwind_bool = (inwind >= inwind_crit[0]) * (inwind < inwind_crit[1])
+        mask = ~inwind_bool
+
+    # finally we have our mask, so create the masked array
+        masked_values = np.ma.masked_where ( mask, values )
+
+    #return the arrays later, z is None for 1d
+        z = None
+
+
+    elif mode == "2d":
+        # our indicies are already stored in the file- we will reshape them in a sec
+        zindices = d["j"]
+        xindices = d["i"]
+
+        # we get the grid size by finding the maximum in the indicies list 99 => 100 size grid
+        zshape = int(np.max(zindices) + 1)
+        xshape = int(np.max(xindices) + 1)
+
+        # now reshape our x,z and value arrays
+        x = d["x"].reshape(xshape, zshape)
+        z = d["z"].reshape(xshape, zshape)
+
+        values = d[value_string].reshape(xshape, zshape)
+
+        # these are the values of inwind PYTHON spits out
+        inwind = d["inwind"].reshape(xshape, zshape)
+
+        # create an inwind boolean to use to create mask
+        inwind_bool = (inwind >= inwind_crit[0]) * (inwind < inwind_crit[1])
+        mask = ~inwind_bool
+
+        # finally we have our mask, so create the masked array
+        masked_values = np.ma.masked_where ( mask, values )
+
+
+    else:
+        print ("Error: mode {} not understood!".format(mode))
+
+    #return the transpose for contour plots.
+    if return_inwind:
+        return x, z, masked_values, inwind_bool
+    else:
+        return x, z, masked_values

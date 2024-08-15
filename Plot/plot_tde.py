@@ -41,6 +41,7 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     ax1.set_yscale("log")
     ax1.legend(loc="upper right")
     ax1.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
+    ax1.text(0.05, 0.1, "UV", transform=ax1.transAxes, fontsize=16, ha="left")
 
     # Optical spectra
     ax2 = plt.subplot(gs[1, 0])
@@ -57,13 +58,13 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     ax2.set_yscale("log")
     ax2.set_ylabel(r"$\nu~L_\nu$ [erg s$^{-1}$]", fontsize=util.onepanel_labelsize)
     ax2.set_xlabel(util.wavelength_label, fontsize=util.onepanel_labelsize)
-
+    ax2.text(0.05, 0.1, "Optical", transform=ax2.transAxes, fontsize=16, ha="left")
     # Reprocessing
     ax3 = plt.subplot(gs[:, 1])
     ax3_twin = ax3.twinx()
     # emitted vs. created
     ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Emitted"]), label="Emergent", lw=2.5)
-    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Created"]), label="Disc", lw=2.5)
+    ax3.plot(spectrum_file["Freq."], util.smooth(spectrum_file["Created"]), label="Disc Input", lw=2.5)
     # optical depth
     for col, i in enumerate((35, 60, 75, 85)):
         ax3_twin.plot(
@@ -79,9 +80,10 @@ def make_figure(tde_path = "{}/Demos/tde".format(util.g_DataDir)):
     ax3.set_yscale("log")
     ax3.set_xlim(3e14,3e16)
     ax3_twin.set_yscale("log")
-    ax3_twin.legend(loc="upper left")
+    ax3_twin.legend(loc="lower right")
+    ax3.legend()
     ax3_twin.set_ylabel(r"Continuum optical depth $\tau$", fontsize=util.onepanel_labelsize)
-
+    ax3.text(0.05, 0.1, "Global Reprocessing", transform=ax3.transAxes, fontsize=16, ha="left")
     # Clean up the figure
     fig.tight_layout(pad=0.05)
     util.save_paper_figure("tde_demo_model.pdf", fig=fig, dpi=300)

@@ -24,7 +24,7 @@ Boundary_layer.radiation(yes,no)                   no
 ### Parameters describing the various winds or coronae in the system
 
 ### Parameters associated with photon number, cycles,ionization and radiative transfer options
-Photons_per_cycle                          1000000
+Photons_per_cycle                          1e7
 Ionization_cycles                          0
 Spectrum_cycles                            10
 Wind.ionization(on.the.spot,ML93,LTE_tr,LTE_te,fixed,matrix_bb,matrix_pow,matrix_est)            matrix_bb
