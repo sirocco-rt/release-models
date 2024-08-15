@@ -6,7 +6,6 @@ from astropy.io import ascii as io
 from astropy.table import Table
 import util 
 import numpy as np 
-from lick import lick_box_plot
 import util 
 from scipy.interpolate import griddata
 import cmasher as cma
