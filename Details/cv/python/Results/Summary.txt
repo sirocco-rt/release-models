@@ -1,144 +1,147 @@
 
 
-Running mpirun -np 24 py88b  cv_cno.pf >cv_cno.stdout.txt
+Running mpirun -np 4 py88c  cv_cno.pf >cv_cno.stdout.txt
 No stderrs were reported
-The model ran to completion in 186294.8 s
+The model ran to completion in 20998.3 s
 
 The reported errors in all threads was as follows: 
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-         5 -- sobolev: A sympton of an approaching problem is that w (the ratio of the intenstity/to the intensity expecrted from a BB with T=T_r) is large,
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-       903 -- sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
-         5 -- sobelev: If that does not work, please reopen issue #1019 on github, and provide the .pf file and anything else needed to duplicate the problem.
-   2652456 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
-         6 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
-        24 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
-        85 -- normalise_macro_estimators: upper_density %g lower_density %g xplasma->levden[config[nlev_upper].nden] %g
-        72 -- error_count: This error will no longer be logged: %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- check_grid: optical depth may be high in %i
-       192 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+         2 -- sobolev: tau is >1e-3 and nu < gu/gl * nl. Exiting.
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+     23628 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
+        32 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+         1 -- sobolev: suppressing population inversion errors
+         2 -- sobolev: If the problem occurs during the first ionization cycle, raising the temperature in the starting model may help.
+       107 -- normalise_macro_estimators: bb stimulated correction factor is out of bounds, 0 <= stimfac < 1 but got %g
+         2 -- sobelev: If that does not work, please reopen issue #1019 on github, and provide the .pf file and anything else needed to duplicate the problem.
+         4 -- check_grid: optical depth may be high in %i
+        96 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+         2 -- sobolev: ATTENTON: The exact cause of this error is unknown, but it is associted with a poor choice of initial conditions,
        239 -- Negative probability (matom, 2) for number %d at %e. Setting to 0.
-        11 -- pillbox %d interfaces to pillbox is impossible
-        85 -- normalise_macro_estimators: bb stimulated correction factor is out of bounds, 0 <= stimfac < 1 but got %g
-         5 -- sobolev: ATTENTON: The exact cause of this error is unknown, but it is associted with a poor choice of initial conditions,
-    141768 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
-         5 -- sobolev: tau is >1e-3 and nu < gu/gl * nl. Exiting.
-       576 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
-         6 -- macro_pops: %s
-         6 -- Solve_matrix: test solution fails relative error for row %i %e != %e frac_error %3 in plasma cell %d
-    464952 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-         5 -- sobolev: If the problem occurs during the first ionization cycle, raising the temperature in the starting model may help.
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
-        24 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
-Finished mpirun -np 24 py88b  cv_cno.pf >cv_cno.stdout.txt
-
-
-
-Running mpirun -np 24 py88b  cv_hhe.pf >cv_hhe.stdout.txt
-No stderrs were reported
-The model ran to completion in 186575.7 s
-
-The reported errors in all threads was as follows: 
-        24 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- check_grid: optical depth may be high in %i
         10 -- pillbox %d interfaces to pillbox is impossible
-         9 -- photon_checks:   nphot  origin  freq     freqmin    freqmax
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-        24 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
-         5 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
-         9 -- photon_checks: %5d %5d %5d %10.4e %10.4e %10.4e freq out of range
-        72 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
-Finished mpirun -np 24 py88b  cv_hhe.pf >cv_hhe.stdout.txt
-
-
-
-Running mpirun -np 24 py88b  cv_standard.pf >cv_standard.stdout.txt
-No stderrs were reported
-The model ran to completion in 10884.2 s
-
-The reported errors in all threads was as follows: 
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-        48 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- check_grid: optical depth may be high in %i
-        10 -- pillbox %d interfaces to pillbox is impossible
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-        24 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+     77492 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+       165 -- sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
+         4 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
          7 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
-        24 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
-Finished mpirun -np 24 py88b  cv_standard.pf >cv_standard.stdout.txt
+         4 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+         1 -- calc_matom_matrix: matom accelerator matrix has bad normalisation for level %d: %8.4e
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+       107 -- normalise_macro_estimators: upper_density %g lower_density %g xplasma->levden[config[nlev_upper].nden] %g
+    442076 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+         2 -- sobolev: A sympton of an approaching problem is that w (the ratio of the intenstity/to the intensity expecrted from a BB with T=T_r) is large,
+         8 -- Solve_matrix: test solution fails relative error for row %i %e != %e frac_error %3 in plasma cell %d
+         8 -- macro_pops: %s
+        12 -- error_count: This error will no longer be logged: %s
+Finished mpirun -np 4 py88c  cv_cno.pf >cv_cno.stdout.txt
 
 
 
-Running mpirun -np 24 py88b  vis_cno.pf >vis_cno.stdout.txt
+Running mpirun -np 4 py88c  cv_hhe.pf >cv_hhe.stdout.txt
 No stderrs were reported
-The model ran to completion in 94.5 s
+The model ran to completion in 8613.2 s
 
 The reported errors in all threads was as follows: 
-        72 -- error_count: This error will no longer be logged: %s
-    464952 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-       192 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- check_grid: optical depth may be high in %i
-        24 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+         4 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- check_grid: optical depth may be high in %i
+        12 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+         4 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+         6 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
+         5 -- pillbox %d interfaces to pillbox is impossible
+Finished mpirun -np 4 py88c  cv_hhe.pf >cv_hhe.stdout.txt
+
+
+
+Running mpirun -np 4 py88c  cv_standard.pf >cv_standard.stdout.txt
+No stderrs were reported
+The model ran to completion in 6277.1 s
+
+The reported errors in all threads was as follows: 
+         4 -- wind2d: Cell %3d (%2d,%2d) in domain %d has %d corners in wind, but zero volume
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- check_grid: optical depth may be high in %i
+         8 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
+         4 -- get_wind_params: zdom[ndom].rmax = 0 for wind type %d
+         4 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
+         7 -- pillbox %d interfaces to pillbox is impossible
+Finished mpirun -np 4 py88c  cv_standard.pf >cv_standard.stdout.txt
+
+
+
+Running mpirun -np 4 py88c  vis_cno.pf >vis_cno.stdout.txt
+No stderrs were reported
+The model ran to completion in 3858.8 s
+
+The reported errors in all threads was as follows: 
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         7 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+         4 -- Ignored %d inner shell cross sections because no matching yields
+    442076 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
+         4 -- check_grid: optical depth may be high in %i
+        96 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+     23628 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
        239 -- Negative probability (matom, 2) for number %d at %e. Setting to 0.
-   2652456 -- Get_atomic_data: LinMacro No configuration found to match lower level of line %d
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-         4 -- pillbox %d interfaces to pillbox is impossible
-    141768 -- get_atomic_data: macro level %3d ge %3d for z %3d  istate %3d
-         2 -- sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
-       576 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
-Finished mpirun -np 24 py88b  vis_cno.pf >vis_cno.stdout.txt
+        22 -- pillbox %d interfaces to pillbox is impossible
+        12 -- error_count: This error will no longer be logged: %s
+        32 -- Get_atomic_data: np %d > %d N_COLL_STREN_PTS in file %s line %d
+         4 -- get_atomic_data: file %s line %d : line has el (%f) > eu (%f)
+     77492 -- Get_atomic_data: LinMacro No configuration found to match upper level of line %d
+         4 -- sobolev: VERY BAD population inversion in cell %d: d1 %g d2 %g g1 %g g2  %g freq %g f %g frac_upper %g
+Finished mpirun -np 4 py88c  vis_cno.pf >vis_cno.stdout.txt
 
 
 
-Running mpirun -np 24 py88b  vis_hhe.pf >vis_hhe.stdout.txt
+Running mpirun -np 4 py88c  vis_hhe.pf >vis_hhe.stdout.txt
 No stderrs were reported
-The model ran to completion in 89.0 s
+The model ran to completion in 3891.9 s
 
 The reported errors in all threads was as follows: 
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- check_grid: optical depth may be high in %i
-         4 -- pillbox %d interfaces to pillbox is impossible
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-        72 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
-Finished mpirun -np 24 py88b  vis_hhe.pf >vis_hhe.stdout.txt
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- check_grid: optical depth may be high in %i
+        12 -- Ignored %5d simple lines for macro-ion %5d  (z %5d ion %5d)
+        11 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
+        29 -- pillbox %d interfaces to pillbox is impossible
+Finished mpirun -np 4 py88c  vis_hhe.pf >vis_hhe.stdout.txt
 
 
 
-Running mpirun -np 24 py88b  vis_standard.pf >vis_standard.stdout.txt
+Running mpirun -np 4 py88c  vis_standard.pf >vis_standard.stdout.txt
 No stderrs were reported
-The model ran to completion in 78.2 s
+The model ran to completion in 2928.4 s
 
 The reported errors in all threads was as follows: 
-        24 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-       168 -- getatomic_data: line input f odd (may be OK if Macro): %s
-        24 -- check_grid: velocity changes by >1,000 km/s in %i cells
-        24 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
-        48 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
-        24 -- Ignored %d inner shell cross sections because no matching yields
-        24 -- check_grid: optical depth may be high in %i
-         4 -- pillbox %d interfaces to pillbox is impossible
-        24 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
-Finished mpirun -np 24 py88b  vis_standard.pf >vis_standard.stdout.txt
+         4 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
+        28 -- getatomic_data: line input f odd (may be OK if Macro): %s
+         4 -- roche_width : zero_find failure x=%6.2e rho %.2e phi(l2) %.2e
+         4 -- zero_find: function not bracketed x_lo %e -> %e, x_hi %e -> %e
+         4 -- check_grid: velocity changes by >1,000 km/s in %i cells
+         4 -- Ignored %d inner shell cross sections because no matching yields
+         4 -- check_grid: optical depth may be high in %i
+         8 -- get_atomicdata: (Case default) Could not interpret line %d in file %s: %s %d
+        10 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
+        25 -- pillbox %d interfaces to pillbox is impossible
+Finished mpirun -np 4 py88c  vis_standard.pf >vis_standard.stdout.txt
 

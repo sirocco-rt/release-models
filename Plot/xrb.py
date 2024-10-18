@@ -37,7 +37,7 @@ def make_figure(quasar_path = "{}/Demos/xrb/".format(util.g_DataDir)):
     PARSEC_TO_CM = 3.086e18
     HEV = 4.13620e-15
 
-    spectrum_file = io.read("{}/XRB_standard_v01e6_30x30_fe.log_spec".format(quasar_path))
+    spectrum_file = io.read("{}/XRB_fe.log_spec".format(quasar_path))
 
     # Create the overall figure, using gridspec to make the subplots
     fig = plt.figure(figsize=util.onespec_size)
@@ -54,7 +54,7 @@ def make_figure(quasar_path = "{}/Demos/xrb/".format(util.g_DataDir)):
         ax1.plot(
             x,
             y,
-            label=f"$i = {i}^\circ$",
+            label=r"$i = {}^\circ$".format(i),
             lw = 2.5,
             c=colors[ii]
         )
@@ -80,7 +80,7 @@ def make_figure(quasar_path = "{}/Demos/xrb/".format(util.g_DataDir)):
         if id[i] == 1:
             elem = element(int(z[i])).symbol
             ion_roman = roman.toRoman(int(ion[i])).lower()
-            print (elem, ion_roman)
+            #print (elem, ion_roman)
             label = r"{}\textsc{{ {} }}".format(str(elem), ion_roman)
             ax1.text(e_line[i], 1.2e-3, label, rotation=90, fontsize=12, ha="center", va="bottom", bbox=bbox)
     ax1.text(6.8, 1.2e-3, r"Fe \textsc{xxv},\textsc{xxvi}", rotation=90, fontsize=12, ha="center", va="bottom", bbox=bbox)

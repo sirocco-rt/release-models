@@ -1,308 +1,284 @@
-Mon Jul 29 11:32:10 2024      0.0 START                cv_cno 
-Mon Jul 29 11:32:10 2024      0.0 NOK                  Initializing variables for cv_cno
-Mon Jul 29 11:32:13 2024      3.1 NOK                  Finished initialization for cv_cno
-Mon Jul 29 11:32:13 2024      3.2 NOK                  Starting   1 of  30 ionization cycles 
-Mon Jul 29 11:32:13 2024      3.2 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 11:32:17 2024      6.9 OK                   Finished wind radiative property initialisation
-Mon Jul 29 11:32:17 2024      6.9 NOK                  Creating photons before transport
-Mon Jul 29 11:32:27 2024     16.9 NOK                  Photon transport started
-Mon Jul 29 12:08:55 2024   2204.6 NOK                  Photon transport completed
-Mon Jul 29 12:08:59 2024   2209.1 NOK                  Start wind update
-Mon Jul 29 12:10:01 2024   2270.6 NOK                  Finished wind update
-Mon Jul 29 12:10:01 2024   2270.7 OK                   Finished   1 of  30 ionization cycles 
-Mon Jul 29 12:10:01 2024   2270.7 NOK                  Checkpoint wind structure
-Mon Jul 29 12:10:01 2024   2270.7 NOK                  Starting   2 of  30 ionization cycles 
-Mon Jul 29 12:10:01 2024   2270.7 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 12:10:05 2024   2274.8 OK                   Finished wind radiative property initialisation
-Mon Jul 29 12:10:05 2024   2274.8 NOK                  Creating photons before transport
-Mon Jul 29 12:10:15 2024   2285.4 NOK                  Photon transport started
-Mon Jul 29 13:16:38 2024   6267.9 NOK                  Photon transport completed
-Mon Jul 29 13:16:43 2024   6273.3 NOK                  Start wind update
-Mon Jul 29 13:17:34 2024   6323.9 NOK                  Finished wind update
-Mon Jul 29 13:17:34 2024   6324.0 OK                   Finished   2 of  30 ionization cycles 
-Mon Jul 29 13:17:34 2024   6324.0 NOK                  Checkpoint wind structure
-Mon Jul 29 13:17:34 2024   6324.0 NOK                  Starting   3 of  30 ionization cycles 
-Mon Jul 29 13:17:34 2024   6324.0 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 13:17:38 2024   6327.8 OK                   Finished wind radiative property initialisation
-Mon Jul 29 13:17:38 2024   6327.8 NOK                  Creating photons before transport
-Mon Jul 29 13:17:49 2024   6338.5 NOK                  Photon transport started
-Mon Jul 29 14:29:35 2024  10645.1 NOK                  Photon transport completed
-Mon Jul 29 14:30:31 2024  10700.9 NOK                  Start wind update
-Mon Jul 29 14:31:28 2024  10757.9 NOK                  Finished wind update
-Mon Jul 29 14:31:28 2024  10758.0 OK                   Finished   3 of  30 ionization cycles 
-Mon Jul 29 14:31:28 2024  10758.0 NOK                  Checkpoint wind structure
-Mon Jul 29 14:31:28 2024  10758.0 NOK                  Starting   4 of  30 ionization cycles 
-Mon Jul 29 14:31:28 2024  10758.0 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 14:31:32 2024  10761.8 OK                   Finished wind radiative property initialisation
-Mon Jul 29 14:31:32 2024  10761.8 NOK                  Creating photons before transport
-Mon Jul 29 14:31:43 2024  10772.7 NOK                  Photon transport started
-Mon Jul 29 15:46:38 2024  15267.9 NOK                  Photon transport completed
-Mon Jul 29 15:47:02 2024  15292.2 NOK                  Start wind update
-Mon Jul 29 15:48:01 2024  15351.4 NOK                  Finished wind update
-Mon Jul 29 15:48:02 2024  15351.5 OK                   Finished   4 of  30 ionization cycles 
-Mon Jul 29 15:48:02 2024  15351.5 NOK                  Checkpoint wind structure
-Mon Jul 29 15:48:02 2024  15351.5 NOK                  Starting   5 of  30 ionization cycles 
-Mon Jul 29 15:48:02 2024  15351.5 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 15:48:05 2024  15355.4 OK                   Finished wind radiative property initialisation
-Mon Jul 29 15:48:05 2024  15355.4 NOK                  Creating photons before transport
-Mon Jul 29 15:48:16 2024  15365.8 NOK                  Photon transport started
-Mon Jul 29 17:04:35 2024  19945.3 NOK                  Photon transport completed
-Mon Jul 29 17:05:35 2024  20005.0 NOK                  Start wind update
-Mon Jul 29 17:06:32 2024  20062.4 NOK                  Finished wind update
-Mon Jul 29 17:06:32 2024  20062.5 OK                   Finished   5 of  30 ionization cycles 
-Mon Jul 29 17:06:32 2024  20062.5 NOK                  Checkpoint wind structure
-Mon Jul 29 17:06:33 2024  20062.5 NOK                  Starting   6 of  30 ionization cycles 
-Mon Jul 29 17:06:33 2024  20062.5 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 17:06:36 2024  20066.3 OK                   Finished wind radiative property initialisation
-Mon Jul 29 17:06:36 2024  20066.3 NOK                  Creating photons before transport
-Mon Jul 29 17:06:47 2024  20076.8 NOK                  Photon transport started
-Mon Jul 29 18:25:05 2024  24774.5 NOK                  Photon transport completed
-Mon Jul 29 18:25:57 2024  24827.4 NOK                  Start wind update
-Mon Jul 29 18:26:56 2024  24885.6 NOK                  Finished wind update
-Mon Jul 29 18:26:56 2024  24885.6 OK                   Finished   6 of  30 ionization cycles 
-Mon Jul 29 18:26:56 2024  24885.6 NOK                  Checkpoint wind structure
-Mon Jul 29 18:26:56 2024  24885.7 NOK                  Starting   7 of  30 ionization cycles 
-Mon Jul 29 18:26:56 2024  24885.7 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 18:27:00 2024  24889.5 OK                   Finished wind radiative property initialisation
-Mon Jul 29 18:27:00 2024  24889.5 NOK                  Creating photons before transport
-Mon Jul 29 18:27:10 2024  24900.0 NOK                  Photon transport started
-Mon Jul 29 19:47:33 2024  29722.9 NOK                  Photon transport completed
-Mon Jul 29 19:48:05 2024  29755.5 NOK                  Start wind update
-Mon Jul 29 19:49:03 2024  29813.2 NOK                  Finished wind update
-Mon Jul 29 19:49:03 2024  29813.3 OK                   Finished   7 of  30 ionization cycles 
-Mon Jul 29 19:49:03 2024  29813.3 NOK                  Checkpoint wind structure
-Mon Jul 29 19:49:03 2024  29813.3 NOK                  Starting   8 of  30 ionization cycles 
-Mon Jul 29 19:49:03 2024  29813.3 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 19:49:07 2024  29817.1 OK                   Finished wind radiative property initialisation
-Mon Jul 29 19:49:07 2024  29817.1 NOK                  Creating photons before transport
-Mon Jul 29 19:49:18 2024  29827.6 NOK                  Photon transport started
-Mon Jul 29 21:11:49 2024  34779.4 NOK                  Photon transport completed
-Mon Jul 29 21:11:50 2024  34779.9 NOK                  Start wind update
-Mon Jul 29 21:12:49 2024  34839.2 NOK                  Finished wind update
-Mon Jul 29 21:12:49 2024  34839.3 OK                   Finished   8 of  30 ionization cycles 
-Mon Jul 29 21:12:49 2024  34839.3 NOK                  Checkpoint wind structure
-Mon Jul 29 21:12:49 2024  34839.3 NOK                  Starting   9 of  30 ionization cycles 
-Mon Jul 29 21:12:49 2024  34839.3 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 21:12:53 2024  34843.2 OK                   Finished wind radiative property initialisation
-Mon Jul 29 21:12:53 2024  34843.2 NOK                  Creating photons before transport
-Mon Jul 29 21:13:04 2024  34853.9 NOK                  Photon transport started
-Mon Jul 29 22:37:22 2024  39912.3 NOK                  Photon transport completed
-Mon Jul 29 22:37:23 2024  39912.8 NOK                  Start wind update
-Mon Jul 29 22:38:21 2024  39970.9 NOK                  Finished wind update
-Mon Jul 29 22:38:21 2024  39971.0 OK                   Finished   9 of  30 ionization cycles 
-Mon Jul 29 22:38:21 2024  39971.0 NOK                  Checkpoint wind structure
-Mon Jul 29 22:38:21 2024  39971.0 NOK                  Starting  10 of  30 ionization cycles 
-Mon Jul 29 22:38:21 2024  39971.0 NOK                  Begin wind radiative property initialisation
-Mon Jul 29 22:38:25 2024  39974.8 OK                   Finished wind radiative property initialisation
-Mon Jul 29 22:38:25 2024  39974.8 NOK                  Creating photons before transport
-Mon Jul 29 22:38:35 2024  39985.4 NOK                  Photon transport started
-Tue Jul 30 00:04:56 2024  45166.2 NOK                  Photon transport completed
-Tue Jul 30 00:04:57 2024  45166.7 NOK                  Start wind update
-Tue Jul 30 00:05:56 2024  45225.6 NOK                  Finished wind update
-Tue Jul 30 00:05:56 2024  45225.6 OK                   Finished  10 of  30 ionization cycles 
-Tue Jul 30 00:05:56 2024  45225.6 NOK                  Checkpoint wind structure
-Tue Jul 30 00:05:56 2024  45225.7 NOK                  Starting  11 of  30 ionization cycles 
-Tue Jul 30 00:05:56 2024  45225.7 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 00:05:59 2024  45229.5 OK                   Finished wind radiative property initialisation
-Tue Jul 30 00:05:59 2024  45229.5 NOK                  Creating photons before transport
-Tue Jul 30 00:06:10 2024  45239.9 NOK                  Photon transport started
-Tue Jul 30 01:33:57 2024  50507.0 NOK                  Photon transport completed
-Tue Jul 30 01:33:57 2024  50507.5 NOK                  Start wind update
-Tue Jul 30 01:34:57 2024  50567.0 NOK                  Finished wind update
-Tue Jul 30 01:34:57 2024  50567.1 OK                   Finished  11 of  30 ionization cycles 
-Tue Jul 30 01:34:57 2024  50567.1 NOK                  Checkpoint wind structure
-Tue Jul 30 01:34:57 2024  50567.2 NOK                  Starting  12 of  30 ionization cycles 
-Tue Jul 30 01:34:57 2024  50567.2 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 01:35:01 2024  50571.0 OK                   Finished wind radiative property initialisation
-Tue Jul 30 01:35:01 2024  50571.0 NOK                  Creating photons before transport
-Tue Jul 30 01:35:12 2024  50581.5 NOK                  Photon transport started
-Tue Jul 30 03:05:03 2024  55973.3 NOK                  Photon transport completed
-Tue Jul 30 03:05:04 2024  55973.8 NOK                  Start wind update
-Tue Jul 30 03:06:03 2024  56032.6 NOK                  Finished wind update
-Tue Jul 30 03:06:03 2024  56032.7 OK                   Finished  12 of  30 ionization cycles 
-Tue Jul 30 03:06:03 2024  56032.7 NOK                  Checkpoint wind structure
-Tue Jul 30 03:06:03 2024  56032.7 NOK                  Starting  13 of  30 ionization cycles 
-Tue Jul 30 03:06:03 2024  56032.7 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 03:06:07 2024  56036.6 OK                   Finished wind radiative property initialisation
-Tue Jul 30 03:06:07 2024  56036.6 NOK                  Creating photons before transport
-Tue Jul 30 03:06:17 2024  56047.1 NOK                  Photon transport started
-Tue Jul 30 04:36:49 2024  61479.4 NOK                  Photon transport completed
-Tue Jul 30 04:37:26 2024  61515.9 NOK                  Start wind update
-Tue Jul 30 04:38:25 2024  61574.7 NOK                  Finished wind update
-Tue Jul 30 04:38:25 2024  61574.8 OK                   Finished  13 of  30 ionization cycles 
-Tue Jul 30 04:38:25 2024  61574.8 NOK                  Checkpoint wind structure
-Tue Jul 30 04:38:25 2024  61574.8 NOK                  Starting  14 of  30 ionization cycles 
-Tue Jul 30 04:38:25 2024  61574.8 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 04:38:29 2024  61578.6 OK                   Finished wind radiative property initialisation
-Tue Jul 30 04:38:29 2024  61578.6 NOK                  Creating photons before transport
-Tue Jul 30 04:38:39 2024  61589.1 NOK                  Photon transport started
-Tue Jul 30 06:11:00 2024  67130.4 NOK                  Photon transport completed
-Tue Jul 30 06:11:38 2024  67167.7 NOK                  Start wind update
-Tue Jul 30 06:12:36 2024  67226.2 NOK                  Finished wind update
-Tue Jul 30 06:12:36 2024  67226.2 OK                   Finished  14 of  30 ionization cycles 
-Tue Jul 30 06:12:36 2024  67226.2 NOK                  Checkpoint wind structure
-Tue Jul 30 06:12:36 2024  67226.3 NOK                  Starting  15 of  30 ionization cycles 
-Tue Jul 30 06:12:36 2024  67226.3 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 06:12:40 2024  67230.1 OK                   Finished wind radiative property initialisation
-Tue Jul 30 06:12:40 2024  67230.1 NOK                  Creating photons before transport
-Tue Jul 30 06:12:51 2024  67240.7 NOK                  Photon transport started
-Tue Jul 30 08:25:22 2024  75192.4 NOK                  Photon transport completed
-Tue Jul 30 08:26:11 2024  75240.7 NOK                  Start wind update
-Tue Jul 30 08:27:32 2024  75322.2 NOK                  Finished wind update
-Tue Jul 30 08:27:32 2024  75322.3 OK                   Finished  15 of  30 ionization cycles 
-Tue Jul 30 08:27:32 2024  75322.3 NOK                  Checkpoint wind structure
-Tue Jul 30 08:27:32 2024  75322.4 NOK                  Starting  16 of  30 ionization cycles 
-Tue Jul 30 08:27:32 2024  75322.4 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 08:27:38 2024  75327.7 OK                   Finished wind radiative property initialisation
-Tue Jul 30 08:27:38 2024  75327.7 NOK                  Creating photons before transport
-Tue Jul 30 08:27:53 2024  75342.8 NOK                  Photon transport started
-Tue Jul 30 10:46:41 2024  83671.1 NOK                  Photon transport completed
-Tue Jul 30 10:47:59 2024  83748.5 NOK                  Start wind update
-Tue Jul 30 10:49:18 2024  83827.6 NOK                  Finished wind update
-Tue Jul 30 10:49:18 2024  83827.7 OK                   Finished  16 of  30 ionization cycles 
-Tue Jul 30 10:49:18 2024  83827.7 NOK                  Checkpoint wind structure
-Tue Jul 30 10:49:18 2024  83827.8 NOK                  Starting  17 of  30 ionization cycles 
-Tue Jul 30 10:49:18 2024  83827.8 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 10:49:23 2024  83833.1 OK                   Finished wind radiative property initialisation
-Tue Jul 30 10:49:23 2024  83833.1 NOK                  Creating photons before transport
-Tue Jul 30 10:49:38 2024  83848.2 NOK                  Photon transport started
-Tue Jul 30 13:11:59 2024  92389.2 NOK                  Photon transport completed
-Tue Jul 30 13:12:00 2024  92389.9 NOK                  Start wind update
-Tue Jul 30 13:13:18 2024  92467.8 NOK                  Finished wind update
-Tue Jul 30 13:13:18 2024  92467.9 OK                   Finished  17 of  30 ionization cycles 
-Tue Jul 30 13:13:18 2024  92467.9 NOK                  Checkpoint wind structure
-Tue Jul 30 13:13:18 2024  92467.9 NOK                  Starting  18 of  30 ionization cycles 
-Tue Jul 30 13:13:18 2024  92467.9 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 13:13:23 2024  92473.2 OK                   Finished wind radiative property initialisation
-Tue Jul 30 13:13:23 2024  92473.2 NOK                  Creating photons before transport
-Tue Jul 30 13:13:38 2024  92487.5 NOK                  Photon transport started
-Tue Jul 30 15:38:48 2024 101198.2 NOK                  Photon transport completed
-Tue Jul 30 15:40:20 2024 101289.7 NOK                  Start wind update
-Tue Jul 30 15:41:43 2024 101373.1 NOK                  Finished wind update
-Tue Jul 30 15:41:43 2024 101373.2 OK                   Finished  18 of  30 ionization cycles 
-Tue Jul 30 15:41:43 2024 101373.2 NOK                  Checkpoint wind structure
-Tue Jul 30 15:41:43 2024 101373.2 NOK                  Starting  19 of  30 ionization cycles 
-Tue Jul 30 15:41:43 2024 101373.2 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 15:41:49 2024 101379.0 OK                   Finished wind radiative property initialisation
-Tue Jul 30 15:41:49 2024 101379.0 NOK                  Creating photons before transport
-Tue Jul 30 15:42:04 2024 101394.1 NOK                  Photon transport started
-Tue Jul 30 18:03:22 2024 109872.4 NOK                  Photon transport completed
-Tue Jul 30 18:04:04 2024 109914.0 NOK                  Start wind update
-Tue Jul 30 18:05:04 2024 109974.4 NOK                  Finished wind update
-Tue Jul 30 18:05:04 2024 109974.5 OK                   Finished  19 of  30 ionization cycles 
-Tue Jul 30 18:05:04 2024 109974.5 NOK                  Checkpoint wind structure
-Tue Jul 30 18:05:05 2024 109974.5 NOK                  Starting  20 of  30 ionization cycles 
-Tue Jul 30 18:05:05 2024 109974.5 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 18:05:08 2024 109978.3 OK                   Finished wind radiative property initialisation
-Tue Jul 30 18:05:08 2024 109978.3 NOK                  Creating photons before transport
-Tue Jul 30 18:05:19 2024 109988.9 NOK                  Photon transport started
-Tue Jul 30 19:47:50 2024 116140.0 NOK                  Photon transport completed
-Tue Jul 30 19:48:08 2024 116157.7 NOK                  Start wind update
-Tue Jul 30 19:49:08 2024 116218.1 NOK                  Finished wind update
-Tue Jul 30 19:49:08 2024 116218.2 OK                   Finished  20 of  30 ionization cycles 
-Tue Jul 30 19:49:08 2024 116218.2 NOK                  Checkpoint wind structure
-Tue Jul 30 19:49:08 2024 116218.3 NOK                  Starting  21 of  30 ionization cycles 
-Tue Jul 30 19:49:08 2024 116218.3 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 19:49:12 2024 116222.1 OK                   Finished wind radiative property initialisation
-Tue Jul 30 19:49:12 2024 116222.1 NOK                  Creating photons before transport
-Tue Jul 30 19:49:23 2024 116232.8 NOK                  Photon transport started
-Tue Jul 30 21:33:45 2024 122495.2 NOK                  Photon transport completed
-Tue Jul 30 21:33:46 2024 122495.7 NOK                  Start wind update
-Tue Jul 30 21:34:45 2024 122554.8 NOK                  Finished wind update
-Tue Jul 30 21:34:45 2024 122554.9 OK                   Finished  21 of  30 ionization cycles 
-Tue Jul 30 21:34:45 2024 122554.9 NOK                  Checkpoint wind structure
-Tue Jul 30 21:34:45 2024 122554.9 NOK                  Starting  22 of  30 ionization cycles 
-Tue Jul 30 21:34:45 2024 122555.0 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 21:34:49 2024 122558.7 OK                   Finished wind radiative property initialisation
-Tue Jul 30 21:34:49 2024 122558.7 NOK                  Creating photons before transport
-Tue Jul 30 21:34:59 2024 122569.2 NOK                  Photon transport started
-Tue Jul 30 23:20:10 2024 128879.7 NOK                  Photon transport completed
-Tue Jul 30 23:21:16 2024 128945.6 NOK                  Start wind update
-Tue Jul 30 23:22:16 2024 129006.3 NOK                  Finished wind update
-Tue Jul 30 23:22:16 2024 129006.4 OK                   Finished  22 of  30 ionization cycles 
-Tue Jul 30 23:22:16 2024 129006.4 NOK                  Checkpoint wind structure
-Tue Jul 30 23:22:16 2024 129006.4 NOK                  Starting  23 of  30 ionization cycles 
-Tue Jul 30 23:22:16 2024 129006.4 NOK                  Begin wind radiative property initialisation
-Tue Jul 30 23:22:20 2024 129010.2 OK                   Finished wind radiative property initialisation
-Tue Jul 30 23:22:20 2024 129010.2 NOK                  Creating photons before transport
-Tue Jul 30 23:22:31 2024 129020.9 NOK                  Photon transport started
-Wed Jul 31 01:09:22 2024 135432.0 NOK                  Photon transport completed
-Wed Jul 31 01:09:46 2024 135455.8 NOK                  Start wind update
-Wed Jul 31 01:10:45 2024 135515.3 NOK                  Finished wind update
-Wed Jul 31 01:10:45 2024 135515.4 OK                   Finished  23 of  30 ionization cycles 
-Wed Jul 31 01:10:45 2024 135515.4 NOK                  Checkpoint wind structure
-Wed Jul 31 01:10:45 2024 135515.4 NOK                  Starting  24 of  30 ionization cycles 
-Wed Jul 31 01:10:45 2024 135515.4 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 01:10:49 2024 135519.3 OK                   Finished wind radiative property initialisation
-Wed Jul 31 01:10:49 2024 135519.3 NOK                  Creating photons before transport
-Wed Jul 31 01:11:00 2024 135529.9 NOK                  Photon transport started
-Wed Jul 31 02:58:29 2024 141978.6 NOK                  Photon transport completed
-Wed Jul 31 02:59:25 2024 142034.6 NOK                  Start wind update
-Wed Jul 31 03:00:25 2024 142094.5 NOK                  Finished wind update
-Wed Jul 31 03:00:25 2024 142094.6 OK                   Finished  24 of  30 ionization cycles 
-Wed Jul 31 03:00:25 2024 142094.6 NOK                  Checkpoint wind structure
-Wed Jul 31 03:00:25 2024 142094.6 NOK                  Starting  25 of  30 ionization cycles 
-Wed Jul 31 03:00:25 2024 142094.6 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 03:00:28 2024 142098.4 OK                   Finished wind radiative property initialisation
-Wed Jul 31 03:00:28 2024 142098.4 NOK                  Creating photons before transport
-Wed Jul 31 03:00:39 2024 142109.0 NOK                  Photon transport started
-Wed Jul 31 04:49:51 2024 148661.3 NOK                  Photon transport completed
-Wed Jul 31 04:50:32 2024 148701.6 NOK                  Start wind update
-Wed Jul 31 04:51:31 2024 148760.5 NOK                  Finished wind update
-Wed Jul 31 04:51:31 2024 148760.6 OK                   Finished  25 of  30 ionization cycles 
-Wed Jul 31 04:51:31 2024 148760.6 NOK                  Checkpoint wind structure
-Wed Jul 31 04:51:31 2024 148760.6 NOK                  Starting  26 of  30 ionization cycles 
-Wed Jul 31 04:51:31 2024 148760.6 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 04:51:34 2024 148764.4 OK                   Finished wind radiative property initialisation
-Wed Jul 31 04:51:34 2024 148764.4 NOK                  Creating photons before transport
-Wed Jul 31 04:51:45 2024 148775.0 NOK                  Photon transport started
-Wed Jul 31 06:42:15 2024 155405.5 NOK                  Photon transport completed
-Wed Jul 31 06:42:40 2024 155429.6 NOK                  Start wind update
-Wed Jul 31 06:43:39 2024 155488.8 NOK                  Finished wind update
-Wed Jul 31 06:43:39 2024 155488.9 OK                   Finished  26 of  30 ionization cycles 
-Wed Jul 31 06:43:39 2024 155488.9 NOK                  Checkpoint wind structure
-Wed Jul 31 06:43:39 2024 155488.9 NOK                  Starting  27 of  30 ionization cycles 
-Wed Jul 31 06:43:39 2024 155488.9 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 06:43:43 2024 155492.8 OK                   Finished wind radiative property initialisation
-Wed Jul 31 06:43:43 2024 155492.8 NOK                  Creating photons before transport
-Wed Jul 31 06:43:53 2024 155503.4 NOK                  Photon transport started
-Wed Jul 31 08:35:40 2024 162210.0 NOK                  Photon transport completed
-Wed Jul 31 08:36:38 2024 162268.2 NOK                  Start wind update
-Wed Jul 31 08:37:38 2024 162328.1 NOK                  Finished wind update
-Wed Jul 31 08:37:38 2024 162328.2 OK                   Finished  27 of  30 ionization cycles 
-Wed Jul 31 08:37:38 2024 162328.2 NOK                  Checkpoint wind structure
-Wed Jul 31 08:37:38 2024 162328.2 NOK                  Starting  28 of  30 ionization cycles 
-Wed Jul 31 08:37:38 2024 162328.2 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 08:37:42 2024 162332.0 OK                   Finished wind radiative property initialisation
-Wed Jul 31 08:37:42 2024 162332.0 NOK                  Creating photons before transport
-Wed Jul 31 08:37:53 2024 162342.6 NOK                  Photon transport started
-Wed Jul 31 10:42:10 2024 169800.2 NOK                  Photon transport completed
-Wed Jul 31 10:44:32 2024 169942.1 NOK                  Start wind update
-Wed Jul 31 10:45:52 2024 170021.5 NOK                  Finished wind update
-Wed Jul 31 10:45:52 2024 170021.6 OK                   Finished  28 of  30 ionization cycles 
-Wed Jul 31 10:45:52 2024 170021.6 NOK                  Checkpoint wind structure
-Wed Jul 31 10:45:52 2024 170021.7 NOK                  Starting  29 of  30 ionization cycles 
-Wed Jul 31 10:45:52 2024 170021.7 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 10:45:57 2024 170026.9 OK                   Finished wind radiative property initialisation
-Wed Jul 31 10:45:57 2024 170026.9 NOK                  Creating photons before transport
-Wed Jul 31 10:46:11 2024 170041.0 NOK                  Photon transport started
-Wed Jul 31 12:50:47 2024 177516.9 NOK                  Photon transport completed
-Wed Jul 31 12:56:55 2024 177885.0 NOK                  Start wind update
-Wed Jul 31 12:57:55 2024 177944.9 NOK                  Finished wind update
-Wed Jul 31 12:57:55 2024 177944.9 OK                   Finished  29 of  30 ionization cycles 
-Wed Jul 31 12:57:55 2024 177944.9 NOK                  Checkpoint wind structure
-Wed Jul 31 12:57:55 2024 177945.0 NOK                  Starting  30 of  30 ionization cycles 
-Wed Jul 31 12:57:55 2024 177945.0 NOK                  Begin wind radiative property initialisation
-Wed Jul 31 12:58:00 2024 177949.7 OK                   Finished wind radiative property initialisation
-Wed Jul 31 12:58:00 2024 177949.7 NOK                  Creating photons before transport
-Wed Jul 31 12:58:10 2024 177960.4 NOK                  Photon transport started
-Wed Jul 31 14:54:55 2024 184965.1 NOK                  Photon transport completed
-Wed Jul 31 14:55:34 2024 185003.9 NOK                  Start wind update
-Wed Jul 31 14:56:35 2024 185065.0 NOK                  Finished wind update
-Wed Jul 31 14:56:35 2024 185065.1 OK                   Finished  30 of  30 ionization cycles 
-Wed Jul 31 14:56:35 2024 185065.1 NOK                  Checkpoint wind structure
-Wed Jul 31 14:56:35 2024 185065.1 NOK                  Starting   1 of   1 spectrum cycles 
-Wed Jul 31 14:57:31 2024 185120.8 NOK                  Photon transport started
-Wed Jul 31 15:16:57 2024 186287.5 NOK                  Photon transport completed
-Wed Jul 31 15:17:05 2024 186294.7 OK                   Finished   1 of   1 spectrum cycles 
-Wed Jul 31 15:17:05 2024 186294.8 COMPLETE             cv_cno
+Thu Aug 15 17:01:31 2024      0.1 START                cv_cno 
+Thu Aug 15 17:01:31 2024      0.1 NOK                  Initializing variables for cv_cno
+Thu Aug 15 17:01:38 2024      7.2 NOK                  Finished initialization for cv_cno
+Thu Aug 15 17:01:38 2024      7.2 NOK                  Starting   1 of  20 ionization cycles 
+Thu Aug 15 17:01:38 2024      7.2 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 17:01:51 2024     20.2 OK                   Finished wind radiative property initialisation
+Thu Aug 15 17:01:51 2024     20.2 NOK                  Begin state machine calculation in cycle   1  
+Thu Aug 15 17:01:53 2024     21.6 OK                   Finished state machine calculation in cycle   1  
+Thu Aug 15 17:01:53 2024     21.6 NOK                  Creating photons before transport
+Thu Aug 15 17:01:59 2024     28.4 NOK                  Photon transport started
+Thu Aug 15 17:12:32 2024    661.3 NOK                  Photon transport completed
+Thu Aug 15 17:12:38 2024    667.1 NOK                  Start wind update
+Thu Aug 15 17:15:21 2024    829.8 NOK                  Finished wind update
+Thu Aug 15 17:15:21 2024    829.9 OK                   Finished   1 of  20 ionization cycles 
+Thu Aug 15 17:15:21 2024    829.9 NOK                  Checkpoint wind structure
+Thu Aug 15 17:15:21 2024    830.0 NOK                  Starting   2 of  20 ionization cycles 
+Thu Aug 15 17:15:21 2024    830.0 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 17:15:34 2024    842.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 17:15:34 2024    842.8 NOK                  Begin state machine calculation in cycle   2  
+Thu Aug 15 17:15:35 2024    844.2 OK                   Finished state machine calculation in cycle   2  
+Thu Aug 15 17:15:35 2024    844.2 NOK                  Creating photons before transport
+Thu Aug 15 17:15:42 2024    851.0 NOK                  Photon transport started
+Thu Aug 15 17:26:45 2024   1513.9 NOK                  Photon transport completed
+Thu Aug 15 17:26:45 2024   1514.1 NOK                  Start wind update
+Thu Aug 15 17:29:08 2024   1656.7 NOK                  Finished wind update
+Thu Aug 15 17:29:08 2024   1656.7 OK                   Finished   2 of  20 ionization cycles 
+Thu Aug 15 17:29:08 2024   1656.7 NOK                  Checkpoint wind structure
+Thu Aug 15 17:29:08 2024   1656.8 NOK                  Starting   3 of  20 ionization cycles 
+Thu Aug 15 17:29:08 2024   1656.8 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 17:29:19 2024   1668.5 OK                   Finished wind radiative property initialisation
+Thu Aug 15 17:29:19 2024   1668.5 NOK                  Begin state machine calculation in cycle   3  
+Thu Aug 15 17:29:21 2024   1669.8 OK                   Finished state machine calculation in cycle   3  
+Thu Aug 15 17:29:21 2024   1669.8 NOK                  Creating photons before transport
+Thu Aug 15 17:29:27 2024   1675.7 NOK                  Photon transport started
+Thu Aug 15 17:39:39 2024   2288.0 NOK                  Photon transport completed
+Thu Aug 15 17:39:39 2024   2288.1 NOK                  Start wind update
+Thu Aug 15 17:42:15 2024   2444.5 NOK                  Finished wind update
+Thu Aug 15 17:42:16 2024   2444.6 OK                   Finished   3 of  20 ionization cycles 
+Thu Aug 15 17:42:16 2024   2444.6 NOK                  Checkpoint wind structure
+Thu Aug 15 17:42:16 2024   2444.6 NOK                  Starting   4 of  20 ionization cycles 
+Thu Aug 15 17:42:16 2024   2444.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 17:42:27 2024   2456.3 OK                   Finished wind radiative property initialisation
+Thu Aug 15 17:42:27 2024   2456.3 NOK                  Begin state machine calculation in cycle   4  
+Thu Aug 15 17:42:28 2024   2457.4 OK                   Finished state machine calculation in cycle   4  
+Thu Aug 15 17:42:28 2024   2457.4 NOK                  Creating photons before transport
+Thu Aug 15 17:42:34 2024   2463.4 NOK                  Photon transport started
+Thu Aug 15 17:52:53 2024   3081.8 NOK                  Photon transport completed
+Thu Aug 15 17:52:53 2024   3082.0 NOK                  Start wind update
+Thu Aug 15 17:55:31 2024   3240.5 NOK                  Finished wind update
+Thu Aug 15 17:55:31 2024   3240.5 OK                   Finished   4 of  20 ionization cycles 
+Thu Aug 15 17:55:31 2024   3240.5 NOK                  Checkpoint wind structure
+Thu Aug 15 17:55:32 2024   3240.6 NOK                  Starting   5 of  20 ionization cycles 
+Thu Aug 15 17:55:32 2024   3240.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 17:55:43 2024   3252.3 OK                   Finished wind radiative property initialisation
+Thu Aug 15 17:55:43 2024   3252.3 NOK                  Begin state machine calculation in cycle   5  
+Thu Aug 15 17:55:45 2024   3253.5 OK                   Finished state machine calculation in cycle   5  
+Thu Aug 15 17:55:45 2024   3253.5 NOK                  Creating photons before transport
+Thu Aug 15 17:55:51 2024   3259.6 NOK                  Photon transport started
+Thu Aug 15 18:06:02 2024   3871.1 NOK                  Photon transport completed
+Thu Aug 15 18:06:02 2024   3871.5 NOK                  Start wind update
+Thu Aug 15 18:08:19 2024   4008.5 NOK                  Finished wind update
+Thu Aug 15 18:08:20 2024   4009.1 OK                   Finished   5 of  20 ionization cycles 
+Thu Aug 15 18:08:20 2024   4009.1 NOK                  Checkpoint wind structure
+Thu Aug 15 18:08:26 2024   4014.8 NOK                  Starting   6 of  20 ionization cycles 
+Thu Aug 15 18:08:26 2024   4014.8 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 18:08:36 2024   4025.3 OK                   Finished wind radiative property initialisation
+Thu Aug 15 18:08:36 2024   4025.3 NOK                  Begin state machine calculation in cycle   6  
+Thu Aug 15 18:08:38 2024   4026.7 OK                   Finished state machine calculation in cycle   6  
+Thu Aug 15 18:08:38 2024   4026.7 NOK                  Creating photons before transport
+Thu Aug 15 18:08:43 2024   4032.4 NOK                  Photon transport started
+Thu Aug 15 18:18:24 2024   4613.3 NOK                  Photon transport completed
+Thu Aug 15 18:18:25 2024   4613.9 NOK                  Start wind update
+Thu Aug 15 18:20:46 2024   4755.4 NOK                  Finished wind update
+Thu Aug 15 18:20:47 2024   4755.9 OK                   Finished   6 of  20 ionization cycles 
+Thu Aug 15 18:20:47 2024   4755.9 NOK                  Checkpoint wind structure
+Thu Aug 15 18:20:53 2024   4761.8 NOK                  Starting   7 of  20 ionization cycles 
+Thu Aug 15 18:20:53 2024   4761.8 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 18:21:03 2024   4772.4 OK                   Finished wind radiative property initialisation
+Thu Aug 15 18:21:03 2024   4772.4 NOK                  Begin state machine calculation in cycle   7  
+Thu Aug 15 18:21:05 2024   4774.0 OK                   Finished state machine calculation in cycle   7  
+Thu Aug 15 18:21:05 2024   4774.0 NOK                  Creating photons before transport
+Thu Aug 15 18:21:12 2024   4780.9 NOK                  Photon transport started
+Thu Aug 15 18:31:29 2024   5397.6 NOK                  Photon transport completed
+Thu Aug 15 18:31:29 2024   5397.8 NOK                  Start wind update
+Thu Aug 15 18:34:10 2024   5559.4 NOK                  Finished wind update
+Thu Aug 15 18:34:10 2024   5559.5 OK                   Finished   7 of  20 ionization cycles 
+Thu Aug 15 18:34:10 2024   5559.5 NOK                  Checkpoint wind structure
+Thu Aug 15 18:34:11 2024   5559.6 NOK                  Starting   8 of  20 ionization cycles 
+Thu Aug 15 18:34:11 2024   5559.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 18:34:24 2024   5572.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 18:34:24 2024   5572.8 NOK                  Begin state machine calculation in cycle   8  
+Thu Aug 15 18:34:26 2024   5574.6 OK                   Finished state machine calculation in cycle   8  
+Thu Aug 15 18:34:26 2024   5574.7 NOK                  Creating photons before transport
+Thu Aug 15 18:34:32 2024   5581.4 NOK                  Photon transport started
+Thu Aug 15 18:44:33 2024   6182.3 NOK                  Photon transport completed
+Thu Aug 15 18:44:33 2024   6182.5 NOK                  Start wind update
+Thu Aug 15 18:47:01 2024   6330.2 NOK                  Finished wind update
+Thu Aug 15 18:47:01 2024   6330.3 OK                   Finished   8 of  20 ionization cycles 
+Thu Aug 15 18:47:01 2024   6330.3 NOK                  Checkpoint wind structure
+Thu Aug 15 18:47:01 2024   6330.3 NOK                  Starting   9 of  20 ionization cycles 
+Thu Aug 15 18:47:01 2024   6330.3 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 18:47:12 2024   6340.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 18:47:12 2024   6340.8 NOK                  Begin state machine calculation in cycle   9  
+Thu Aug 15 18:47:13 2024   6342.1 OK                   Finished state machine calculation in cycle   9  
+Thu Aug 15 18:47:13 2024   6342.1 NOK                  Creating photons before transport
+Thu Aug 15 18:47:19 2024   6348.2 NOK                  Photon transport started
+Thu Aug 15 18:57:10 2024   6939.0 NOK                  Photon transport completed
+Thu Aug 15 18:57:10 2024   6939.3 NOK                  Start wind update
+Thu Aug 15 18:59:41 2024   7090.4 NOK                  Finished wind update
+Thu Aug 15 18:59:41 2024   7090.5 OK                   Finished   9 of  20 ionization cycles 
+Thu Aug 15 18:59:41 2024   7090.5 NOK                  Checkpoint wind structure
+Thu Aug 15 18:59:42 2024   7090.6 NOK                  Starting  10 of  20 ionization cycles 
+Thu Aug 15 18:59:42 2024   7090.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 18:59:52 2024   7101.4 OK                   Finished wind radiative property initialisation
+Thu Aug 15 18:59:52 2024   7101.4 NOK                  Begin state machine calculation in cycle  10  
+Thu Aug 15 18:59:54 2024   7102.7 OK                   Finished state machine calculation in cycle  10  
+Thu Aug 15 18:59:54 2024   7102.7 NOK                  Creating photons before transport
+Thu Aug 15 18:59:59 2024   7108.4 NOK                  Photon transport started
+Thu Aug 15 19:09:59 2024   7708.3 NOK                  Photon transport completed
+Thu Aug 15 19:10:00 2024   7708.7 NOK                  Start wind update
+Thu Aug 15 19:12:55 2024   7884.4 NOK                  Finished wind update
+Thu Aug 15 19:12:56 2024   7884.6 OK                   Finished  10 of  20 ionization cycles 
+Thu Aug 15 19:12:56 2024   7884.6 NOK                  Checkpoint wind structure
+Thu Aug 15 19:12:56 2024   7884.6 NOK                  Starting  11 of  20 ionization cycles 
+Thu Aug 15 19:12:56 2024   7884.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 19:13:09 2024   7897.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 19:13:09 2024   7897.8 NOK                  Begin state machine calculation in cycle  11  
+Thu Aug 15 19:13:11 2024   7899.8 OK                   Finished state machine calculation in cycle  11  
+Thu Aug 15 19:13:11 2024   7899.8 NOK                  Creating photons before transport
+Thu Aug 15 19:13:18 2024   7906.8 NOK                  Photon transport started
+Thu Aug 15 19:24:26 2024   8575.3 NOK                  Photon transport completed
+Thu Aug 15 19:24:26 2024   8575.5 NOK                  Start wind update
+Thu Aug 15 19:27:11 2024   8739.6 NOK                  Finished wind update
+Thu Aug 15 19:27:11 2024   8739.7 OK                   Finished  11 of  20 ionization cycles 
+Thu Aug 15 19:27:11 2024   8739.7 NOK                  Checkpoint wind structure
+Thu Aug 15 19:27:11 2024   8739.7 NOK                  Starting  12 of  20 ionization cycles 
+Thu Aug 15 19:27:11 2024   8739.7 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 19:27:21 2024   8750.4 OK                   Finished wind radiative property initialisation
+Thu Aug 15 19:27:21 2024   8750.4 NOK                  Begin state machine calculation in cycle  12  
+Thu Aug 15 19:27:22 2024   8751.5 OK                   Finished state machine calculation in cycle  12  
+Thu Aug 15 19:27:22 2024   8751.5 NOK                  Creating photons before transport
+Thu Aug 15 19:27:28 2024   8757.3 NOK                  Photon transport started
+Thu Aug 15 19:36:56 2024   9324.9 NOK                  Photon transport completed
+Thu Aug 15 19:36:56 2024   9325.0 NOK                  Start wind update
+Thu Aug 15 19:39:27 2024   9475.8 NOK                  Finished wind update
+Thu Aug 15 19:39:27 2024   9475.9 OK                   Finished  12 of  20 ionization cycles 
+Thu Aug 15 19:39:27 2024   9475.9 NOK                  Checkpoint wind structure
+Thu Aug 15 19:39:27 2024   9475.9 NOK                  Starting  13 of  20 ionization cycles 
+Thu Aug 15 19:39:27 2024   9475.9 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 19:39:38 2024   9486.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 19:39:38 2024   9486.8 NOK                  Begin state machine calculation in cycle  13  
+Thu Aug 15 19:39:39 2024   9487.9 OK                   Finished state machine calculation in cycle  13  
+Thu Aug 15 19:39:39 2024   9487.9 NOK                  Creating photons before transport
+Thu Aug 15 19:39:44 2024   9493.5 NOK                  Photon transport started
+Thu Aug 15 19:49:21 2024  10070.5 NOK                  Photon transport completed
+Thu Aug 15 19:49:22 2024  10070.8 NOK                  Start wind update
+Thu Aug 15 19:51:51 2024  10220.3 NOK                  Finished wind update
+Thu Aug 15 19:51:52 2024  10220.8 OK                   Finished  13 of  20 ionization cycles 
+Thu Aug 15 19:51:52 2024  10220.8 NOK                  Checkpoint wind structure
+Thu Aug 15 19:51:58 2024  10226.6 NOK                  Starting  14 of  20 ionization cycles 
+Thu Aug 15 19:51:58 2024  10226.6 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 19:52:08 2024  10237.1 OK                   Finished wind radiative property initialisation
+Thu Aug 15 19:52:08 2024  10237.1 NOK                  Begin state machine calculation in cycle  14  
+Thu Aug 15 19:52:09 2024  10238.3 OK                   Finished state machine calculation in cycle  14  
+Thu Aug 15 19:52:09 2024  10238.3 NOK                  Creating photons before transport
+Thu Aug 15 19:52:15 2024  10243.9 NOK                  Photon transport started
+Thu Aug 15 20:01:39 2024  10808.3 NOK                  Photon transport completed
+Thu Aug 15 20:01:40 2024  10808.6 NOK                  Start wind update
+Thu Aug 15 20:04:05 2024  10954.4 NOK                  Finished wind update
+Thu Aug 15 20:04:06 2024  10954.9 OK                   Finished  14 of  20 ionization cycles 
+Thu Aug 15 20:04:06 2024  10954.9 NOK                  Checkpoint wind structure
+Thu Aug 15 20:04:12 2024  10960.7 NOK                  Starting  15 of  20 ionization cycles 
+Thu Aug 15 20:04:12 2024  10960.7 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 20:04:22 2024  10971.3 OK                   Finished wind radiative property initialisation
+Thu Aug 15 20:04:22 2024  10971.3 NOK                  Begin state machine calculation in cycle  15  
+Thu Aug 15 20:04:23 2024  10972.5 OK                   Finished state machine calculation in cycle  15  
+Thu Aug 15 20:04:23 2024  10972.5 NOK                  Creating photons before transport
+Thu Aug 15 20:04:29 2024  10978.0 NOK                  Photon transport started
+Thu Aug 15 20:13:52 2024  11541.3 NOK                  Photon transport completed
+Thu Aug 15 20:13:53 2024  11541.7 NOK                  Start wind update
+Thu Aug 15 20:16:21 2024  11690.5 NOK                  Finished wind update
+Thu Aug 15 20:16:22 2024  11691.0 OK                   Finished  15 of  20 ionization cycles 
+Thu Aug 15 20:16:22 2024  11691.0 NOK                  Checkpoint wind structure
+Thu Aug 15 20:16:28 2024  11696.7 NOK                  Starting  16 of  20 ionization cycles 
+Thu Aug 15 20:16:28 2024  11696.7 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 20:16:39 2024  11707.6 OK                   Finished wind radiative property initialisation
+Thu Aug 15 20:16:39 2024  11707.6 NOK                  Begin state machine calculation in cycle  16  
+Thu Aug 15 20:16:40 2024  11708.8 OK                   Finished state machine calculation in cycle  16  
+Thu Aug 15 20:16:40 2024  11708.8 NOK                  Creating photons before transport
+Thu Aug 15 20:16:46 2024  11714.6 NOK                  Photon transport started
+Thu Aug 15 20:26:31 2024  12300.2 NOK                  Photon transport completed
+Thu Aug 15 20:26:31 2024  12300.5 NOK                  Start wind update
+Thu Aug 15 20:29:04 2024  12452.7 NOK                  Finished wind update
+Thu Aug 15 20:29:04 2024  12452.8 OK                   Finished  16 of  20 ionization cycles 
+Thu Aug 15 20:29:04 2024  12452.8 NOK                  Checkpoint wind structure
+Thu Aug 15 20:29:04 2024  12452.8 NOK                  Starting  17 of  20 ionization cycles 
+Thu Aug 15 20:29:04 2024  12452.8 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 20:29:14 2024  12463.3 OK                   Finished wind radiative property initialisation
+Thu Aug 15 20:29:14 2024  12463.3 NOK                  Begin state machine calculation in cycle  17  
+Thu Aug 15 20:29:16 2024  12464.6 OK                   Finished state machine calculation in cycle  17  
+Thu Aug 15 20:29:16 2024  12464.6 NOK                  Creating photons before transport
+Thu Aug 15 20:29:21 2024  12470.0 NOK                  Photon transport started
+Thu Aug 15 20:38:18 2024  13007.0 NOK                  Photon transport completed
+Thu Aug 15 20:38:19 2024  13008.3 NOK                  Start wind update
+Thu Aug 15 20:40:44 2024  13153.4 NOK                  Finished wind update
+Thu Aug 15 20:40:44 2024  13153.4 OK                   Finished  17 of  20 ionization cycles 
+Thu Aug 15 20:40:44 2024  13153.4 NOK                  Checkpoint wind structure
+Thu Aug 15 20:40:44 2024  13153.5 NOK                  Starting  18 of  20 ionization cycles 
+Thu Aug 15 20:40:44 2024  13153.5 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 20:40:55 2024  13163.8 OK                   Finished wind radiative property initialisation
+Thu Aug 15 20:40:55 2024  13163.8 NOK                  Begin state machine calculation in cycle  18  
+Thu Aug 15 20:40:56 2024  13164.8 OK                   Finished state machine calculation in cycle  18  
+Thu Aug 15 20:40:56 2024  13164.8 NOK                  Creating photons before transport
+Thu Aug 15 20:41:01 2024  13170.1 NOK                  Photon transport started
+Thu Aug 15 20:50:03 2024  13712.2 NOK                  Photon transport completed
+Thu Aug 15 20:50:03 2024  13712.4 NOK                  Start wind update
+Thu Aug 15 20:52:32 2024  13861.3 NOK                  Finished wind update
+Thu Aug 15 20:52:32 2024  13861.4 OK                   Finished  18 of  20 ionization cycles 
+Thu Aug 15 20:52:32 2024  13861.4 NOK                  Checkpoint wind structure
+Thu Aug 15 20:52:32 2024  13861.4 NOK                  Starting  19 of  20 ionization cycles 
+Thu Aug 15 20:52:32 2024  13861.4 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 20:52:43 2024  13871.9 OK                   Finished wind radiative property initialisation
+Thu Aug 15 20:52:43 2024  13871.9 NOK                  Begin state machine calculation in cycle  19  
+Thu Aug 15 20:52:44 2024  13872.9 OK                   Finished state machine calculation in cycle  19  
+Thu Aug 15 20:52:44 2024  13872.9 NOK                  Creating photons before transport
+Thu Aug 15 20:52:49 2024  13878.3 NOK                  Photon transport started
+Thu Aug 15 21:02:24 2024  14452.5 NOK                  Photon transport completed
+Thu Aug 15 21:02:24 2024  14452.7 NOK                  Start wind update
+Thu Aug 15 21:04:51 2024  14600.3 NOK                  Finished wind update
+Thu Aug 15 21:04:51 2024  14600.4 OK                   Finished  19 of  20 ionization cycles 
+Thu Aug 15 21:04:51 2024  14600.4 NOK                  Checkpoint wind structure
+Thu Aug 15 21:04:51 2024  14600.4 NOK                  Starting  20 of  20 ionization cycles 
+Thu Aug 15 21:04:51 2024  14600.4 NOK                  Begin wind radiative property initialisation
+Thu Aug 15 21:05:02 2024  14610.9 OK                   Finished wind radiative property initialisation
+Thu Aug 15 21:05:02 2024  14610.9 NOK                  Begin state machine calculation in cycle  20  
+Thu Aug 15 21:05:03 2024  14611.9 OK                   Finished state machine calculation in cycle  20  
+Thu Aug 15 21:05:03 2024  14611.9 NOK                  Creating photons before transport
+Thu Aug 15 21:05:08 2024  14617.3 NOK                  Photon transport started
+Thu Aug 15 21:14:15 2024  15164.2 NOK                  Photon transport completed
+Thu Aug 15 21:14:15 2024  15164.3 NOK                  Start wind update
+Thu Aug 15 21:16:45 2024  15313.6 NOK                  Finished wind update
+Thu Aug 15 21:16:45 2024  15313.9 OK                   Finished  20 of  20 ionization cycles 
+Thu Aug 15 21:16:45 2024  15313.9 NOK                  Checkpoint wind structure
+Thu Aug 15 21:16:45 2024  15314.0 NOK                  Starting   1 of  10 spectrum cycles 
+Thu Aug 15 21:18:06 2024  15395.3 NOK                  Photon transport started
+Thu Aug 15 21:27:13 2024  15941.9 NOK                  Photon transport completed
+Thu Aug 15 21:27:13 2024  15942.4 OK                   Finished   1 of  10 spectrum cycles 
+Thu Aug 15 21:27:13 2024  15942.4 NOK                  Starting   2 of  10 spectrum cycles 
+Thu Aug 15 21:27:28 2024  15956.7 NOK                  Photon transport started
+Thu Aug 15 21:36:29 2024  16497.6 NOK                  Photon transport completed
+Thu Aug 15 21:36:29 2024  16498.3 OK                   Finished   2 of  10 spectrum cycles 
+Thu Aug 15 21:36:29 2024  16498.3 NOK                  Starting   3 of  10 spectrum cycles 
+Thu Aug 15 21:36:43 2024  16512.5 NOK                  Photon transport started
+Thu Aug 15 21:45:47 2024  17056.1 NOK                  Photon transport completed
+Thu Aug 15 21:45:48 2024  17057.1 OK                   Finished   3 of  10 spectrum cycles 
+Thu Aug 15 21:45:48 2024  17057.2 NOK                  Starting   4 of  10 spectrum cycles 
+Thu Aug 15 21:46:02 2024  17071.5 NOK                  Photon transport started
+Thu Aug 15 21:55:12 2024  17621.5 NOK                  Photon transport completed
+Thu Aug 15 21:55:14 2024  17623.5 OK                   Finished   4 of  10 spectrum cycles 
+Thu Aug 15 21:55:15 2024  17623.6 NOK                  Starting   5 of  10 spectrum cycles 
+Thu Aug 15 21:55:29 2024  17638.0 NOK                  Photon transport started
+Thu Aug 15 22:04:40 2024  18189.1 NOK                  Photon transport completed
+Thu Aug 15 22:04:41 2024  18189.7 OK                   Finished   5 of  10 spectrum cycles 
+Thu Aug 15 22:04:41 2024  18189.7 NOK                  Starting   6 of  10 spectrum cycles 
+Thu Aug 15 22:04:55 2024  18204.1 NOK                  Photon transport started
+Thu Aug 15 22:14:02 2024  18751.4 NOK                  Photon transport completed
+Thu Aug 15 22:14:04 2024  18753.5 OK                   Finished   6 of  10 spectrum cycles 
+Thu Aug 15 22:14:05 2024  18753.5 NOK                  Starting   7 of  10 spectrum cycles 
+Thu Aug 15 22:14:19 2024  18768.0 NOK                  Photon transport started
+Thu Aug 15 22:23:25 2024  19313.7 NOK                  Photon transport completed
+Thu Aug 15 22:23:25 2024  19314.4 OK                   Finished   7 of  10 spectrum cycles 
+Thu Aug 15 22:23:25 2024  19314.5 NOK                  Starting   8 of  10 spectrum cycles 
+Thu Aug 15 22:23:40 2024  19328.8 NOK                  Photon transport started
+Thu Aug 15 22:32:44 2024  19872.9 NOK                  Photon transport completed
+Thu Aug 15 22:32:45 2024  19873.7 OK                   Finished   8 of  10 spectrum cycles 
+Thu Aug 15 22:32:45 2024  19873.7 NOK                  Starting   9 of  10 spectrum cycles 
+Thu Aug 15 22:32:59 2024  19887.9 NOK                  Photon transport started
+Thu Aug 15 22:42:02 2024  20431.3 NOK                  Photon transport completed
+Thu Aug 15 22:42:03 2024  20432.2 OK                   Finished   9 of  10 spectrum cycles 
+Thu Aug 15 22:42:03 2024  20432.2 NOK                  Starting  10 of  10 spectrum cycles 
+Thu Aug 15 22:42:18 2024  20446.7 NOK                  Photon transport started
+Thu Aug 15 22:51:28 2024  20997.3 NOK                  Photon transport completed
+Thu Aug 15 22:51:29 2024  20998.2 OK                   Finished  10 of  10 spectrum cycles 
+Thu Aug 15 22:51:29 2024  20998.3 COMPLETE             cv_cno

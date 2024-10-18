@@ -48,15 +48,15 @@ def make_figure(cv_model = "00001743.pluto", xdir="{}/Demos/rad-hydro/".format(u
             data_interp[key] = np.array(interpolate_data(data, key, data_interp["xx"], data_interp["yy"]))
             data_interp[key][select_mask] = 0.0
             data_interp[key][np.isnan(data_interp[key])] = 0.0
-    print (data_interp["v_x"])
+    #print (data_interp["v_x"])
     c_s = np.sqrt(40) * 10.0 * 1e5
     mach = np.sqrt(d["v_x"]**2 + d["v_y"]**2) / c_s
-    print (mach)
+    #print (mach)
     
 
     #density = 
     
-    cmap = "cividis"
+    cmap = cma.torch
     rho2nh = 4.193157431592219e+23
     ax[0].pcolormesh(x, y, np.log10(d["density"]*rho2nh), lw=0, rasterized=True, shading="gouraud", cmap=cmap, vmin=6, vmax=14)
     v = np.sqrt(d["v_x"]**2 + d["v_y"]**2)
@@ -112,7 +112,7 @@ def make_figure(cv_model = "00001743.pluto", xdir="{}/Demos/rad-hydro/".format(u
 
     #plt.tight_layout(pad=0.05)
     plt.subplots_adjust(left=0.05,right=0.89, top=0.96, wspace=0.1, hspace=0.05, bottom=0.12)
-    print (util.get_aspect(ax[0]))
+    #print (util.get_aspect(ax[0]))
     util.save_paper_figure('rad-hydro2.pdf')
 
 

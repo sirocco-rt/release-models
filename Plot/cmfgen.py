@@ -1,14 +1,7 @@
-import sys, os
 import numpy as np
-import logging
-import warnings
-from numpy import exp
-from astropy import units, constants
 import astropy.io.ascii as io
 import matplotlib.pyplot as plt 
 import util 
-from scipy.signal import boxcar
-from scipy.signal import convolve
 
 def singlet(ax, name=r'Ly$\alpha',wavelength=1216,bot=0.8,top=0.9):
     limits=ax.get_xlim()
@@ -61,25 +54,11 @@ def add_lines(ax):
 
 
 def make_figure(path="{}/Tests/cmfgen/".format(util.g_DataDir), root="a3_hhe"):
-    """
-    Generate a comparison figure between Tardis and Python spectra.
+    """Make CMFGEN comparison spectrum figure
 
-    Parameters:
-    -----------
-    path : str, optional
-        Path to the directory containing the data files. Defaults to "../Data/Tests/tardis/".
-
-    Returns:
-    --------
-    None
-
-    Notes:
-    ------
-    This function loads data files for Tardis and Python spectra, corrects fluxes to the same distance 
-    using the inverse square law, and creates a comparison plot. It plots Tardis spectrum and Python 
-    spectrum (assuming the data files are named "tardis_python_spectrum.dat", "1d_sn_87.spec", and 
-    "1d_sn_87_2.spec" respectively). The plot is saved as "Figures/tardis_comparison.pdf".
-
+    Args:
+        path (_type_, optional): path to folder. Defaults to "{}/Tests/cmfgen/".format(util.g_DataDir).
+        root (str, optional): root file name to plot. Defaults to "a3_hhe".
     """
 
     cmfgen=io.read('{}/a3.spec.txt'.format(path))
@@ -103,9 +82,7 @@ def make_figure(path="{}/Tests/cmfgen/".format(util.g_DataDir), root="a3_hhe"):
         ax.plot(cmfgen['Wave'],norm*cmfgen['smooth'],label='CMFGen', c="k", lw=3, alpha=0.8)
         ax.set_xlim(xlims[i][0], xlims[i][1])
         add_lines(ax)
-        ax.set_ylabel(r'$\nu F_{\nu}$ ($10^{-4}$~erg~cm$^{-2}$~s$^{-1}$)',size=16)
-
-
+        ax.set_ylabel(r'$\lambda F_{\lambda}$ (Arb.)',fontsize=util.onepanel_labelsize)
 
     ax.legend(loc='best')
     ax.set_xlabel(util.wavelength_label, fontsize=util.onepanel_labelsize)
@@ -117,4 +94,4 @@ def make_figure(path="{}/Tests/cmfgen/".format(util.g_DataDir), root="a3_hhe"):
 
 if __name__ == "__main__":
     util.set_plot_defaults()
-    make_figure()
+    make_figure(root="cmfgen_try")

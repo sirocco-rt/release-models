@@ -1,16 +1,16 @@
-xxx Fri Aug  2 22:11:20 2024      0.0 MAXTIME set to 4e+17 s
-xxx Fri Aug  2 22:11:20 2024      0.0 START                vis_standard 
+xxx Fri Aug 16 05:08:55 2024      0.0 MAXTIME set to 4e+17 s
+xxx Fri Aug 16 05:08:55 2024      0.0 START                vis_standard 
 Thread 0 starting.
-!!Python Version 88b 
-!!Git commit hash 4290a17fd750dea0810c68d5c799004a51764bf2
-!!Python is running with 24 processors
-This is MPI task number 0 (a total of 24 tasks are running).
-xxx Fri Aug  2 22:11:20 2024      0.0 NOK                  Initializing variables for vis_standard
+!!Python Version 88c 
+!!Git commit hash 5b3c88fa62a8657059c57b9e8a9ac1468284ce18
+!!Python is running with 4 processors
+This is MPI task number 0 (a total of 4 tasks are running).
+xxx Fri Aug 16 05:08:55 2024      0.0 NOK                  Initializing variables for vis_standard
 Reading data from file vis_standard.pf
 System_type(star,cv,bh,agn,previous)   previous
 Wind.old_windfile(root_only)   cv_standard
 Starting a new run from scratch starting using a previous windfile
-Reading Windfile cv_standard.wind_save created with python version 88b with python version 88b
+Reading Windfile cv_standard.wind_save created with python version 88c with python version 88c
 Get_atomic_data: Reading from masterfile data/standard80.dat
 get_atomicdata: (Case default) Could not interpret line 7 in file data/atomic/vy_outershell_tab.dat: Label z state islp(placeholder) level(placeholder) theshold_energy n_points
  500 
@@ -63,11 +63,11 @@ Disk.radmax(cm)	  2.400000e+10
 geo.disk_rad_max  2.400000e+10
 Boundary_layer.radiation(yes,no)   no
 Not trying to make a star with a power law boundary layer -1
-Photons_per_cycle	  1.000000e+06
-Photons per cycle per MPI task will be 41666
+Photons_per_cycle	  1.000000e+07
+Photons per cycle per MPI task will be 2500000
 Ionization_cycles	  0
 Spectrum_cycles	  10
-Allocated        152 bytes for each of 41666 elements of photon structure totaling        6.3 Mb 
+Allocated        152 bytes for each of 2500000 elements of photon structure totaling      380.0 Mb 
 Wind.ionization(on.the.spot,ML93,LTE_tr,LTE_te,fixed,matrix_bb,matrix_pow,matrix_est)   matrix_bb
 Line_transfer(pure_abs,pure_scat,sing_scat,escape_prob,thermal_trapping,macro_atoms_escape_prob,macro_atoms_thermal_trapping)   thermal_trapping
 Line_transfer mode:  Simple, thermal trapping, Single scattering 
@@ -128,476 +128,471 @@ DFUDGE set to 1.000000e+05 based on geo.rmax
 check_grid: velocity changes by >1,000 km/s in 17 cells
 check_grid: optical depth may be high in 102
 check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-xxx Fri Aug  2 22:11:22 2024      2.2 NOK                  Finished initialization for vis_standard
-xxx Fri Aug  2 22:11:22 2024      2.2 COMMENT              No ionization needed: wcycles(0)==wcyeles(0)
- Completed wind creation.  The elapsed TIME was 2.187236
- Completed wind creation.  The elapsed TIME was 2.187240
-xxx Fri Aug  2 22:11:22 2024      2.2 NOK                  Starting   1 of  10 spectrum cycles 
+xxx Fri Aug 16 05:08:56 2024      1.2 NOK                  Finished initialization for vis_standard
+xxx Fri Aug 16 05:08:56 2024      1.2 COMMENT              No ionization needed: wcycles(0)==wcyeles(0)
+ Completed wind creation.  The elapsed TIME was 1.201632
+ Completed wind creation.  The elapsed TIME was 1.201635
+xxx Fri Aug 16 05:08:56 2024      1.2 NOK                  Starting   1 of  10 spectrum cycles 
 !!Cycle 1 of 10 to calculate a detailed spectrum
 init_freebound: Creating recombination coefficients
 init_freebound: Creating recombination emissivities between 0.000000e+00 and 1.000000e+50 in structure element 0
 init_freebound: Creating recombination emissivities between 4.282750e+14 and 8.817426e+14 in structure element 1
 !! xdefine_phot: lum_tot 6.01e+34 lum_star 8.94e+32 lum_bl 0.00e+00 lum_bh 0.00e+00 lum_disk 4.41e+34 lum_wind 1.51e+34
-!! xdefine_phot:   f_tot 3.86e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.54e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
-!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.00e+32  for freq 4.28e+14 8.82e+14
-!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.10e+33 
-!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  3.07e+30 
+!! xdefine_phot:   f_tot 3.85e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.53e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
+!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.01e+32  for freq 4.28e+14 8.82e+14
+!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.11e+33 
+!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  3.35e+30 
 !! xdefine_phot: heating & cooling  due to adiabatic processes:         0.00e+00 1.40e+30 
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:11:26 2024      6.0 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:09:02 2024      8.0 NOK                  Photon transport started
 
-Spec. Cycle 1/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 1/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 1/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 1/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.772516 seconds
-xxx Fri Aug  2 22:11:33 2024     12.8 NOK                  Photon transport completed
+!!python: photon transport completed in: 288.655309 seconds
+xxx Fri Aug 16 05:13:51 2024    296.6 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
 No. of photons which have scattered n times.     The max number of scatters seen was 4
-3.96e+04 1.94e+03 160      12       1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 1
-4.16e+04 26       
+2.37e+06 1.16e+05 9.03e+03 828      78       
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+2.5e+06  1.34e+03 48       3        
 No of photons and their fates
-!!PhotFate: 0        0        3.67e+04 113      0        0        0        4.82e+03 0        0        
+!!PhotFate: 0        0        2.21e+06 6.8e+03  0        0        0        2.87e+05 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         3.27e+04  100       0         0         0         725       0         0        
-            WCreated  0         0         4.04e+03  13        0         0         0         4.09e+03  0         0        
-             Emitted  0         0         3.67e+04  0         0         0         0         0         0         0        
-              CenSrc  0         0         254       0         0         0         0         0         0         0        
-                Disk  0         0         3.24e+04  0         0         0         0         0         0         0        
-                Wind  0         0         4.04e+03  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         113       0         0         0         4.82e+03  0         0        
-           Scattered  0         0         1.13e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         0         2.18e+04  167       0         0         0         2.2e+04   0         0        
-            A28P0.50  0         1         2.17e+04  168       0         0         0         2.2e+04   0         0        
-            A45P0.50  0         0         2.17e+04  185       0         0         0         2.21e+04  0         0        
-            A62P0.50  0         0         2.16e+04  254       0         0         0         2.21e+04  0         0        
-            A80P0.50  0         6         2.15e+04  448       0         0         0         2.2e+04   0         0        
-Completed spectrum cycle   1 :  The elapsed TIME was 13.050370
-xxx Fri Aug  2 22:11:33 2024     13.1 OK                   Finished   1 of  10 spectrum cycles 
-xxx Fri Aug  2 22:11:33 2024     13.1 NOK                  Starting   2 of  10 spectrum cycles 
+             Created  0         0         1.96e+06  5.92e+03  0         0         0         4.32e+04  0         0        
+            WCreated  0         0         2.43e+05  882       0         0         0         2.44e+05  0         0        
+             Emitted  0         0         2.21e+06  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.52e+04  0         0         0         0         0         0         0        
+                Disk  0         0         1.95e+06  0         0         0         0         0         0         0        
+                Wind  0         0         2.43e+05  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         6.8e+03   0         0         0         2.87e+05  0         0        
+           Scattered  0         0         6.56e+04  0         0         0         0         0         0         0        
+            A10P0.50  0         50        1.32e+06  9.97e+03  0         0         0         1.31e+06  0         0        
+            A28P0.50  0         28        1.32e+06  1.04e+04  0         0         0         1.31e+06  0         0        
+            A45P0.50  0         16        1.32e+06  1.18e+04  0         0         0         1.31e+06  0         0        
+            A62P0.50  0         42        1.31e+06  1.55e+04  0         0         0         1.31e+06  0         0        
+            A80P0.50  0         521       1.3e+06   2.83e+04  0         0         0         1.31e+06  0         0        
+Completed spectrum cycle   1 :  The elapsed TIME was 297.013103
+xxx Fri Aug 16 05:13:52 2024    297.0 OK                   Finished   1 of  10 spectrum cycles 
+xxx Fri Aug 16 05:13:52 2024    297.0 NOK                  Starting   2 of  10 spectrum cycles 
 !!Cycle 2 of 10 to calculate a detailed spectrum
 !! xdefine_phot: lum_tot 6.01e+34 lum_star 8.94e+32 lum_bl 0.00e+00 lum_bh 0.00e+00 lum_disk 4.41e+34 lum_wind 1.51e+34
-!! xdefine_phot:   f_tot 3.86e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.54e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
-!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.00e+32  for freq 4.28e+14 8.82e+14
-!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.10e+33 
-!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  3.61e+28 
+!! xdefine_phot:   f_tot 3.85e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.53e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
+!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.01e+32  for freq 4.28e+14 8.82e+14
+!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.11e+33 
+!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  4.78e+28 
 !! xdefine_phot: heating & cooling  due to adiabatic processes:         0.00e+00 1.40e+30 
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:11:34 2024     13.4 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:13:56 2024    301.3 NOK                  Photon transport started
 
-Spec. Cycle 2/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-pillbox 1 interfaces to pillbox is impossible
-Spec. Cycle 2/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 2/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+calculate_ds: frequency along photon 1943720 path's in cell 150 (nplasma 35) is the same (dfreq=0.00e+00)
+Spec. Cycle 2/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 2/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.797294 seconds
-xxx Fri Aug  2 22:11:40 2024     20.2 NOK                  Photon transport completed
+!!python: photon transport completed in: 287.413198 seconds
+xxx Fri Aug 16 05:18:43 2024    588.7 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 4
-7.91e+04 3.88e+03 326      19       1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-8.33e+04 52       2        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+4.75e+06 2.32e+05 1.82e+04 1.64e+03 140      5        1        0        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+5e+06    2.63e+03 98       5        
 No of photons and their fates
-!!PhotFate: 0        0        7.36e+04 212      0        0        0        9.57e+03 0        0        
+!!PhotFate: 0        0        4.41e+06 1.38e+04 0        0        0        5.74e+05 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         6.54e+04  185       0         0         0         1.46e+03  0         0        
-            WCreated  0         0         8.16e+03  27        0         0         0         8.11e+03  0         0        
-             Emitted  0         0         7.36e+04  0         0         0         0         0         0         0        
-              CenSrc  0         0         507       0         0         0         0         0         0         0        
-                Disk  0         0         6.49e+04  0         0         0         0         0         0         0        
-                Wind  0         0         8.16e+03  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         212       0         0         0         9.57e+03  0         0        
-           Scattered  0         0         2.24e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         0         4.38e+04  330       0         0         0         4.38e+04  0         0        
-            A28P0.50  0         2         4.37e+04  340       0         0         0         4.39e+04  0         0        
-            A45P0.50  0         0         4.37e+04  379       0         0         0         4.39e+04  0         0        
-            A62P0.50  0         1         4.35e+04  513       0         0         0         4.39e+04  0         0        
-            A80P0.50  0         17        4.32e+04  951       0         0         0         4.38e+04  0         0        
-Completed spectrum cycle   2 :  The elapsed TIME was 20.392968
-xxx Fri Aug  2 22:11:41 2024     20.4 OK                   Finished   2 of  10 spectrum cycles 
-xxx Fri Aug  2 22:11:41 2024     20.4 NOK                  Starting   3 of  10 spectrum cycles 
+             Created  0         0         3.92e+06  1.2e+04   0         0         0         8.65e+04  0         0        
+            WCreated  0         0         4.87e+05  1.87e+03  0         0         0         4.88e+05  0         0        
+             Emitted  0         0         4.41e+06  0         0         0         0         0         0         0        
+              CenSrc  0         0         3.03e+04  0         0         0         0         0         0         0        
+                Disk  0         0         3.89e+06  0         0         0         0         0         0         0        
+                Wind  0         0         4.87e+05  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         1.38e+04  0         0         0         5.74e+05  0         0        
+           Scattered  0         0         1.31e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         99        2.64e+06  1.99e+04  0         0         0         2.62e+06  0         0        
+            A28P0.50  0         49        2.63e+06  2.07e+04  0         0         0         2.62e+06  0         0        
+            A45P0.50  0         33        2.63e+06  2.36e+04  0         0         0         2.62e+06  0         0        
+            A62P0.50  0         71        2.62e+06  3.12e+04  0         0         0         2.62e+06  0         0        
+            A80P0.50  0         1.01e+03  2.6e+06   5.67e+04  0         0         0         2.61e+06  0         0        
+Completed spectrum cycle   2 :  The elapsed TIME was 589.130226
+xxx Fri Aug 16 05:18:44 2024    589.1 OK                   Finished   2 of  10 spectrum cycles 
+xxx Fri Aug 16 05:18:44 2024    589.2 NOK                  Starting   3 of  10 spectrum cycles 
 !!Cycle 3 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:11:41 2024     20.6 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:18:48 2024    593.3 NOK                  Photon transport started
 
-Spec. Cycle 3/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 3/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 3/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 3/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 3/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.787638 seconds
-xxx Fri Aug  2 22:11:48 2024     27.4 NOK                  Photon transport completed
+!!python: photon transport completed in: 287.580809 seconds
+xxx Fri Aug 16 05:23:35 2024    880.9 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 4
-1.19e+05 5.89e+03 478      30       2        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-1.25e+05 76       2        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+7.12e+06 3.48e+05 2.74e+04 2.47e+03 206      8        1        0        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+7.5e+06  3.9e+03  150      10       
 No of photons and their fates
-!!PhotFate: 0        0        1.1e+05  322      0        0        0        1.43e+04 0        0        
+!!PhotFate: 0        0        6.62e+06 2.07e+04 0        0        0        8.61e+05 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         9.8e+04   284       0         0         0         2.23e+03  0         0        
-            WCreated  0         0         1.23e+04  38        0         0         0         1.21e+04  0         0        
-             Emitted  0         0         1.1e+05   0         0         0         0         0         0         0        
-              CenSrc  0         0         761       0         0         0         0         0         0         0        
-                Disk  0         0         9.73e+04  0         0         0         0         0         0         0        
-                Wind  0         0         1.23e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         322       0         0         0         1.43e+04  0         0        
-           Scattered  0         0         3.34e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         1         6.57e+04  504       0         0         0         6.57e+04  0         0        
-            A28P0.50  0         3         6.57e+04  517       0         0         0         6.58e+04  0         0        
-            A45P0.50  0         0         6.56e+04  580       0         0         0         6.58e+04  0         0        
-            A62P0.50  0         2         6.53e+04  764       0         0         0         6.58e+04  0         0        
-            A80P0.50  0         24        6.49e+04  1.43e+03  0         0         0         6.56e+04  0         0        
-Completed spectrum cycle   3 :  The elapsed TIME was 27.598949
-xxx Fri Aug  2 22:11:48 2024     27.6 OK                   Finished   3 of  10 spectrum cycles 
-xxx Fri Aug  2 22:11:48 2024     27.6 NOK                  Starting   4 of  10 spectrum cycles 
+             Created  0         0         5.89e+06  1.79e+04  0         0         0         1.3e+05   0         0        
+            WCreated  0         0         7.32e+05  2.75e+03  0         0         0         7.31e+05  0         0        
+             Emitted  0         0         6.62e+06  0         0         0         0         0         0         0        
+              CenSrc  0         0         4.54e+04  0         0         0         0         0         0         0        
+                Disk  0         0         5.84e+06  0         0         0         0         0         0         0        
+                Wind  0         0         7.32e+05  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         2.07e+04  0         0         0         8.61e+05  0         0        
+           Scattered  0         0         1.97e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         144       3.95e+06  3e+04     0         0         0         3.93e+06  0         0        
+            A28P0.50  0         71        3.95e+06  3.11e+04  0         0         0         3.93e+06  0         0        
+            A45P0.50  0         52        3.94e+06  3.54e+04  0         0         0         3.93e+06  0         0        
+            A62P0.50  0         106       3.93e+06  4.67e+04  0         0         0         3.93e+06  0         0        
+            A80P0.50  0         1.52e+03  3.9e+06   8.49e+04  0         0         0         3.92e+06  0         0        
+Completed spectrum cycle   3 :  The elapsed TIME was 881.125735
+xxx Fri Aug 16 05:23:36 2024    881.1 OK                   Finished   3 of  10 spectrum cycles 
+xxx Fri Aug 16 05:23:36 2024    881.2 NOK                  Starting   4 of  10 spectrum cycles 
 !!Cycle 4 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:11:48 2024     27.8 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:23:40 2024    885.3 NOK                  Photon transport started
 
-Spec. Cycle 4/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 4/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 4/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.775314 seconds
-xxx Fri Aug  2 22:11:55 2024     34.6 NOK                  Photon transport completed
+!!python: photon transport completed in: 288.658461 seconds
+xxx Fri Aug 16 05:28:29 2024   1174.0 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 4
-1.58e+05 7.86e+03 642      46       2        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-1.67e+05 103      4        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+9.5e+06  4.64e+05 3.63e+04 3.22e+03 296      18       3        0        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+9.99e+06 5.23e+03 193      11       
 No of photons and their fates
-!!PhotFate: 0        0        1.47e+05 422      0        0        0        1.91e+04 0        0        
+!!PhotFate: 0        0        8.82e+06 2.77e+04 0        0        0        1.15e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         1.31e+05  368       0         0         0         2.96e+03  0         0        
-            WCreated  0         0         1.64e+04  54        0         0         0         1.62e+04  0         0        
-             Emitted  0         0         1.47e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         1e+03     0         0         0         0         0         0         0        
-                Disk  0         0         1.3e+05   0         0         0         0         0         0         0        
-                Wind  0         0         1.64e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         422       0         0         0         1.91e+04  0         0        
-           Scattered  0         0         4.48e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         1         8.76e+04  684       0         0         0         8.77e+04  0         0        
-            A28P0.50  0         3         8.75e+04  693       0         0         0         8.77e+04  0         0        
-            A45P0.50  0         1         8.74e+04  778       0         0         0         8.78e+04  0         0        
-            A62P0.50  0         3         8.71e+04  1.02e+03  0         0         0         8.78e+04  0         0        
-            A80P0.50  0         30        8.65e+04  1.9e+03   0         0         0         8.75e+04  0         0        
-Completed spectrum cycle   4 :  The elapsed TIME was 34.809113
-xxx Fri Aug  2 22:11:55 2024     34.8 OK                   Finished   4 of  10 spectrum cycles 
-xxx Fri Aug  2 22:11:55 2024     34.8 NOK                  Starting   5 of  10 spectrum cycles 
+             Created  0         0         7.85e+06  2.4e+04   0         0         0         1.73e+05  0         0        
+            WCreated  0         0         9.76e+05  3.64e+03  0         0         0         9.75e+05  0         0        
+             Emitted  0         0         8.82e+06  0         0         0         0         0         0         0        
+              CenSrc  0         0         6.05e+04  0         0         0         0         0         0         0        
+                Disk  0         0         7.79e+06  0         0         0         0         0         0         0        
+                Wind  0         0         9.76e+05  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         2.77e+04  0         0         0         1.15e+06  0         0        
+           Scattered  0         0         2.63e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         194       5.27e+06  4e+04     0         0         0         5.23e+06  0         0        
+            A28P0.50  0         95        5.27e+06  4.15e+04  0         0         0         5.24e+06  0         0        
+            A45P0.50  0         65        5.26e+06  4.71e+04  0         0         0         5.24e+06  0         0        
+            A62P0.50  0         136       5.24e+06  6.22e+04  0         0         0         5.24e+06  0         0        
+            A80P0.50  0         1.98e+03  5.2e+06   1.13e+05  0         0         0         5.23e+06  0         0        
+Completed spectrum cycle   4 :  The elapsed TIME was 1174.439092
+xxx Fri Aug 16 05:28:29 2024   1174.4 OK                   Finished   4 of  10 spectrum cycles 
+xxx Fri Aug 16 05:28:29 2024   1174.5 NOK                  Starting   5 of  10 spectrum cycles 
 !!Cycle 5 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:11:55 2024     35.0 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:28:33 2024   1178.6 NOK                  Photon transport started
 
-Spec. Cycle 5/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 5/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 5/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 5/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.786361 seconds
-xxx Fri Aug  2 22:12:02 2024     41.8 NOK                  Photon transport completed
+!!python: photon transport completed in: 285.510606 seconds
+xxx Fri Aug 16 05:33:19 2024   1464.1 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-1.98e+05 9.77e+03 769      56       4        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-2.08e+05 124      5        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+1.19e+07 5.79e+05 4.53e+04 4.02e+03 360      27       3        1        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+1.25e+07 6.57e+03 241      14       
 No of photons and their fates
-!!PhotFate: 0        0        1.84e+05 549      0        0        0        2.38e+04 0        0        
+!!PhotFate: 0        0        1.1e+07  3.47e+04 0        0        0        1.43e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         1.63e+05  478       0         0         0         3.64e+03  0         0        
-            WCreated  0         0         2.05e+04  71        0         0         0         2.02e+04  0         0        
-             Emitted  0         0         1.84e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         1.27e+03  0         0         0         0         0         0         0        
-                Disk  0         0         1.62e+05  0         0         0         0         0         0         0        
-                Wind  0         0         2.05e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         549       0         0         0         2.38e+04  0         0        
-           Scattered  0         0         5.59e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         1         1.1e+05   834       0         0         0         1.09e+05  0         0        
-            A28P0.50  0         4         1.09e+05  851       0         0         0         1.1e+05   0         0        
-            A45P0.50  0         1         1.09e+05  964       0         0         0         1.1e+05   0         0        
-            A62P0.50  0         3         1.09e+05  1.28e+03  0         0         0         1.1e+05   0         0        
-            A80P0.50  0         34        1.08e+05  2.37e+03  0         0         0         1.09e+05  0         0        
-Completed spectrum cycle   5 :  The elapsed TIME was 42.023216
-xxx Fri Aug  2 22:12:02 2024     42.0 OK                   Finished   5 of  10 spectrum cycles 
-xxx Fri Aug  2 22:12:02 2024     42.0 NOK                  Starting   6 of  10 spectrum cycles 
+             Created  0         0         9.81e+06  3.01e+04  0         0         0         2.17e+05  0         0        
+            WCreated  0         0         1.22e+06  4.62e+03  0         0         0         1.22e+06  0         0        
+             Emitted  0         0         1.1e+07   0         0         0         0         0         0         0        
+              CenSrc  0         0         7.57e+04  0         0         0         0         0         0         0        
+                Disk  0         0         9.74e+06  0         0         0         0         0         0         0        
+                Wind  0         0         1.22e+06  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         3.47e+04  0         0         0         1.43e+06  0         0        
+           Scattered  0         0         3.29e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         232       6.59e+06  5e+04     0         0         0         6.54e+06  0         0        
+            A28P0.50  0         119       6.58e+06  5.19e+04  0         0         0         6.55e+06  0         0        
+            A45P0.50  0         84        6.57e+06  5.88e+04  0         0         0         6.55e+06  0         0        
+            A62P0.50  0         171       6.55e+06  7.77e+04  0         0         0         6.55e+06  0         0        
+            A80P0.50  0         2.47e+03  6.51e+06  1.42e+05  0         0         0         6.53e+06  0         0        
+Completed spectrum cycle   5 :  The elapsed TIME was 1464.723135
+xxx Fri Aug 16 05:33:19 2024   1464.7 OK                   Finished   5 of  10 spectrum cycles 
+xxx Fri Aug 16 05:33:19 2024   1464.7 NOK                  Starting   6 of  10 spectrum cycles 
 !!Cycle 6 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:12:02 2024     42.2 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:33:23 2024   1468.9 NOK                  Photon transport started
 
-Spec. Cycle 6/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 6/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+pillbox 1 interfaces to pillbox is impossible
+Spec. Cycle 6/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 6/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.827036 seconds
-xxx Fri Aug  2 22:12:09 2024     49.1 NOK                  Photon transport completed
+!!python: photon transport completed in: 285.131607 seconds
+xxx Fri Aug 16 05:38:09 2024   1754.1 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-2.37e+05 1.18e+04 900      75       4        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-2.5e+05  142      5        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+1.42e+07 6.95e+05 5.45e+04 4.84e+03 425      30       5        1        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+1.5e+07  7.9e+03  293      15       
 No of photons and their fates
-!!PhotFate: 0        0        2.21e+05 673      0        0        0        2.86e+04 0        0        
+!!PhotFate: 0        0        1.32e+07 4.18e+04 0        0        0        1.72e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         1.96e+05  586       0         0         0         4.39e+03  0         0        
-            WCreated  0         0         2.46e+04  87        0         0         0         2.42e+04  0         0        
-             Emitted  0         0         2.21e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         1.52e+03  0         0         0         0         0         0         0        
-                Disk  0         0         1.95e+05  0         0         0         0         0         0         0        
-                Wind  0         0         2.46e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         673       0         0         0         2.86e+04  0         0        
-           Scattered  0         0         6.69e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         2         1.32e+05  998       0         0         0         1.31e+05  0         0        
-            A28P0.50  0         4         1.32e+05  1.02e+03  0         0         0         1.31e+05  0         0        
-            A45P0.50  0         1         1.31e+05  1.16e+03  0         0         0         1.31e+05  0         0        
-            A62P0.50  0         5         1.31e+05  1.54e+03  0         0         0         1.31e+05  0         0        
-            A80P0.50  0         42        1.3e+05   2.84e+03  0         0         0         1.31e+05  0         0        
-Completed spectrum cycle   6 :  The elapsed TIME was 49.237912
-xxx Fri Aug  2 22:12:10 2024     49.2 OK                   Finished   6 of  10 spectrum cycles 
-xxx Fri Aug  2 22:12:10 2024     49.3 NOK                  Starting   7 of  10 spectrum cycles 
+             Created  0         0         1.18e+07  3.63e+04  0         0         0         2.6e+05   0         0        
+            WCreated  0         0         1.46e+06  5.51e+03  0         0         0         1.46e+06  0         0        
+             Emitted  0         0         1.32e+07  0         0         0         0         0         0         0        
+              CenSrc  0         0         9.1e+04   0         0         0         0         0         0         0        
+                Disk  0         0         1.17e+07  0         0         0         0         0         0         0        
+                Wind  0         0         1.46e+06  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         4.18e+04  0         0         0         1.72e+06  0         0        
+           Scattered  0         0         3.94e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         276       7.91e+06  5.99e+04  0         0         0         7.85e+06  0         0        
+            A28P0.50  0         148       7.9e+06   6.22e+04  0         0         0         7.86e+06  0         0        
+            A45P0.50  0         96        7.89e+06  7.06e+04  0         0         0         7.86e+06  0         0        
+            A62P0.50  0         204       7.86e+06  9.34e+04  0         0         0         7.86e+06  0         0        
+            A80P0.50  0         2.96e+03  7.81e+06  1.7e+05   0         0         0         7.84e+06  0         0        
+Completed spectrum cycle   6 :  The elapsed TIME was 1754.433636
+xxx Fri Aug 16 05:38:09 2024   1754.4 OK                   Finished   6 of  10 spectrum cycles 
+xxx Fri Aug 16 05:38:09 2024   1754.5 NOK                  Starting   7 of  10 spectrum cycles 
 !!Cycle 7 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:12:10 2024     49.4 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:38:13 2024   1758.6 NOK                  Photon transport started
 
-Spec. Cycle 7/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 7/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 7/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.761170 seconds
-xxx Fri Aug  2 22:12:16 2024     56.2 NOK                  Photon transport completed
+!!python: photon transport completed in: 286.344901 seconds
+xxx Fri Aug 16 05:42:59 2024   2044.9 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-2.77e+05 1.36e+04 1.06e+03 79       4        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-2.91e+05 159      5        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+1.66e+07 8.11e+05 6.36e+04 5.65e+03 488      39       7        2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+1.75e+07 9.23e+03 337      19       
 No of photons and their fates
-!!PhotFate: 0        0        2.58e+05 800      0        0        0        3.33e+04 0        0        
+!!PhotFate: 0        0        1.54e+07 4.88e+04 0        0        0        2.01e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         2.29e+05  693       0         0         0         5.08e+03  0         0        
-            WCreated  0         0         2.87e+04  107       0         0         0         2.83e+04  0         0        
-             Emitted  0         0         2.58e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         1.76e+03  0         0         0         0         0         0         0        
-                Disk  0         0         2.27e+05  0         0         0         0         0         0         0        
-                Wind  0         0         2.87e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         800       0         0         0         3.33e+04  0         0        
-           Scattered  0         0         7.77e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         2         1.54e+05  1.16e+03  0         0         0         1.53e+05  0         0        
-            A28P0.50  0         4         1.53e+05  1.2e+03   0         0         0         1.53e+05  0         0        
-            A45P0.50  0         1         1.53e+05  1.36e+03  0         0         0         1.53e+05  0         0        
-            A62P0.50  0         5         1.53e+05  1.79e+03  0         0         0         1.53e+05  0         0        
-            A80P0.50  0         49        1.52e+05  3.28e+03  0         0         0         1.53e+05  0         0        
-Completed spectrum cycle   7 :  The elapsed TIME was 56.476340
-xxx Fri Aug  2 22:12:17 2024     56.5 OK                   Finished   7 of  10 spectrum cycles 
-xxx Fri Aug  2 22:12:17 2024     56.5 NOK                  Starting   8 of  10 spectrum cycles 
+             Created  0         0         1.37e+07  4.23e+04  0         0         0         3.03e+05  0         0        
+            WCreated  0         0         1.71e+06  6.45e+03  0         0         0         1.71e+06  0         0        
+             Emitted  0         0         1.54e+07  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.06e+05  0         0         0         0         0         0         0        
+                Disk  0         0         1.36e+07  0         0         0         0         0         0         0        
+                Wind  0         0         1.71e+06  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         4.88e+04  0         0         0         2.01e+06  0         0        
+           Scattered  0         0         4.6e+05   0         0         0         0         0         0         0        
+            A10P0.50  0         318       9.23e+06  6.98e+04  0         0         0         9.16e+06  0         0        
+            A28P0.50  0         186       9.22e+06  7.24e+04  0         0         0         9.17e+06  0         0        
+            A45P0.50  0         116       9.2e+06   8.23e+04  0         0         0         9.17e+06  0         0        
+            A62P0.50  0         234       9.17e+06  1.09e+05  0         0         0         9.17e+06  0         0        
+            A80P0.50  0         3.44e+03  9.11e+06  1.98e+05  0         0         0         9.15e+06  0         0        
+Completed spectrum cycle   7 :  The elapsed TIME was 2045.440330
+xxx Fri Aug 16 05:43:00 2024   2045.4 OK                   Finished   7 of  10 spectrum cycles 
+xxx Fri Aug 16 05:43:00 2024   2045.5 NOK                  Starting   8 of  10 spectrum cycles 
 !!Cycle 8 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:12:17 2024     56.7 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:43:04 2024   2049.6 NOK                  Photon transport started
 
-Spec. Cycle 8/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 8/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 8/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.743527 seconds
-xxx Fri Aug  2 22:12:24 2024     63.4 NOK                  Photon transport completed
+!!python: photon transport completed in: 286.726291 seconds
+xxx Fri Aug 16 05:47:51 2024   2336.4 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-3.16e+05 1.55e+04 1.2e+03  93       7        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-3.33e+05 185      5        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+1.9e+07  9.26e+05 7.28e+04 6.47e+03 577      43       7        2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+2e+07    1.05e+04 394      21       
 No of photons and their fates
-!!PhotFate: 0        0        2.94e+05 927      0        0        0        3.81e+04 0        0        
+!!PhotFate: 0        0        1.76e+07 5.58e+04 0        0        0        2.3e+06  0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         2.62e+05  805       0         0         0         5.82e+03  0         0        
-            WCreated  0         0         3.28e+04  122       0         0         0         3.23e+04  0         0        
-             Emitted  0         0         2.94e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         2.02e+03  0         0         0         0         0         0         0        
-                Disk  0         0         2.59e+05  0         0         0         0         0         0         0        
-                Wind  0         0         3.28e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         927       0         0         0         3.81e+04  0         0        
-           Scattered  0         0         8.81e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         3         1.75e+05  1.32e+03  0         0         0         1.75e+05  0         0        
-            A28P0.50  0         4         1.75e+05  1.38e+03  0         0         0         1.75e+05  0         0        
-            A45P0.50  0         1         1.75e+05  1.54e+03  0         0         0         1.75e+05  0         0        
-            A62P0.50  0         5         1.74e+05  2.05e+03  0         0         0         1.75e+05  0         0        
-            A80P0.50  0         56        1.73e+05  3.77e+03  0         0         0         1.75e+05  0         0        
-Completed spectrum cycle   8 :  The elapsed TIME was 63.713981
-xxx Fri Aug  2 22:12:24 2024     63.7 OK                   Finished   8 of  10 spectrum cycles 
-xxx Fri Aug  2 22:12:24 2024     63.7 NOK                  Starting   9 of  10 spectrum cycles 
+             Created  0         0         1.57e+07  4.85e+04  0         0         0         3.46e+05  0         0        
+            WCreated  0         0         1.95e+06  7.34e+03  0         0         0         1.95e+06  0         0        
+             Emitted  0         0         1.76e+07  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.21e+05  0         0         0         0         0         0         0        
+                Disk  0         0         1.56e+07  0         0         0         0         0         0         0        
+                Wind  0         0         1.95e+06  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         5.58e+04  0         0         0         2.3e+06   0         0        
+           Scattered  0         0         5.25e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         356       1.05e+07  7.97e+04  0         0         0         1.05e+07  0         0        
+            A28P0.50  0         209       1.05e+07  8.28e+04  0         0         0         1.05e+07  0         0        
+            A45P0.50  0         137       1.05e+07  9.4e+04   0         0         0         1.05e+07  0         0        
+            A62P0.50  0         278       1.05e+07  1.24e+05  0         0         0         1.05e+07  0         0        
+            A80P0.50  0         3.95e+03  1.04e+07  2.27e+05  0         0         0         1.05e+07  0         0        
+Completed spectrum cycle   8 :  The elapsed TIME was 2336.998804
+xxx Fri Aug 16 05:47:52 2024   2337.0 OK                   Finished   8 of  10 spectrum cycles 
+xxx Fri Aug 16 05:47:53 2024   2338.2 NOK                  Starting   9 of  10 spectrum cycles 
 !!Cycle 9 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:12:24 2024     63.9 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:47:57 2024   2342.3 NOK                  Photon transport started
 
-Spec. Cycle 9/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 9/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 9/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.817299 seconds
-xxx Fri Aug  2 22:12:31 2024     70.8 NOK                  Photon transport completed
+!!python: photon transport completed in: 290.501277 seconds
+xxx Fri Aug 16 05:52:47 2024   2632.8 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-3.56e+05 1.74e+04 1.34e+03 104      8        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-3.75e+05 205      5        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+2.14e+07 1.04e+06 8.19e+04 7.18e+03 644      47       8        2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+2.25e+07 1.18e+04 429      21       
 No of photons and their fates
-!!PhotFate: 0        0        3.31e+05 1.02e+03 0        0        0        4.29e+04 0        0        
+!!PhotFate: 0        0        1.99e+07 6.27e+04 0        0        0        2.58e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         2.94e+05  882       0         0         0         6.56e+03  0         0        
-            WCreated  0         0         3.69e+04  137       0         0         0         3.63e+04  0         0        
-             Emitted  0         0         3.31e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         2.26e+03  0         0         0         0         0         0         0        
-                Disk  0         0         2.92e+05  0         0         0         0         0         0         0        
-                Wind  0         0         3.69e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         1.02e+03  0         0         0         4.29e+04  0         0        
-           Scattered  0         0         9.89e+03  0         0         0         0         0         0         0        
-            A10P0.50  0         3         1.97e+05  1.49e+03  0         0         0         1.97e+05  0         0        
-            A28P0.50  0         4         1.97e+05  1.54e+03  0         0         0         1.97e+05  0         0        
-            A45P0.50  0         1         1.97e+05  1.73e+03  0         0         0         1.97e+05  0         0        
-            A62P0.50  0         6         1.96e+05  2.31e+03  0         0         0         1.97e+05  0         0        
-            A80P0.50  0         66        1.95e+05  4.25e+03  0         0         0         1.96e+05  0         0        
-Completed spectrum cycle   9 :  The elapsed TIME was 70.933264
-xxx Fri Aug  2 22:12:31 2024     70.9 OK                   Finished   9 of  10 spectrum cycles 
-xxx Fri Aug  2 22:12:31 2024     71.0 NOK                  Starting  10 of  10 spectrum cycles 
+             Created  0         0         1.77e+07  5.45e+04  0         0         0         3.9e+05   0         0        
+            WCreated  0         0         2.2e+06   8.25e+03  0         0         0         2.19e+06  0         0        
+             Emitted  0         0         1.99e+07  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.37e+05  0         0         0         0         0         0         0        
+                Disk  0         0         1.75e+07  0         0         0         0         0         0         0        
+                Wind  0         0         2.2e+06   0         0         0         0         0         0         0        
+             HitSurf  0         0         0         6.27e+04  0         0         0         2.58e+06  0         0        
+           Scattered  0         0         5.91e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         401       1.19e+07  8.96e+04  0         0         0         1.18e+07  0         0        
+            A28P0.50  0         240       1.19e+07  9.31e+04  0         0         0         1.18e+07  0         0        
+            A45P0.50  0         151       1.18e+07  1.06e+05  0         0         0         1.18e+07  0         0        
+            A62P0.50  0         319       1.18e+07  1.4e+05   0         0         0         1.18e+07  0         0        
+            A80P0.50  0         4.43e+03  1.17e+07  2.55e+05  0         0         0         1.18e+07  0         0        
+Completed spectrum cycle   9 :  The elapsed TIME was 2633.172156
+xxx Fri Aug 16 05:52:48 2024   2633.2 OK                   Finished   9 of  10 spectrum cycles 
+xxx Fri Aug 16 05:52:48 2024   2633.2 NOK                  Starting  10 of  10 spectrum cycles 
 !!Cycle 10 of 10 to calculate a detailed spectrum
-photon_gen: band 4.28e+14 to 8.82e+14 weight 9.25e+27 nphotons    41666 ndisk   33186 nwind    8149 nstar     331 npow 0 
-xxx Fri Aug  2 22:12:31 2024     71.2 NOK                  Photon transport started
+photon_gen: band 4.28e+14 to 8.82e+14 weight 1.54e+26 nphotons  2500000 ndisk 1991612 nwind  488498 nstar   19890 npow 0 
+xxx Fri Aug 16 05:52:52 2024   2637.4 NOK                  Photon transport started
 
-Spec. Cycle 10/10 of vis_standard : Photon          0 of      41666 or    0.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon       4166 of      41666 or   10.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon       8332 of      41666 or   20.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      12498 of      41666 or   30.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      16664 of      41666 or   40.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      20830 of      41666 or   50.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      24996 of      41666 or   60.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      29162 of      41666 or   70.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      33328 of      41666 or   80.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      37494 of      41666 or   90.0 per cent 
-Spec. Cycle 10/10 of vis_standard : Photon      41660 of      41666 or  100.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon          0 of    2500000 or    0.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon     250000 of    2500000 or   10.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon     500000 of    2500000 or   20.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon     750000 of    2500000 or   30.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    1000000 of    2500000 or   40.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    1250000 of    2500000 or   50.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    1500000 of    2500000 or   60.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    1750000 of    2500000 or   70.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    2000000 of    2500000 or   80.0 per cent 
+Spec. Cycle 10/10 of vis_standard : Photon    2250000 of    2500000 or   90.0 per cent 
 
-!!python: photon transport completed in: 6.803362 seconds
-xxx Fri Aug  2 22:12:38 2024     78.0 NOK                  Photon transport completed
+!!python: photon transport completed in: 290.511238 seconds
+xxx Fri Aug 16 05:57:42 2024   2927.9 NOK                  Photon transport completed
 spectrum_create: Fraction of photons lost:  0.00 wi/ freq. low, 0.01 w/freq hi
 
-No. of photons which have scattered n times.     The max number of scatters seen was 5
-3.96e+05 1.95e+04 1.51e+03 115      8        1        
-Number of photons resonantly scattering n times.  The max number of scatters seen was 2
-4.16e+05 233      6        
+No. of photons which have scattered n times.     The max number of scatters seen was 8
+2.37e+07 1.16e+06 9.1e+04  7.95e+03 712      53       8        2        1        
+Number of photons resonantly scattering n times.  The max number of scatters seen was 3
+2.5e+07  1.31e+04 473      22       
 No of photons and their fates
-!!PhotFate: 0        0        3.68e+05 1.14e+03 0        0        0        4.77e+04 0        0        
+!!PhotFate: 0        0        2.21e+07 6.96e+04 0        0        0        2.87e+06 0        0        
 
 Photons contributing to the various spectra
                       Inwind    Scat      Esc       Star      >nscat    err       Absorb    Disk     Sec        Adiab(matom)
-             Created  0         0         3.27e+05  989       0         0         0         7.31e+03  0         0        
-            WCreated  0         0         4.09e+04  152       0         0         0         4.04e+04  0         0        
-             Emitted  0         0         3.68e+05  0         0         0         0         0         0         0        
-              CenSrc  0         0         2.5e+03   0         0         0         0         0         0         0        
-                Disk  0         0         3.24e+05  0         0         0         0         0         0         0        
-                Wind  0         0         4.09e+04  0         0         0         0         0         0         0        
-             HitSurf  0         0         0         1.14e+03  0         0         0         4.77e+04  0         0        
-           Scattered  0         0         1.11e+04  0         0         0         0         0         0         0        
-            A10P0.50  0         3         2.19e+05  1.66e+03  0         0         0         2.19e+05  0         0        
-            A28P0.50  0         4         2.19e+05  1.72e+03  0         0         0         2.19e+05  0         0        
-            A45P0.50  0         2         2.19e+05  1.93e+03  0         0         0         2.19e+05  0         0        
-            A62P0.50  0         6         2.18e+05  2.59e+03  0         0         0         2.19e+05  0         0        
-            A80P0.50  0         75        2.17e+05  4.73e+03  0         0         0         2.18e+05  0         0        
-Completed spectrum cycle  10 :  The elapsed TIME was 78.151891
-xxx Fri Aug  2 22:12:38 2024     78.2 OK                   Finished  10 of  10 spectrum cycles 
+             Created  0         0         1.96e+07  6.05e+04  0         0         0         4.33e+05  0         0        
+            WCreated  0         0         2.44e+06  9.12e+03  0         0         0         2.44e+06  0         0        
+             Emitted  0         0         2.21e+07  0         0         0         0         0         0         0        
+              CenSrc  0         0         1.52e+05  0         0         0         0         0         0         0        
+                Disk  0         0         1.95e+07  0         0         0         0         0         0         0        
+                Wind  0         0         2.44e+06  0         0         0         0         0         0         0        
+             HitSurf  0         0         0         6.96e+04  0         0         0         2.87e+06  0         0        
+           Scattered  0         0         6.57e+05  0         0         0         0         0         0         0        
+            A10P0.50  0         439       1.32e+07  9.96e+04  0         0         0         1.31e+07  0         0        
+            A28P0.50  0         274       1.32e+07  1.04e+05  0         0         0         1.31e+07  0         0        
+            A45P0.50  0         164       1.31e+07  1.18e+05  0         0         0         1.31e+07  0         0        
+            A62P0.50  0         354       1.31e+07  1.56e+05  0         0         0         1.31e+07  0         0        
+            A80P0.50  0         4.89e+03  1.3e+07   2.84e+05  0         0         0         1.31e+07  0         0        
+Completed spectrum cycle  10 :  The elapsed TIME was 2928.363169
+xxx Fri Aug 16 05:57:43 2024   2928.4 OK                   Finished  10 of  10 spectrum cycles 
 
 Error summary: End of program, Thread 0 only
 Recurrences --  Description
@@ -609,21 +604,22 @@ Recurrences --  Description
         1 -- check_grid: velocity changes by >1,000 km/s in %i cells
         1 -- check_grid: optical depth may be high in %i
         1 -- check_grid: some cells have large changes. Consider modifying zlog_scale or grid dims
-        1 -- pillbox %d interfaces to pillbox is impossible
+        5 -- pillbox %d interfaces to pillbox is impossible
+        1 -- calculate_ds: frequency along photon %d path's in cell %d (nplasma %d) is the same (dfreq=%8.2e)
 Run py_error.py for full error report.
-xxx Fri Aug  2 22:12:38 2024     78.2 COMPLETE             vis_standard
+xxx Fri Aug 16 05:57:43 2024   2928.4 COMPLETE             vis_standard
 
 Brief Run Summary
-At program completion, the elapsed TIME was 78.226667
+At program completion, the elapsed TIME was 2928.424798
 There were 0 of 0 ionization cycles and 10 of 10 spectral cycles run
 This was a simple atom calculation
 Convergence statistics for the wind after the ionization calculation:
-!!Check_convergence:  137 (1.000) converged and   37 (0.270) converging of 137 cells actually in the wind
+!!Check_convergence:  137 (1.000) converged and   51 (0.372) converging of 137 cells actually in the wind
 !!Check_convergence: t_r  137 t_e(real)  137 t_e(maxed)    0 hc(real)  137
 Information about luminosities and apparent fluxes due to various portions of the system:
 !! xdefine_phot: lum_tot 6.01e+34 lum_star 8.94e+32 lum_bl 0.00e+00 lum_bh 0.00e+00 lum_disk 4.41e+34 lum_wind 1.51e+34
-!! xdefine_phot:   f_tot 3.86e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.54e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
-!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.00e+32  for freq 4.28e+14 8.82e+14
-!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.11e+33 
-!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  3.84e+29 
+!! xdefine_phot:   f_tot 3.85e+33   f_star 3.07e+31   f_bl 0.00e+00   f_bh 0.00e+00   f_disk 3.07e+33   f_wind 7.53e+32   f_matom 0.00e+00   f_kpkt 0.00e+00 
+!! xdefine_phot: wind ff 6.21e+32       fb 1.41e+34   lines  4.01e+32  for freq 4.28e+14 8.82e+14
+!! xdefine_phot: star  tstar  4.00e+04   4.00e+04   lum_star 8.94e+32 8.94e+32  1.12e+33 
+!! xdefine_phot: disk                               lum_disk 4.41e+34 4.41e+34  2.90e+29 
 !! xdefine_phot: heating & cooling  due to adiabatic processes:         0.00e+00 1.40e+30 

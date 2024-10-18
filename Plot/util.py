@@ -11,7 +11,7 @@ from scipy.signal.windows import boxcar
 from cycler import cycler
 import os 
 import astropy.constants as const
-BASIC_MODE = "Basic"
+BASIC_MODE = "Classic"
 CODE_NAME = "Sirocco"
 onespec_size = (6,4) # size for one panel spectrum figure 
 onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 

@@ -59,7 +59,10 @@ def plot_wind_panels(fig, gs_wind, sp, colours, options_flex, order):
                 mass_label = "{:.1f}".format(options_flex[obj]["masses"])
 
         #rg = util.grav_radius(mass)
-        label = r"{}, ${}~M_\odot$, $10^{:.0f}~r_g$".format(options_flex[obj]["wind_label"], mass_label, np.log10(rmax))
+        if rmax == 3e5:
+            label = r"{}, ${}~M_\odot$, $3\times10^5~r_g$".format(options_flex[obj]["wind_label"], mass_label, np.log10(rmax))
+        else:
+            label = r"{}, ${}~M_\odot$, $10^{:.0f}~r_g$".format(options_flex[obj]["wind_label"], mass_label, np.log10(rmax))
         bbox = dict(facecolor='w', edgecolor=colours[i], boxstyle='round')
         if i < 2:
             ax.text(0.5, 0.8, label,
@@ -67,7 +70,8 @@ def plot_wind_panels(fig, gs_wind, sp, colours, options_flex, order):
         else:
             ax.text(0.5, 0.2, label,
                     c=colours[i], transform=ax.transAxes, fontsize=16, ha="center", bbox = bbox)
-        # plt.colorbar()
+    # plt.colorbar()
+    return pcol
 
 
 def plot_spectra(fig, gridspecs, roots, colours, options_flex, order):
@@ -75,7 +79,11 @@ def plot_spectra(fig, gridspecs, roots, colours, options_flex, order):
     for i in range(len(roots)):
         obj = order[i]
         sightline = options_flex[obj]["sightlines"]
-        s = io.read("{}/{}.spec".format(options_flex[obj]["paths"], options_flex[obj]["roots"]))
+
+        specfile_suffix = "spec"
+        if options_flex[obj]["plot_units"] == "fnu":
+            specfile_suffix = "log_spec"
+        s = io.read("{}/{}.{}".format(options_flex[obj]["paths"], options_flex[obj]["roots"], specfile_suffix))
         ax = fig.add_subplot(gridspecs[i])
         # plt.subplot(4,2,sp[i]+1)
         if options_flex[obj]["spec_units"] == "fl" and options_flex[obj]["plot_units"] == "fnu":
@@ -86,8 +94,8 @@ def plot_spectra(fig, gridspecs, roots, colours, options_flex, order):
         if options_flex[obj]["plot_units"] == "fnu":
             xconv = HEV
             key = "Freq."
-            xlabel = r"$h \nu$~(eV)"
-            ylabel = r"$F_{\rm \nu}$"
+            xlabel = r"$E=h \nu$~(eV)"
+            ylabel = r"$F_{\rm E}$"
         elif options_flex[obj]["plot_units"] == "fl":
             xconv = 1.0
             key = "Lambda"
@@ -98,6 +106,9 @@ def plot_spectra(fig, gridspecs, roots, colours, options_flex, order):
         ax.plot(xconv * s[key],  conv * s["A{:d}P0.50".format(sightline[1])], c=colours[i], alpha=0.8, lw=2)
         if options_flex[obj]["plot_units"] == "fnu":
             ax.set_xscale("log")
+
+        ax.text(options_flex[obj]["ilabel_x"], options_flex[obj]["ilabel_y"][1], "${}^\circ$".format(sightline[0]), c=colours[i], fontsize=14)
+        ax.text(options_flex[obj]["ilabel_x"], options_flex[obj]["ilabel_y"][0], "${}^\circ$".format(sightline[1]), c=colours[i], alpha=0.8, fontsize=14)
 
         ax.set_yscale("log")
         ax.set_ylabel(ylabel, labelpad=-2)
@@ -114,30 +125,30 @@ def plot_spectra(fig, gridspecs, roots, colours, options_flex, order):
         ax.text(0.05, 0.07, options_flex[obj]["spec_label"], c=colours[i], transform=ax.transAxes, fontsize=14, ha="left", bbox=bbox)
 
 def make_figure():
-    roots = ["run128", "cv_hhe", "ebv02_xray",
-            "tde_standard"]
+    roots = ["run128", "cv_hhe", "XRB_fe", "tde_standard"]
 
 
     colours = ["C0", "C1", "C6", "C3"]
 
     # initialise options -- probably should be doing this with **kwargs or something 
     options = dict()
-    options["sightlines"] = ((10,55), (45,80), (65,70), (35,75))
+    options["sightlines"] = ((10,55), (45,80), (70,80), (35,75))
     options["signs"] = ((-1, 1), (1, 1), (-1, -1), (1, -1))
-    options["rmax"] = (1e4,1e6,1e6,1e4)
+    options["rmax"] = (1e4,1e6,3e5,1e4)
     options["masses"] = np.array([1e9,0.8, 10.0,1e6])
     # add spectra
     options["spec_units"] = ("fl", "fl", "fnu", "fl")
     options["plot_units"] = ("fl", "fl", "fnu", "fnu")
     options["wlims"] = ((1000,6900), (1000,1799), (800,1e4),(1.5,120))
-    options["ylims"] = ((1e-2,80), (1e-2,10), (0.01,300),(1e-2,20))
+    options["ylims"] = ((1e-2,80), (1e-2,10), (0.4,40),(1e-2,20))
 
     options["object"] = ("quasar", "cv", "xrb", "tde")
     options["wind_label"] = (r"Quasar", r"CV", r"XRB", r"TDE")
     options["spec_label"] = (r"Quasar, Optical-UV (§8.2)", r"CV, Optical-UV (§8.1)", r"XRB, X-ray (§8.3)", r"TDE, Broad-band (§8.4)")
-    
-    options["paths"] = ["{}/Demos/quasar/".format(util.g_DataDir), "{}/Demos/cv/".format(util.g_DataDir), "../2by2/", "{}/Demos/tde/".format(util.g_DataDir)]
-    options["wind_paths"] = ["{}/Demos/quasar/".format(util.g_DataDir), "{}/Demos/cv/".format(util.g_DataDir), "../2by2/", "{}/Demos/tde/".format(util.g_DataDir)]
+    options["ilabel_x"] = (5500,1690,1000,2)
+    options["ilabel_y"] = ((0.2,2),(0.1,1.5),(5,23),(0.4,4))
+    options["paths"] = ["{}/Demos/quasar/".format(util.g_DataDir), "{}/Demos/cv/".format(util.g_DataDir), "{}/Demos/xrb/".format(util.g_DataDir), "{}/Demos/tde/".format(util.g_DataDir)]
+    options["wind_paths"] = ["{}/Demos/quasar/".format(util.g_DataDir), "{}/Demos/cv/".format(util.g_DataDir), "{}/Demos/xrb/".format(util.g_DataDir), "{}/Demos/tde/".format(util.g_DataDir)]
     options["renorm"] = (1, 1e11, 1e24, 1e15)
     options["roots"] = roots
 
@@ -154,22 +165,25 @@ def make_figure():
     # set up figure and gridspec objects 
     fig = plt.figure(figsize=(12, 6))
     gs_wind = plt.GridSpec(2, 4, hspace=0, top=0.99, wspace=0,
-                        right=0.93, left=0.07, bottom=0.09)
+                        right=0.93, left=0.07, bottom=0.1)
 
     order = ("quasar", "xrb", "cv", "tde")
     # make the middle part of the figure
-    plot_wind_panels(fig, gs_wind, (1,2,5,6), colours, options_flex, order=order)
+    pcol = plot_wind_panels(fig, gs_wind, (1,2,5,6), colours, options_flex, order=order)
+    cax = plt.axes([0.285, 0.05, 0.25, 0.04])
+    cbar = plt.colorbar(mappable=pcol, orientation="horizontal", cax=cax, extend="both")
+    plt.text(0.55,0.05,r"$\log [n_e~({\rm cm}^{-3})]$", transform=plt.gcf().transFigure)
 
     # add spectra
     options["spec_units"] = ("fl", "fnu", "fl", "fl")
     gs_spec = plt.GridSpec(2, 4, top=0.99, right=0.94, left=0.06, 
-                        bottom=0.09, wspace=0.1, hspace=0.14)
+                        bottom=0.1, wspace=0.1, hspace=0.14)
 
     gridspecs = (gs_spec[0], gs_spec[3], gs_spec[4], gs_spec[7])
     plot_spectra(fig, gridspecs, roots, colours, options_flex, order=order)
 
     #plt.subplots_adjust(wspace=0.1, right=0.95, left=0.05, top=0.99)
-    fig.savefig("demo.pdf")
+    util.save_paper_figure("demo.pdf", fig=fig)
 
 if __name__ == "__main__":
     util.set_plot_defaults()

@@ -22,7 +22,7 @@ def read_cloudy(filename='cl_helium_PL.dat'):
     return x
 
 def plot_one(ax=None, cloudy='cl_helium_PL.dat',python='py_he',element='He',imin=0,imax=0,ipmin=-8,ipmax=4,outname=''):
-    print('Comparing: ',cloudy,python)
+    #print('Comparing: ',cloudy,python)
     pfile='%s' % (python)
     try:
         xp=ascii.read(pfile)

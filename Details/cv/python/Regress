@@ -1,1 +1,1 @@
-regression.py -pf_dir test_cv -np 8 $1
+regression.py -pf_dir test_cv -np 4 $1
