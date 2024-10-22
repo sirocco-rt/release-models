@@ -28,4 +28,4 @@ jobs:
     - name: Test with pytest
       run: |
         echo $GITHUB_WORKSPACE
-        python Plot/make_all_figures.py --notex
+        python Plot/MakeAllFigures.py --notex
