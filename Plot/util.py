@@ -1,20 +1,20 @@
 from __future__ import annotations
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import matplotlib
 import matplotlib.cm
-import numpy as np 
-#from cycler import cycler
+import numpy as np
+# from cycler import cycler
 import numpy
 from typing import Tuple
 from scipy.signal import convolve
 from scipy.signal.windows import boxcar
 from cycler import cycler
-import os 
+import os
 import astropy.constants as const
 BASIC_MODE = "Classic"
 CODE_NAME = "Sirocco"
-onespec_size = (6,4) # size for one panel spectrum figure 
-onepanel_labelsize = 20 # fontsize for labels in one panel spectrum figure 
+onespec_size = (6, 4)  # size for one panel spectrum figure
+onepanel_labelsize = 20  # fontsize for labels in one panel spectrum figure
 wavelength_label = r"$\lambda$ (\AA)"
 nu_label = r"$\nu (Hz)$"
 g_DataDir = os.path.abspath(os.path.join(
@@ -50,54 +50,57 @@ SEABORN = dict(
 )
 
 
-def set_ui_cycler(name = "canada"):
+def set_ui_cycler(name="canada"):
     if name == "canada" or name == None:
-        colors = ["#2e86de", "#ff9f43", "#10ac84", "#ee5253", "#341f97", "#feca57", "#ff9ff3"]
+        colors = ["#2e86de", "#ff9f43", "#10ac84",
+                  "#ee5253", "#341f97", "#feca57", "#ff9ff3"]
     elif name == "british":
-        colors = ["#0097e6", "#e1b12c", "#8c7ae6", "#c23616", "#273c75", "#353b48", "#44bd32", "#fbc531"]
+        colors = ["#0097e6", "#e1b12c", "#8c7ae6", "#c23616",
+                  "#273c75", "#353b48", "#44bd32", "#fbc531"]
     elif name in SEABORN.keys():
         colors = SEABORN[name]
     my_cycler = cycler('color', colors)
     plt.rc('axes', prop_cycle=my_cycler)
 
-def set_plot_defaults(tex = "True"):
 
-    plt.rcParams['font.family']='serif'	
+def set_plot_defaults(tex="True"):
+
+    plt.rcParams['font.family'] = 'serif'
     plt.rcParams["text.usetex"] = tex
-    #plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
+    # plt.rcParams['figure.figsize']=(8, 8) # MNRAS columnwidth
     if tex == "True":
-        #plt.rcParams['font.serif'] = ['Times']
+        # plt.rcParams['font.serif'] = ['Times']
         plt.rcParams['mathtext.fontset'] = 'cm'
         plt.rcParams['text.latex.preamble'] = r'\usepackage{amsmath}'
 
     # plt.rcParams['mathtext.fontset'] = 'cm'
     # plt.rcParams['mathtext.rm']='serif'
 
-    plt.rcParams['font.size']=18
-    plt.rcParams['xtick.labelsize']=15
-    plt.rcParams['ytick.labelsize']=15
-    plt.rcParams['legend.fontsize']=14
-    plt.rcParams['axes.titlesize']=16
-    plt.rcParams['axes.labelsize']=16
-    plt.rcParams['axes.linewidth']=2.5
+    plt.rcParams['font.size'] = 18
+    plt.rcParams['xtick.labelsize'] = 15
+    plt.rcParams['ytick.labelsize'] = 15
+    plt.rcParams['legend.fontsize'] = 14
+    plt.rcParams['axes.titlesize'] = 16
+    plt.rcParams['axes.labelsize'] = 16
+    plt.rcParams['axes.linewidth'] = 2.5
     plt.rcParams["lines.linewidth"] = 2.2
-    ## TICKS
-    plt.rcParams['xtick.top']='True'
-    plt.rcParams['xtick.bottom']='True'
-    plt.rcParams['xtick.minor.visible']='True'
-    plt.rcParams['xtick.direction']='out'
-    plt.rcParams['ytick.left']='True'
-    plt.rcParams['ytick.right']='True'
-    plt.rcParams['ytick.minor.visible']='True'
-    plt.rcParams['ytick.direction']='out'
-    plt.rcParams['xtick.major.width']=1.5
-    plt.rcParams['xtick.minor.width']=1
-    plt.rcParams['xtick.major.size']=4
-    plt.rcParams['xtick.minor.size']=3
-    plt.rcParams['ytick.major.width']=1.5
-    plt.rcParams['ytick.minor.width']=1
-    plt.rcParams['ytick.major.size']=4
-    plt.rcParams['ytick.minor.size']=3
+    # TICKS
+    plt.rcParams['xtick.top'] = 'True'
+    plt.rcParams['xtick.bottom'] = 'True'
+    plt.rcParams['xtick.minor.visible'] = 'True'
+    plt.rcParams['xtick.direction'] = 'out'
+    plt.rcParams['ytick.left'] = 'True'
+    plt.rcParams['ytick.right'] = 'True'
+    plt.rcParams['ytick.minor.visible'] = 'True'
+    plt.rcParams['ytick.direction'] = 'out'
+    plt.rcParams['xtick.major.width'] = 1.5
+    plt.rcParams['xtick.minor.width'] = 1
+    plt.rcParams['xtick.major.size'] = 4
+    plt.rcParams['xtick.minor.size'] = 3
+    plt.rcParams['ytick.major.width'] = 1.5
+    plt.rcParams['ytick.minor.width'] = 1
+    plt.rcParams['ytick.major.size'] = 4
+    plt.rcParams['ytick.minor.size'] = 3
 
 
 def get_aspect(ax):
@@ -112,9 +115,11 @@ def get_aspect(ax):
     data_ratio = sub(*ax.get_ylim()) / sub(*ax.get_xlim())
     return (disp_ratio, data_ratio)
 
+
 def grav_radius(mass):
     rg = const.GM_sun.cgs.value * mass / const.c.cgs.value / const.c.cgs.value
     return rg
+
 
 def check_array_is_ascending(x_in: list | numpy.ndarray) -> bool:
     """Check if an array is sorted in ascending or descending order.
@@ -244,20 +249,22 @@ def smooth(data, width=5):
         return q
     else:
         return data
-    
-def set_cmap_cycler(cmap_name = "viridis", N = None):
+
+
+def set_cmap_cycler(cmap_name="viridis", N=None):
     '''
     set the cycler to use a colormap
     '''
     if cmap_name == "default" or N is None:
-        my_cycler = cycler('color', ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+        my_cycler = cycler('color', ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',
+                           '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
     else:
-        _, colors = get_mappable(N, cmap_name = cmap_name)
-        #if type(style) == str:
-        my_cycler = (cycler(color=colors)) 
+        _, colors = get_mappable(N, cmap_name=cmap_name)
+        # if type(style) == str:
+        my_cycler = (cycler(color=colors))
 
     plt.rc('axes', prop_cycle=my_cycler)
-     
+
 
 class colour_func:
     """
@@ -273,16 +280,18 @@ class colour_func:
         The name of the colormap to be used.
     my_cmap : Colormap
         The colormap instance from matplotlib.
-    
+
     Methods:
     -------
     __init__(self, vmin, vmax, cmap_name):
         Initializes the colour_func with normalization and colormap.
     """
+
     def __init__(self, vmin, vmax, cmap_name):
         my_cmap = matplotlib.colormaps.get_cmap(cmap_name)
-          
-def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False):
+
+
+def get_mappable(N, vmin=0, vmax=1, cmap_name="Spectral", return_func=False):
     """
     Generates a ScalarMappable object and an array of colors based on the given colormap.
 
@@ -308,7 +317,7 @@ def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False)
             - to_rgba (function), optional: A function for mapping values to RGBA colors (only if return_func is True).
     """
     my_cmap = matplotlib.colormaps.get_cmap(cmap_name)
-    colors = my_cmap(np.linspace(0,1,num=N))
+    colors = my_cmap(np.linspace(0, 1, num=N))
 
     norm = matplotlib.colors.Normalize(vmin=vmin, vmax=vmax)
     mappable = matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap_name)
@@ -317,17 +326,27 @@ def get_mappable(N, vmin=0, vmax=1, cmap_name = "Spectral", return_func = False)
         return (mappable, colors, mappable.to_rgba)
     else:
         return (mappable, colors)
-    
+
+
 def save_paper_figure(savename, fig=None, figure_dir=g_FigureDir, **savefig_kwargs):
     """wrapper to save a paper figure in the main figures directory"""
     if fig == None:
         fig = plt.gcf()
 
-    full_savename = "{}/{}".format(figure_dir, savename)
+    if "transparent" in savefig_kwargs:
+        transp = savefig_kwargs["transparent"]
+    else:
+        transp = False
+
+    if transp:
+        full_savename = "{}/transp_{}".format(figure_dir, savename)
+    else:
+        full_savename = "{}/{}".format(figure_dir, savename)
+
     fig.savefig(full_savename, **savefig_kwargs)
 
-def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_partial = True):
 
+def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_partial=True):
     '''
     turn a table, one of whose colnames is value_string,
     into a masked array based on values of inwind 
@@ -348,9 +367,9 @@ def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_parti
     '''
     # this tuple helpd us decide whether partial cells are in or out of the wind
     if ignore_partial:
-        inwind_crit = (0,1)
+        inwind_crit = (0, 1)
     else:
-        inwind_crit = (0,2)
+        inwind_crit = (0, 2)
 
     if mode == "1d":
         inwind = d["inwind"]
@@ -362,11 +381,10 @@ def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_parti
         mask = ~inwind_bool
 
     # finally we have our mask, so create the masked array
-        masked_values = np.ma.masked_where ( mask, values )
+        masked_values = np.ma.masked_where(mask, values)
 
-    #return the arrays later, z is None for 1d
+    # return the arrays later, z is None for 1d
         z = None
-
 
     elif mode == "2d":
         # our indicies are already stored in the file- we will reshape them in a sec
@@ -391,13 +409,12 @@ def wind_to_masked(d, value_string, return_inwind=False, mode="2d", ignore_parti
         mask = ~inwind_bool
 
         # finally we have our mask, so create the masked array
-        masked_values = np.ma.masked_where ( mask, values )
-
+        masked_values = np.ma.masked_where(mask, values)
 
     else:
-        print ("Error: mode {} not understood!".format(mode))
+        print("Error: mode {} not understood!".format(mode))
 
-    #return the transpose for contour plots.
+    # return the transpose for contour plots.
     if return_inwind:
         return x, z, masked_values, inwind_bool
     else:

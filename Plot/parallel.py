@@ -6,7 +6,7 @@ macro atoms.
 
 import matplotlib.pyplot as plt
 import numpy
-import util 
+import util
 
 # This is a dictionary containing the run time for the (same) ionisation cycle
 # for a given number of MPI tasks. The keys of the dictionary are the number of
@@ -29,7 +29,7 @@ agn_ntask_sec = {
 }
 
 
-def make_figure():
+def make_figure(**savefig_kwargs):
     """Plot the parallel scaling for a set of models.
 
     Parameters
@@ -51,7 +51,8 @@ def make_figure():
     ax.set_ylabel(r"$T_{1}~/~T_{N_{p}}$")
     ax.legend()
     fig.tight_layout()
-    util.save_paper_figure("m16_agn_scaling.pdf", fig=fig, dpi=300)
+    util.save_paper_figure("m16_agn_scaling.pdf",
+                           fig=fig, dpi=300, **savefig_kwargs)
 
 
 if __name__ == "__main__":
